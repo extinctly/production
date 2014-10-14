@@ -12,12 +12,11 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://extinctly.github.io/production"
+			url: "http://extinctly.github.io/production/"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
 				'www.extinct.ly',
-				'website.herokuapp.com'
 			]
 
 			# The default title of our website
@@ -42,15 +41,22 @@ docpadConfig = {
 			# Styles
 			styles: [
 				"/styles/twitter-bootstrap.css"
-				"/styles/style.css"
+				"/styles/bootstrap-custom.css"
+				"/styles/extinctly.css"
+				"//api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.css"
+				"//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
 			]
 
 			# Scripts
 			scripts: [
 				"//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"
 				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
-				"/vendor/twitter-bootstrap/dist/js/bootstrap.min.js"
+				"/vendor/js/bootstrap.js"
 				"/scripts/script.js"
+				"/scripts/contact.js"
+				"/scripts/map.js"
+				"/vendor/js/isotope.pkgd.min.js"
+				"/vendor/js/leaflet.ajax.min.js"
 			]
 
 
