@@ -40,7 +40,6 @@ docpadConfig = {
 
 			# Styles
 			styles: [
-				"/styles/twitter-bootstrap.css"
 				"/styles/bootstrap-custom.css"
 				"/styles/extinctly.css"
 				"//api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.css"
@@ -51,9 +50,9 @@ docpadConfig = {
 			scripts: [
 				"//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"
 				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
-				"/vendor/js/bootstrap.js"
+				"/vendor/twitter-bootstrap/dist/js/bootstrap.js"
+				"//cdn.firebase.com/js/client/1.0.15/firebase.js"
 				"/scripts/script.js"
-				"/scripts/contact.js"
 				"/scripts/map.js"
 				"/vendor/js/isotope.pkgd.min.js"
 				"/vendor/js/leaflet.ajax.min.js"
