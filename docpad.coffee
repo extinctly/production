@@ -12,16 +12,16 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://website.com"
+			url: "http://extinctly.github.io/production"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
-				'www.website.com',
+				'www.extinct.ly',
 				'website.herokuapp.com'
 			]
 
 			# The default title of our website
-			title: "Your Website"
+			title: "EXTINCT.LY"
 
 			# The website description (for SEO)
 			description: """
@@ -34,10 +34,10 @@ docpadConfig = {
 				"""
 
 			# The website author's name
-			author: "Your Name"
+			author: "Kei Kreutler"
 
 			# The website author's email
-			email: "your@email.com"
+			email: "kei@ourmachine.net"
 
 			# Styles
 			styles: [
