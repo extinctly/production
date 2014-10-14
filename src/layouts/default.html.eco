@@ -31,6 +31,10 @@
 
 	<!-- Styles -->
 	<%- @getBlock('styles').add(@site.styles).toHTML() %>
+
+	<!-- Scripts -->
+	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
+
 </head>
 
 <body>
@@ -54,14 +58,13 @@
 			<div class="navbar-collapse collapse">
 				<ul id="navigation" class="nav navbar-nav">
 					<div class="row">
-						<% for document in @getCollection('pages').toJSON(): %>
+						<% for document in @getCollection('navbar').toJSON(): %>
 							<li
-								typeof="sioc:Page"
 								about="<%= document.url %>"
 								class="col-lg-2 text-center <%= 'active'	if @document.url is document.url %>"
 							>
 								<a href="<%= document.url %>" property="dc:title">
-									<%= document.title %>
+									<%= document.navTitle %>
 								</a>
 							</li>
 						<% end %>
@@ -168,9 +171,6 @@
 		</div>
 	</div>
 	<!-- /Contact modal -->
-	
-	<!-- Scripts -->
-	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
 
 	<!-- Extinct.ly analytics -->
 	<script>

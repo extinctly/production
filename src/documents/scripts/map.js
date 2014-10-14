@@ -233,7 +233,7 @@ var geojsonMarkerOptions1 = {
 };
 
 var project = L.icon({
-	iconUrl: 'img/map_extinction.png',
+	iconUrl: '/images/map_extinction.png',
 	iconAnchor:   [12, 5],
 });
 
@@ -277,7 +277,7 @@ function createCaseStudy(geojson) {
 	modal.innerHTML = '<div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h2 class="modal-title">'+ geojson.properties.name +'</h2></div><div class="modal-body"><p class="lead">'+ geojson.properties.description_short +'</p>'+ geojson.properties.video +'<p>'+ geojson.properties.description_long+'</p><p><a href="'+ geojson.properties.link1_url +'" target="_blank">'+ geojson.properties.link1_title +'</a></p></div></div></div>';
 	document.body.appendChild(modal);
 	var anchor = '#' + modal_url;
-    $(anchor).urlModal();
+    //$(anchor).urlModal();
 }
 
 function createExtinctionSite(geojson) {
@@ -288,7 +288,7 @@ function createExtinctionSite(geojson) {
 	modal.innerHTML = '<div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h2 class="modal-title">'+ geojson.properties.name +'</h2></div><div class="modal-body"><p class="lead">'+ geojson.properties.description_short +'</p><p><a href="'+ geojson.properties.link1_url+'" target="_blank">'+ geojson.properties.link1_title +'</a></p></div></div></div>';
 	document.body.appendChild(modal);
 	var anchor = '#' + modal_url;
-    $(anchor).urlModal();
+    //$(anchor).urlModal();
 }
 
 document.getElementById('filter-despair').onclick = function () {

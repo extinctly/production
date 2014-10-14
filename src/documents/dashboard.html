@@ -1,0 +1,80 @@
+---
+layout: 'default'
+isPage: true
+order: 1
+navTitle: Dashboard
+---
+
+	<div class="container">
+
+		<div class="col-lg-12">
+			<h2 class="text-center page-title">The Ongoing Collapse</h2>
+		</div>
+		<div class="row">
+			<div class="col-md-8 column-padded">
+				<p class="lead">There are currently <a id="carbon" href="http://co2now.org/Current-CO2/CO2-Now/weekly-data-atmospheric-co2.html" target="_blank"></a> parts per million of carbon in the atmosphere.</p>
+
+				<p class="lead">Crude oil is currently valued at <a id="crude-oil" href="http://www.quoteoil.com/" target="_blank"></a> a barrel.</p>
+				
+				<p class="lead">One bitcoin is currently valued at <a id="bitcoin" href="http://www.bitcoinexchangerate.org/" target="_blank"></a>.</p>
+
+				<p class="lead">One SolarCoin is currently valued at <a id="solar-coin" href="http://bitinfocharts.com/zh/solarcoin/" target="_blank"></a>.</p>
+
+				<p class="lead"><a id="infrastructure" href="<?php $infr; ?>" target="_blank">Here</a> is today's Department of Homeland Security Daily Infrastructure Report.</p>
+
+				<p class="lead">The current draw on the UK National Grid is <a href="http://www.gridwatch.templar.co.uk/" target="_blank"><span id="gigawatts"></span></a> Gigawatts.</p>
+
+				<p class="lead">Of which <span id="coal"></span> is coal, <span id="wind"></span> is wind and <span id="nuclear"></span> is nuclear.</p> 
+
+				<p class="lead">There are <a id="sats" href="http://celestrak.com/satcat/boxscore.asp" target="_blank"></a> man-made objects in space, of which <span id="sats-in-use"></span> are in active use.</p>
+
+				<p class="lead">Sea level relative to 0m is currently <a id="sea-antarctica" href="http://www.ioc-sealevelmonitoring.org/list.php?order=delay&dir=asc&contact=69" target="_blank"></a> at King Edward Point, Antarctica.</p>
+
+				<p class="lead">Sea level relative to 0m is currently <a id="sea-cayman" href="http://www.ioc-sealevelmonitoring.org/station.php?code=geor" target="_blank"></a> at George Town, Cayman Islands.</p>
+
+				<p class="lead">Sea level relative to 0m is currently <a id="sea-maldives" href="http://www.ioc-sealevelmonitoring.org/station.php?code=geor" target="_blank"></a> at Gan, Maldives.</p>
+
+				<p class="lead"><a id="storm-forecast" href="http://www.estofex.org/cgi-bin/polygon/showforecast.cgi?text=yes&fcstfile=2014061006_201406082231_3_stormforecast.xml" target="_blank">Here</a> is the latest ESTOFEX Storm Forecast.</p>
+
+				<p class="lead">The latest US drone strike was on <span id="drone-date"></span> at <span id="drone-town">, <span id="drone-country"></span>. <span id="drone-deaths"></span> people were killed.</p>
+
+				<p class="lead">There are currently <a id="exoplanets" href="http://exoplanet.eu/catalog/" target="_blank"></a> known exoplanets.</p>
+
+			</div>
+
+			<div id="rollover" class="col-md-4 column-padded" style="display: none">
+			</div>
+		</div>
+	</div>
+	<!-- /.container -->
+
+	<script>
+	  function kimonoCallback(data) {
+	    // do something with the data
+	    // please make sure the scope of this function is global
+		document.getElementById("carbon").innerHTML = data.results.collection1[6].co2;
+		document.getElementById("crude-oil").innerHTML = data.results.collection1[4].oil;
+		var bitcoin = data.results.collection1[2].bitcoin;
+		document.getElementById("bitcoin").innerHTML = bitcoin.replace('1 Bitcoin =', '');
+		document.getElementById("solar-coin").innerHTML = data.results.collection1[5].solar;
+		var demand = data.results.collection1[8].property1;
+		document.getElementById("gigawatts").innerHTML = demand.replace('Demand ', '').replace('GW','');
+		var wind_array = data.results.collection1[11].property1.split("(");
+		document.getElementById("wind").innerHTML = wind_array[1].replace(")",'');
+		var coal_array = data.results.collection1[12].property1.split("(");
+		document.getElementById("coal").innerHTML = coal_array[1].replace(")",'');
+		var nuclear_array = data.results.collection1[13].property1.split("(");
+		document.getElementById("nuclear").innerHTML = nuclear_array[1].replace(")",'');
+		document.getElementById("sea-maldives").innerHTML = data.results.collection1[1].maldiv + 'm';
+		var exo_array = data.results.collection1[7].planets.split(" / ");
+		document.getElementById("exoplanets").innerHTML = exo_array[1].replace(" planets",'');
+		document.getElementById('dashboard').style.visibility = "visible";
+	  }
+	  $.ajax({
+	    "url":"https://www.kimonolabs.com/api/6bsavl58?apikey=mYKI4BfL6lB0ICNIMEJJmmPPgpPa4wq4&callback=kimonoCallback",
+	    "crossDomain":true,
+	    "dataType":"jsonp"
+	});
+	</script>
+
+

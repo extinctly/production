@@ -48,14 +48,15 @@ docpadConfig = {
 
 			# Scripts
 			scripts: [
-				"//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"
+				"//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"
 				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
 				"/vendor/twitter-bootstrap/dist/js/bootstrap.js"
 				"//cdn.firebase.com/js/client/1.0.15/firebase.js"
 				"/scripts/script.js"
-				"/scripts/map.js"
 				"/vendor/js/isotope.pkgd.min.js"
+				"//api.tiles.mapbox.com/mapbox.js/v2.0.1/mapbox.js"
 				"/vendor/js/leaflet.ajax.min.js"
+				"/scripts/map.js"
 			]
 
 
@@ -90,6 +91,10 @@ docpadConfig = {
 	# These are special collections that our website makes available to us
 
 	collections:
+
+		navbar: ->
+            @getCollection("html").findAllLive({isPage:true},[{order:1}])
+
 		pages: (database) ->
 			database.findAllLive({pageOrder: $exists: true}, [pageOrder:1,title:1])
 
