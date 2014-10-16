@@ -104,6 +104,9 @@ docpadConfig = {
 		participants: ->
             @getCollection("html").findAllLive({isParticipant:true})
 
+		extinction_sites: ->
+            @getCollection("html").findAllLive({isExtinctionSite:true})
+
 		pages: (database) ->
 			database.findAllLive({pageOrder: $exists: true}, [pageOrder:1,title:1])
 

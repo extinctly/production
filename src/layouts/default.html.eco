@@ -29,7 +29,14 @@
 		<script async src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 
-	<link href="<%- @site.url %>/styles/bootstrap-custom.css" rel="stylesheet">
+
+	<!-- Styles -->
+	<%- @getBlock('styles').add(@site.styles).toHTML() %>
+
+	<!-- Scripts -->
+	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
+
+	<!--<link href="<%- @site.url %>/styles/bootstrap-custom.css" rel="stylesheet">
 	<link href="<%- @site.url %>/styles/extinctly.css" rel="stylesheet">
 
 	<script src="<%- @site.url %>/scripts/bootstrap-custom.js"></script>
@@ -38,13 +45,7 @@
 	<script src="<%- @site.url %>/vendor/js/leaflet.ajax.min.js"></script>
 	<script src="<%- @site.url %>/scripts/map.js"></script>
 	<script src="<%- @site.url %>/scripts/contact.js"></script>
-	<script src="<%- @site.url %>/scripts/isotope.js"></script>
-
-	<!-- Styles -->
-	<%- @getBlock('styles').add(@site.styles).toHTML() %>
-
-	<!-- Scripts -->
-	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
+	<script src="<%- @site.url %>/scripts/isotope.js"></script>-->
 
 
 </head>

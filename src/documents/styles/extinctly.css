@@ -648,10 +648,13 @@ footer .row {
   padding-top: 250px;
 }
 
+.fixed-nav-body {
+  margin-top: 250px;
+}
 
 .essay-text {
   margin-top: 75px;
-  margin-bottom: 100px;
+  margin-bottom: 75px;
 }
 
 
