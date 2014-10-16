@@ -1,0 +1,8 @@
+eco = require "eco"
+fs  = require "fs"
+
+template = fs.readFileSync __dirname + "/views/projects.html.eco", "utf-8"
+console.log eco.render template, casestudies: [
+  { name: "Mobile app", url: "/projects/1", description: "Iteration 1" },
+  { name: "Home page redesign", url: "/projects/2" }
+]

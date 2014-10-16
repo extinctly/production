@@ -1,0 +1,84 @@
+---
+layout: 'default'
+isPage: true
+order: 6
+navTitle: Case Studies
+---
+
+	<!-- Sub-navbar start -->
+	<div class="navbar navbar-inverse no-border">
+		<div class="navbar navbar-collapse collapse no-margin no-border">
+			<ul id="filters" class="nav navbar-nav subnav">
+				<li class="col-lg-2"><a data-filter="*">Show All</a></li>
+				<li class="dropdown text-center col-lg-2">
+					<a data-filter=".finite" class="dropdown-toggle" data-toggle="dropdown">Finite <b class="caret"></b></a>
+						<ul class="dropdown-menu col-lg-2">
+							<li class="text-center"><a data-filter=".climate">Climate</a></li>
+							<li class="text-center"><a data-filter=".resources">Resources</a></li>
+							<li class="text-center"><a data-filter=".oil">Oil and Natural Gas</a></li>
+						</ul>
+				</li>
+				<li class="dropdown text-center col-lg-2">
+					<a data-filter=".humanitarian" class="dropdown-toggle" data-toggle="dropdown">Humanitarian <b class="caret"></b></a>
+						<ul class="dropdown-menu col-lg-2">
+							<li class="text-center"><a data-filter=".humanitarian">Aid</a></li>
+							<li class="text-center"><a data-filter=".conflict">Conflict Zones</a></li>
+						</ul>
+				</li>
+				<li class="col-lg-2"><a data-filter=".despair">Despair</a></li>
+				<li class="dropdown text-center col-lg-2">
+					<a data-filter=".infrastructure" class="dropdown-toggle" data-toggle="dropdown">Infrastructure <b class="caret"></b></a>
+						<ul class="dropdown-menu col-lg-2">
+							<li class="text-center"><a data-filter=".civilisation">Civilisation</a></li>
+							<li class="text-center"><a data-filter=".open">Open Source</a></li>
+						</ul>
+				</li>			
+				<li class="col-lg-2"><a data-filter=".finance">Finance</a></li>
+			</ul>
+		</div>
+	</div> <!-- / Subnavbar -->
+
+
+	<h2 class="text-center page-title">CASE STUDIES INDEX</h2>
+	<hr id="live">
+	<div class="container">
+		<p class="text-center">EXTINCT.LY ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<div class="case-studies">
+			<div class="row">	
+				<div class="col-md-12">
+					<div id="isotope-items" class="projects">
+						<!-- Create isotope items -->
+						<% for document in @getCollection('case_studies').toJSON(): %>
+							<div class="item <%= document.category %>">
+								<a href="#<%= document.url %>" data-toggle="modal"><img alt="<%= document.name %>" src="images/<%= document.thumbnail %>">
+								</a>
+								<div class="info-overlay feature">
+									<a href="#<%= document.url %>" data-toggle="modal"><%= document.name %></a>
+								</div>
+							</div>
+						<% end %>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> <!-- Container -->
+
+<!-- Create modal content -->
+<% for document in @getCollection('case_studies').toJSON(): %>
+	<div id="<%- document.url %>" class="modal fade video-modal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h2 class="modal-title"><%= document.name %></h2>
+				</div>
+				<div class="modal-body modal-body-container">
+					<p class="lead"><%= document.description_short %></p><%= document.video %><p> <%= document.description_long %></p><p>
+				</div>
+			</div>
+		</div>
+		<div class="modal-footer">
+			<h2 class="modal-title"><a href="<%= document.link1_url %>" target="_blank"><%= document.link1_title %></a></p></h2>
+		</div>
+	</div>
+<% end %>

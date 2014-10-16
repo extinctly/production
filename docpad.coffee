@@ -41,22 +41,25 @@ docpadConfig = {
 			# Styles
 			styles: [
 				"/styles/bootstrap-custom.css"
-				"/styles/extinctly.css"
 				"//api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.css"
 				"//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+				"/styles/extinctly.css"
 			]
 
 			# Scripts
 			scripts: [
 				"//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"
 				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
-				"/vendor/twitter-bootstrap/dist/js/bootstrap.js"
 				"//cdn.firebase.com/js/client/1.0.15/firebase.js"
+				"/scripts/bootstrap-custom.js"
+				"//extinctly.github.io/extinct.ly/js/modal.url.js"
 				"/scripts/script.js"
 				"/vendor/js/isotope.pkgd.min.js"
 				"//api.tiles.mapbox.com/mapbox.js/v2.0.1/mapbox.js"
 				"/vendor/js/leaflet.ajax.min.js"
 				"/scripts/map.js"
+				"/scripts/contact.js"
+				"/scripts/isotope.js"
 			]
 
 
@@ -94,6 +97,9 @@ docpadConfig = {
 
 		navbar: ->
             @getCollection("html").findAllLive({isPage:true},[{order:1}])
+
+		case_studies: ->
+            @getCollection("html").findAllLive({isCaseStudy:true})
 
 		pages: (database) ->
 			database.findAllLive({pageOrder: $exists: true}, [pageOrder:1,title:1])
