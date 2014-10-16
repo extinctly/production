@@ -15,7 +15,7 @@ navTitle: Participants
 						<!-- Create isotope items -->
 						<% for document in @getCollection('participants').toJSON(): %>
 							<div class="item">
-								<a href="#<%= document.url %>" data-toggle="modal"><img alt="<%= document.name %>" src="<%- @site.url %>/images/<%= document.thumbnail %>">
+								<a href="#<%= document.url %>" data-toggle="modal"><img alt="<%= document.name %>" src="<%- @site.url %>/images/thumbnails/participants/<%= document.thumbnail %>">
 								</a>
 								<div class="info-overlay feature">
 									<a href="#<%= document.url %>" data-toggle="modal"><%= document.name %></a>
