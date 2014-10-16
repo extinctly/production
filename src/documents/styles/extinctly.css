@@ -609,6 +609,8 @@ footer .row {
   background: #020202;
   margin-bottom: 90px;
   border: none;
+  height: 100%;
+  width: 100%;
 }
 .modal-footer {
   background: #020202;
