@@ -46,6 +46,7 @@
 	<script src="<%- @site.url %>/scripts/map.js"></script>
 	<script src="<%- @site.url %>/scripts/contact.js"></script>
 	<script src="<%- @site.url %>/scripts/isotope.js"></script>
+	<script src="<%- @site.url %>/scripts/dashboard.js"></script>
 
 
 </head>

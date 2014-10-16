@@ -60,6 +60,7 @@ docpadConfig = {
 				"/scripts/map.js"
 				"/scripts/contact.js"
 				"/scripts/isotope.js"
+				"/scripts/dashboard.js"
 			]
 
 
