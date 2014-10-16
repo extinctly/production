@@ -439,10 +439,10 @@ footer .row {
   background-image: -o-linear-gradient(bottom, #000000 24%, #000000 62%);
 }
 .main-texts {
-  margin-top: 300px;
 }
 .essay-title {
   font-size: 72px;
+  padding-top: 50px;
 }
 .essay-name {
   font-family: 'nebula_iiregular';
@@ -645,7 +645,15 @@ footer .row {
 /* new MODS
 -------------------------------------------------- */
 
+.fixed-nav-offset {
+  padding-top: 250px;
+}
 
+
+.essay-text {
+  margin-top: 75px;
+  margin-bottom: 100px;
+}
 
 
 /* RESPONSIVE CSS

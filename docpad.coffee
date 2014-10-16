@@ -101,6 +101,9 @@ docpadConfig = {
 		case_studies: ->
             @getCollection("html").findAllLive({isCaseStudy:true})
 
+		participants: ->
+            @getCollection("html").findAllLive({isParticipant:true})
+
 		pages: (database) ->
 			database.findAllLive({pageOrder: $exists: true}, [pageOrder:1,title:1])
 

@@ -35,8 +35,8 @@
 	<!-- Scripts -->
 	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
 
-	<link href="<%- @site.url %>/styles/bootstrap-custom.css" rel="stylesheet">
-	<link href="<%- @site.url %>/styles/extinctly.css" rel="stylesheet">
+	<!--<link href="<%- @site.url %>/styles/bootstrap-custom.css" rel="stylesheet">
+	<link href="<%- @site.url %>/styles/extinctly.css" rel="stylesheet">-->
 
 	<script src="<%- @site.url %>/scripts/bootstrap-custom.js"></script>
 	<script src="<%- @site.url %>/scripts/script.js"></script>
@@ -49,9 +49,9 @@
 
 </head>
 
-<body>
+<header>
 
-	<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="navbar navbar-inverse">
 
 		<div class="pull-left"><a href="<%- @site.url %>"><i class="fa fa-long-arrow-left fa-2x" style="padding:10px; position: fixed;"></i></a></div>
 
@@ -70,11 +70,10 @@
 				<div class="navbar-collapse collapse">
 					<ul id="navigation" class="nav navbar-nav">
 						<div class="row">
-							<li class="col-lg-2 col-lg-offset-1 text-center"><a href="#bratton">Bratton</a></li>
-							<li class="col-lg-2 text-center"><a href="#easterling">Easterling</a></li>
-							<li class="col-lg-2 text-center"><a href="#morton">Morton</a></li>
-							<li class="col-lg-2 text-center"><a href="#young">Young</a></li>
-							<li class="col-lg-2 text-center"><a href="#">Lazzarato</a></li>
+							<li class="col-lg-3 text-center"><a href="#bratton">Bratton</a></li>
+							<li class="col-lg-3 text-center"><a href="#easterling">Easterling</a></li>
+							<li class="col-lg-3 text-center"><a href="#morton">Morton</a></li>
+							<li class="col-lg-3 text-center"><a href="#lazzarato">Lazzarato</a></li>
 						</div>
 					</ul>
 				</div>
@@ -85,6 +84,10 @@
 		</div>
 	</div>
 
+</header>
+
+
+<body>
 	<!-- Content -->
 	<%- @content %>
 
