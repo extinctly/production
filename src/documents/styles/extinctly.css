@@ -659,6 +659,13 @@ footer .row {
   margin-bottom: 75px;
 }
 
+.ongoing-collapse-icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 125px;
+  padding: 0 0 40px 0;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
