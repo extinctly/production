@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Meta -->
+	<meta charset="utf-8" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+	<!-- Use the .htaccess and remove these lines to avoid edge case issues.
+		 More info: h5bp.com/i/378 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<!-- Our site title and description -->
+	<title>EXTINCT.LY</title>
+	<meta name="description" content="When your website appears in search results in say Google, the text here will be shown underneath your website's title." />
+	<meta name="keywords" content="place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website" />
+	<meta name="author" content="Kei Kreutler" />
+
+	<!-- Output DocPad produced meta elements -->
+	<meta name="generator" content="DocPad v6.69.1" />
+
+	<!-- Mobile viewport optimized: h5bp.com/viewport -->
+	<meta name="viewport" content="width=device-width" />
+
+	<!-- Icons -->
+	<link rel="shortcut icon" href="images/favicon.png">
+
+	<!-- Shims: IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+		<script async src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Styles -->
+	<link  rel="stylesheet" href="/styles/bootstrap-custom.css" /><link  rel="stylesheet" href="//api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.css" /><link  rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" /><link  rel="stylesheet" href="/styles/extinctly.css" />
+
+	<!-- Scripts -->
+	<script defer="defer"  src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script><script defer="defer"  src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script><script defer="defer"  src="//cdn.firebase.com/js/client/1.0.15/firebase.js"></script><script defer="defer"  src="/scripts/bootstrap-custom.js"></script><script defer="defer"  src="//extinctly.github.io/extinct.ly/js/modal.url.js"></script><script defer="defer"  src="/scripts/script.js"></script><script defer="defer"  src="/vendor/js/isotope.pkgd.min.js"></script><script defer="defer"  src="//api.tiles.mapbox.com/mapbox.js/v2.0.1/mapbox.js"></script><script defer="defer"  src="/vendor/js/leaflet.ajax.min.js"></script><script defer="defer"  src="/scripts/map.js"></script><script defer="defer"  src="/scripts/contact.js"></script><script defer="defer"  src="/scripts/isotope.js"></script>
+
+</head>
+
+<body>
+
+	<!-- Logo -->
+	<div class="extinctly-logo text-center img-responsive">
+		<a href="index.html">
+		<img src="images/logo.png">
+		</a>
+	</div>
+
+	<div class="nav-wrapper">
+		<div class="navbar navbar-inverse">
+			<div class="navbar-header">
+				<a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul id="navigation" class="nav navbar-nav">
+					<div class="row">
+						<li class="col-lg-1">
+							&nbsp;
+						</li>
+						
+							<li
+								about="/dashboard"
+								class="col-lg-2 text-center active"
+							>
+								<a href="/dashboard" property="dc:title">
+									Dashboard
+								</a>
+							</li>
+						
+							<li
+								about="/map"
+								class="col-lg-2 text-center "
+							>
+								<a href="/map" property="dc:title">
+									World Map
+								</a>
+							</li>
+						
+							<li
+								about="/participants"
+								class="col-lg-2 text-center "
+							>
+								<a href="/participants" property="dc:title">
+									Participants
+								</a>
+							</li>
+						
+							<li
+								about="/texts"
+								class="col-lg-2 text-center "
+							>
+								<a href="/texts" property="dc:title">
+									Texts
+								</a>
+							</li>
+						
+							<li
+								about="/casestudies"
+								class="col-lg-2 text-center "
+							>
+								<a href="/casestudies" property="dc:title">
+									Case Studies
+								</a>
+							</li>
+						
+					</div>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- Content -->
+	<div class="container">
+
+		<div class="col-lg-12">
+			<h2 class="text-center page-title">The Ongoing Collapse</h2>
+		</div>
+		<div class="row">
+			<div class="col-md-8 column-padded">
+				<p class="lead">There are currently <a id="carbon" href="http://co2now.org/Current-CO2/CO2-Now/weekly-data-atmospheric-co2.html" target="_blank"></a> parts per million of carbon in the atmosphere.</p>
+
+				<p class="lead">Crude oil is currently valued at <a id="crude-oil" href="http://www.quoteoil.com/" target="_blank"></a> a barrel.</p>
+				
+				<p class="lead">One bitcoin is currently valued at <a id="bitcoin" href="http://www.bitcoinexchangerate.org/" target="_blank"></a>.</p>
+
+				<p class="lead">One SolarCoin is currently valued at <a id="solar-coin" href="http://bitinfocharts.com/zh/solarcoin/" target="_blank"></a>.</p>
+
+				<p class="lead"><a id="infrastructure" href="<?php $infr; ?>" target="_blank">Here</a> is today's Department of Homeland Security Daily Infrastructure Report.</p>
+
+				<p class="lead">The current draw on the UK National Grid is <a href="http://www.gridwatch.templar.co.uk/" target="_blank"><span id="gigawatts"></span></a> Gigawatts.</p>
+
+				<p class="lead">Of which <span id="coal"></span> is coal, <span id="wind"></span> is wind and <span id="nuclear"></span> is nuclear.</p> 
+
+				<p class="lead">There are <a id="sats" href="http://celestrak.com/satcat/boxscore.asp" target="_blank"></a> man-made objects in space, of which <span id="sats-in-use"></span> are in active use.</p>
+
+				<p class="lead">Sea level relative to 0m is currently <a id="sea-antarctica" href="http://www.ioc-sealevelmonitoring.org/list.php?order=delay&dir=asc&contact=69" target="_blank"></a> at King Edward Point, Antarctica.</p>
+
+				<p class="lead">Sea level relative to 0m is currently <a id="sea-cayman" href="http://www.ioc-sealevelmonitoring.org/station.php?code=geor" target="_blank"></a> at George Town, Cayman Islands.</p>
+
+				<p class="lead">Sea level relative to 0m is currently <a id="sea-maldives" href="http://www.ioc-sealevelmonitoring.org/station.php?code=geor" target="_blank"></a> at Gan, Maldives.</p>
+
+				<p class="lead"><a id="storm-forecast" href="http://www.estofex.org/cgi-bin/polygon/showforecast.cgi?text=yes&fcstfile=2014061006_201406082231_3_stormforecast.xml" target="_blank">Here</a> is the latest ESTOFEX Storm Forecast.</p>
+
+				<p class="lead">The latest US drone strike was on <span id="drone-date"></span> at <span id="drone-town">, <span id="drone-country"></span>. <span id="drone-deaths"></span> people were killed.</p>
+
+				<p class="lead">There are currently <a id="exoplanets" href="http://exoplanet.eu/catalog/" target="_blank"></a> known exoplanets.</p>
+
+			</div>
+
+			<div id="rollover" class="col-md-4 column-padded" style="display: none">
+			</div>
+		</div>
+	</div>
+	<!-- /.container -->
+
+	<script>
+	  function kimonoCallback(data) {
+	    // do something with the data
+	    // please make sure the scope of this function is global
+		document.getElementById("carbon").innerHTML = data.results.collection1[6].co2;
+		document.getElementById("crude-oil").innerHTML = data.results.collection1[4].oil;
+		var bitcoin = data.results.collection1[2].bitcoin;
+		document.getElementById("bitcoin").innerHTML = bitcoin.replace('1 Bitcoin =', '');
+		document.getElementById("solar-coin").innerHTML = data.results.collection1[5].solar;
+		var demand = data.results.collection1[8].property1;
+		document.getElementById("gigawatts").innerHTML = demand.replace('Demand ', '').replace('GW','');
+		var wind_array = data.results.collection1[11].property1.split("(");
+		document.getElementById("wind").innerHTML = wind_array[1].replace(")",'');
+		var coal_array = data.results.collection1[12].property1.split("(");
+		document.getElementById("coal").innerHTML = coal_array[1].replace(")",'');
+		var nuclear_array = data.results.collection1[13].property1.split("(");
+		document.getElementById("nuclear").innerHTML = nuclear_array[1].replace(")",'');
+		document.getElementById("sea-maldives").innerHTML = data.results.collection1[1].maldiv + 'm';
+		var exo_array = data.results.collection1[7].planets.split(" / ");
+		document.getElementById("exoplanets").innerHTML = exo_array[1].replace(" planets",'');
+		document.getElementById('dashboard').style.visibility = "visible";
+	  }
+	  $.ajax({
+	    "url":"https://www.kimonolabs.com/api/6bsavl58?apikey=mYKI4BfL6lB0ICNIMEJJmmPPgpPa4wq4&callback=kimonoCallback",
+	    "crossDomain":true,
+	    "dataType":"jsonp"
+	});
+	</script>
+
+
+	<!-- Footer -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<a href="http://www.serpentinegalleries.org/exhibitions-events/extinction-marathon" target="_blank">
+					<img src="images/serpentine_marathon.png">
+					</a>
+				</div>
+				<div class="col-md-3">
+					<a href="http://www.thespace.org/" target="_blank">
+					<img src="images/thespace.jpg">
+					</a>
+				</div>
+				<div class="col-md-3">
+					<h3>
+						<a href="#contact" data-toggle="modal" data-target="#contact">CONTACT</a>
+					</h3>
+				</div>
+				<div class="col-md-3">
+					<a href="https://twitter.com/hashtag/extinction" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>
+					<a href="https://instagram.com/extinctionsites" target="_blank"><i class="fa fa-instagram fa-lg"></i></a>
+					<a href="https://vimeo.com/serpentinegalleries" target="_blank"><i class="fa fa-vimeo-square fa-lg"></i></a>
+					<a href="https://github.com/extinctly" target="_blank"><i class="fa fa-github fa-lg"></i></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<!-- Contact modal -->
+	<div id="contact" class="modal fade">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h2 class="modal-title">Contact</h2>
+				</div>
+				<div class="modal-body">
+					<p class="lead">
+						Suggest an extinction site, data source, case study, or other work.
+					</p>
+					<div class="form-group">
+						<label class="sr-only" for="name">Name</label>
+						<input type="text" class="form-control" id="name" placeholder="Project, artist, or organization name">
+					</div>
+					<div class="form-group">
+						<label class="sr-only" for="location">Location</label>
+						<input type="text" class="form-control" id="location" placeholder="Location">
+					</div>
+					<div class="form-group">
+						<label class="sr-only" for="description_long">Description</label>
+						<textarea type="text" rows="3" class="form-control" id="description_long" placeholder="Description"></textarea>
+					</div>
+					<div class="form-group">
+						<label class="sr-only" for="link1_url">Link</label>
+						<input id="link1_url" class="form-control" type="url" placeholder="Link URL">
+					</div>
+					<div class="form-group">
+						<label class="sr-only" for="contact_email">Your contact information</label>
+						<input type="email" class="form-control" id="contact_email" placeholder="Your email address">
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="submit" data-dismiss="modal" class="btn btn-primary" onclick="onSubmit()">Submit</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /Contact modal -->
+
+	<!-- Google Analytics -->
+	<script>
+	    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	    ga('create', 'UA-55658105-1', 'http://extinct.ly');
+	    ga('send', 'pageview');
+	    ga('create', 'UA-49181439-1', 'auto', { 'allowLinker': true, 'name' : 'the_space' });
+	    ga('the_space.send', 'pageview');
+	</script>
+
+</body>
+</html>
