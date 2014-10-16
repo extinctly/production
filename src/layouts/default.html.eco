@@ -22,7 +22,7 @@
 	<meta name="viewport" content="width=device-width" />
 
 	<!-- Icons -->
-	<link rel="shortcut icon" href="images/favicon.png">
+	<link rel="shortcut icon" href="<%- @site.url %>/images/favicon.png">
 
 	<!-- Shims: IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>
@@ -35,6 +35,18 @@
 	<!-- Scripts -->
 	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
 
+	<link href="<%- @site.url %>/styles/bootstrap-custom.css" rel="stylesheet">
+	<link href="<%- @site.url %>/styles/extinctly.css" rel="stylesheet">
+
+	<script src="<%- @site.url %>/scripts/bootstrap-custom.js"></script>
+	<script src="<%- @site.url %>/scripts/script.js"></script>
+	<script src="<%- @site.url %>/vendor/js/isotope.pkgd.min.js"></script>
+	<script src="<%- @site.url %>/vendor/js/leaflet.ajax.min.js"></script>
+	<script src="<%- @site.url %>/scripts/map.js"></script>
+	<script src="<%- @site.url %>/scripts/contact.js"></script>
+	<script src="<%- @site.url %>/scripts/isotope.js"></script>
+
+
 </head>
 
 <body>
@@ -42,7 +54,7 @@
 	<!-- Logo -->
 	<div class="extinctly-logo text-center img-responsive">
 		<a href="<%- @site.url %>">
-		<img src="images/logo.png">
+		<img src="<%- @site.url %>/images/logo.png">
 		</a>
 	</div>
 
@@ -87,12 +99,12 @@
 			<div class="row">
 				<div class="col-md-3">
 					<a href="http://www.serpentinegalleries.org/exhibitions-events/extinction-marathon" target="_blank">
-					<img src="images/serpentine_marathon.png">
+					<img src="<%- @site.url %>/images/serpentine_marathon.png">
 					</a>
 				</div>
 				<div class="col-md-3">
 					<a href="http://www.thespace.org/" target="_blank">
-					<img src="images/thespace.jpg">
+					<img src="<%- @site.url %>/images/thespace.jpg">
 					</a>
 				</div>
 				<div class="col-md-3">
