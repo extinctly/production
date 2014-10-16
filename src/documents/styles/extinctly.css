@@ -281,10 +281,6 @@ footer .row {
 .item {
   margin: 20px 8px;
 }
-
-#isotope-items .item {
-  width: 200px;
-}
 .info-overlay h3 {
   margin-bottom: 0;
 }
@@ -298,8 +294,6 @@ footer .row {
   font-size: 12px;
   text-align: center;
 }
-
-
 /* CUSTOM
 ------------------------- */
 .extinctly-logo {
@@ -437,9 +431,12 @@ footer .row {
 .texts-gradient {
   height: 30px;
   width: 100%;
-  background: #020202;
-  background: -webkit-gradient(linear, top, bottom, from(#000000), to(rgba(0, 0, 0, 0)));
-  background: -moz-linear-gradient(top, #000000, rgba(0, 0, 0, 0.1));
+  background-image: -moz-linear-gradient(top, #000000 100%, #000000 0%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.24, #000000), color-stop(0.62, #23ab11));
+  background-image: -webkit-linear-gradient(bottom, #000000 24%, #000000 62%);
+  background-image: -ms-linear-gradient(bottom, #000000 24%, #000000 62%);
+  background-image: linear-gradient(bottom, #000000 24%, #000000 62%);
+  background-image: -o-linear-gradient(bottom, #000000 24%, #000000 62%);
 }
 .main-texts {
   margin-top: 300px;
@@ -592,6 +589,7 @@ footer .row {
 .modal-open .modal {
   width: 100%;
   height: 100%;
+  border: 1px solid #f1f2d9;
 }
 .modal-dialog {
   width: 100%;
@@ -602,6 +600,7 @@ footer .row {
 .modal-content {
   height: 100%;
   text-align: center;
+  border: none;
 }
 .modal-header {
   background: #020202;
@@ -610,6 +609,7 @@ footer .row {
 .modal-body {
   background: #020202;
   margin-bottom: 90px;
+  border: none;
 }
 .modal-footer {
   background: #020202;
@@ -635,21 +635,19 @@ footer .row {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 60%;
+  height: 100%;
 }
 .modal-body-container img {
   width: 100%;
 }
-/*
-.map-modal .modal-content {
-  border-radius: 0;
-  background-clip: border-box;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  border: none;
-  min-height: 100%;
-  text-align: center;
-}*/
+
+/* new MODS
+-------------------------------------------------- */
+
+
+
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 @media (min-width: 768px) {

@@ -52,6 +52,9 @@
 <body>
 
 	<div class="navbar navbar-inverse navbar-fixed-top">
+
+		<div class="pull-left"><a href="<%- @site.url %>"><i class="fa fa-long-arrow-left fa-2x" style="padding:10px; position: fixed;"></i></a></div>
+
 		<h2 class="text-center essay-title">TEXTS</h2>
 		<hr id="live">
 
