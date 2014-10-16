@@ -41,7 +41,7 @@
 
 	<!-- Logo -->
 	<div class="extinctly-logo text-center img-responsive">
-		<a href="index.html">
+		<a href="<%- site.url %>">
 		<img src="images/logo.png">
 		</a>
 	</div>
