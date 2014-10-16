@@ -236,7 +236,7 @@ footer .row {
   position: absolute;
   top: 0;
   left: 0;
-  min-height: 300px;
+  min-height: 400px;
 }
 .carousel-indicators li {
   color: #f1f2d9;
@@ -298,8 +298,7 @@ footer .row {
 ------------------------- */
 .extinctly-logo {
   background: #020202;
-  margin: 0;
-  padding: 35px 0 10px 0;
+  margin: 35px 0 10px 0;
   height: 50px;
 }
 .extinctly-logo img {
