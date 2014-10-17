@@ -443,23 +443,22 @@ navTitle: Participants
 			<div class="modal-body modal-body-container">
 					<div class="row">
 						<div class="col-md-3">
-							<h3 class="text-center">Poland</h3>
-							<img src="img/200x150.gif">
+							<img src="<%- @site.url %>/images/participants/Volatility-Storms_4.jpg">
 							<p>EXTINCT.LY ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip rure dolor in.</p>
 						</div>
 						<div class="col-md-3">
 							<h3 class="text-center">HEADER</h3>
-							<img src="img/200x150.gif">
+							<img src="<%- @site.url %>/images/participants/Volatility-Storms_4.jpg">
 							<p>EXTINCT.LY ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip rure dolor in.</p>
 						</div>
 						<div class="col-md-3">
 							<h3 class="text-center">HEADER</h3>
-							<img src="img/200x150.gif">
+							<img src="<%- @site.url %>/images/participants/Volatility-Storms_4.jpg">
 							<p>EXTINCT.LY ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip rure dolor in.</p>
 						</div>
 						<div class="col-md-3">
 							<h3 class="text-center">HEADER</h3>
-							<img src="img/200x150.gif">
+							<img src="<%- @site.url %>/images/participants/Volatility-Storms_4.jpg">
 							<p>EXTINCT.LY ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip rure dolor in.</p>
 						</div>
 					</div>
