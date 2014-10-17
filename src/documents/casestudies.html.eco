@@ -13,7 +13,7 @@ navTitle: Case Studies
 				<li class="col-lg-2"><a data-filter=".finite">Finite</a></li>
 				<li class="col-lg-2"><a data-filter=".humanitarian">Humanitarian</a></li>
 				<li class="col-lg-2"><a data-filter=".despair">Despair</a></li>
-				<li class="col-lg-2"><a data-filter=".despair">Infrastructure</a></li>	
+				<li class="col-lg-2"><a data-filter=".infrastructure">Infrastructure</a></li>	
 				<li class="col-lg-2"><a data-filter=".finance">Finance</a></li>
 			</ul>
 		</div>
@@ -31,7 +31,7 @@ navTitle: Case Studies
 						<!-- Create isotope items -->
 						<% for document in @getCollection('case_studies').toJSON(): %>
 							<div class="item <%= document.category %>">
-								<a href="#<%= document.url %>" data-toggle="modal"><img alt="<%= document.name %>" src="<%- @site.url %>/images/<%= document.thumbnail %>">
+								<a href="#<%= document.url %>" data-toggle="modal"><img alt="<%= document.name %>" src="images/200x150.gif">
 								</a>
 								<div class="info-overlay feature">
 									<a href="#<%= document.url %>" data-toggle="modal"><%= document.name %></a>
@@ -54,7 +54,7 @@ navTitle: Case Studies
 					<h2 class="modal-title"><%= document.name %></h2>
 				</div>
 				<div class="modal-body modal-body-container">
-					<p class="lead"><%= document.description_short %></p><%= document.video %><p> <%= document.description_long %></p><p>
+					<p class="lead"><%= document.description_short %></p><%- document.video %><p> <%- document.description_long %></p><p>
 				</div>
 			</div>
 		</div>

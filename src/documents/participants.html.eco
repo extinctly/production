@@ -28,28 +28,6 @@ navTitle: Participants
 		</div>
 	</div> <!-- Container -->
 
-<!-- Create modal content
-<% for document in @getCollection('participants').toJSON(): %>
-	<div id="<%- document.url %>" class="modal fade">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h2 class="modal-title"><%= document.title %></h2>
-				</div>
-				<div class="modal-body modal-body-container">
-						<%- document.video %>
-						<p><%= document.description %>
-				</div>
-			</div>
-		</div>
-		<div class="modal-footer">
-			<h2 class="modal-title">
-				<h2 class="modal-title"><%= document.name %></h2>
-		</div>
-	</div>
-<% end %>-->
-
 <!-- If has video -->
 <% for document in @getCollection('hasVideo').toJSON(): %>
 	<div id="<%- document.url %>" class="modal fade video-modal">
