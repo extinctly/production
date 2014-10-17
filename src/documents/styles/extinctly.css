@@ -711,6 +711,13 @@ footer .row {
   text-transform: uppercase;
 }
 
+.modal-body .kev {
+  padding-bottom: 20px;
+}
+
+.modal-header .kev .close {
+  color: #020202;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
