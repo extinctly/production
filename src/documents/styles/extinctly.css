@@ -643,8 +643,7 @@ footer .row {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  width: 80%;
-  height: auto;
+  min-width: 500px;
   padding: 20px 0;
 }
 .modal-body .lead {
@@ -755,7 +754,6 @@ footer .row {
   .modal-body iframe,
   .modal-body img {
     max-width: 100%;
-    height: auto;
   }
   .nav-wrapper {
     padding: 0 0;
