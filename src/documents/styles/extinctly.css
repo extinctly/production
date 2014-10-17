@@ -218,7 +218,7 @@ footer .row {
   top: 50%;
   font-size: 24px;
   z-index: 10;
-  padding-top: 0px;
+  padding-top: 20px;
   padding-bottom: 5px;
   color: #f1f2d9;
   text-align: center;
@@ -715,6 +715,9 @@ footer .row {
   }
 }
 @media screen and (max-device-width: 500px) {
+  #myCarousel {
+    visibility: none;
+  }
   .container {
     padding: 0 25px;
   }

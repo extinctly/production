@@ -217,22 +217,22 @@ dataset_layers.addOverlay(layer, 'TEST DATA');*/
 
 
 var mapicon_VS = L.icon({
-    iconUrl: 'images/map_VS.png',
+    iconUrl: 'http://extinctly.github.io/images/map_VS.png',
     iconAnchor:   [12, 5],
 });
 
 var mapicon_EW = L.icon({
-    iconUrl: 'images/map_extinctwild.png',
+    iconUrl: 'http://extinctly.github.io/images/map_extinctwild.png',
     iconAnchor:   [12, 5],
 });
 
 var mapicon_CS = L.icon({
-    iconUrl: 'images/map_casestudies.png',
+    iconUrl: 'http://extinctly.github.io/images/map_casestudies.png',
     iconAnchor:   [12, 5],
 });
 
 var mapicon_ES = L.icon({
-    iconUrl: 'images/map_extinction.png',
+    iconUrl: 'http://extinctly.github.io/images/map_extinction.png',
     iconAnchor:   [12, 5],
 });
 
