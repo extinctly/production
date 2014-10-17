@@ -18,5 +18,5 @@ function onSubmit() {
 
 
 $(function(){
-  $('#contact, #anna-zett, #alex-mackin-dolan, #david-blandy, #emily-jones, #femke-herregraven,#folder,#julian-oliver, #kari-altman,#kev-bewersdorf,#lisa-ma,#tobias-revell,#ubermorgen').urlModal();
+  $('#anna-zett').urlModal();
 });
