@@ -382,7 +382,7 @@ var mapData = [ { "type" : "Feature",
             "description_short" : "Geeklist #hack4good unites the world's leading minds to build solutions to humanity's greatest problems. ",
             "description_long" : "Geeklist #hack4good unites the world's leading minds to build solutions to humanity's greatest problems. Built around an international hackathon #hack4good is a place where creatives, designers and developers come together to develop solutions to some of the worlds biggest challenges. In 48 hours, teams brainstorm, design and develop solutions tailored to the needs of knowledge experts (ie. NGOs, government), who lack technical expertise. These knowledge experts bring in challenges from the field and depend on the theme of the hackathon. In the previous hackathon the theme was Climate Change and over 1000 participants build over 100 apps to solve issues related to Climate Change. The theme is different every hackathon and always serves social good.",
             "thumbnail" : "17_hack4good_17.gif",
-            "video" : ""
+            "video" : "",
             "date_established" : "",
             "people" : "",
             "category" : "Humanatarian Aid",
