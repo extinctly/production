@@ -643,6 +643,9 @@ footer .row {
   display: block;
   margin-right: auto;
   margin-left: auto;
+  width: 80%;
+  height: auto;
+  padding: 20px 0;
 }
 .modal-body .lead {
   text-align: center;
@@ -657,13 +660,6 @@ footer .row {
 }
 .modal-body-container img {
 }
-.modal-body iframe {
-  width: 80%;
-  margin: 0;
-  padding: 20px 0;
-}
-
-
 .kev {
   background: #FFF !important;
   color: #000;
