@@ -56,7 +56,7 @@ navTitle: World Map
 					<h2 class="modal-title"><%= document.name %></h2>
 				</div>
 				<div class="modal-body modal-body-container">
-					<p class="lead"><%= document.description_short %></p><%= document.video %><p> <%= document.description_long %></p><p>
+					<p class="lead"><%= document.description_short %></p><%- document.video %><p> <%= document.description_long %></p><p>
 				</div>
 			</div>
 		</div>
