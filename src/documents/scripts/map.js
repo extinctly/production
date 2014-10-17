@@ -2,9 +2,6 @@ $('#catastrophe-bonds').urlModal();
 $('#arctic-cables').urlModal();
 $('#arctic-land').urlModal();
 
-
-
-
 var mapData = [ { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
@@ -175,8 +172,8 @@ var mapData = [ { "type" : "Feature",
             "name" : "Jaktorw",
             "type" : "extinction_sites",
             "location" : "Poland",
-            "description_short" : "Site of the first recorded extinction in the wild. At a time when the aurochs, the ancestor of wild cattle, had all but disappeared from its former range in Europe, Asia, and North Africa, a small herd persisted under royal protection in the Jaktorw Forest in Mazovia in the Kingdom of Poland. Inspection reports document the number of animals beginning in 1564, when 38 were recorded. By 1602 only four remained, their numbers reduced by habitat degradation (in particular illegal logging and wood collection), competition from domestic cattle and pigs, disease, and cold winters. The last bull died in 1620. A single horn from this animal was set in gold and presented to King Zygmunt III. It is now in the collection of the Royal Armoury in Stockholm, Sweden. According to the Inspection Report of 1630, the very last aurochs, a cow, died in 1627, at the estimated age of 26 years. While the aurochs is now extinct in the wild, domestic breeds of cattle have become the most prevalent large mammal on earth.",
-            "description_long" : "",
+            "description_short" : "Site of the first recorded extinction in the wild. At a time when the aurochs, the ancestor of wild cattle, had all but disappeared from its former range in Europe, Asia, and North Africa, a small herd persisted under royal protection in the Jaktorw Forest in Mazovia in the Kingdom of Poland.",
+            "description_long" : "Inspection reports document the number of animals beginning in 1564, when 38 were recorded. By 1602 only four remained, their numbers reduced by habitat degradation (in particular illegal logging and wood collection), competition from domestic cattle and pigs, disease, and cold winters. The last bull died in 1620. A single horn from this animal was set in gold and presented to King Zygmunt III. It is now in the collection of the Royal Armoury in Stockholm, Sweden. According to the Inspection Report of 1630, the very last aurochs, a cow, died in 1627, at the estimated age of 26 years. While the aurochs is now extinct in the wild, domestic breeds of cattle have become the most prevalent large mammal on earth.",
             "thumbnail" : "",
             "video" : "",
             "date_established" : "",
