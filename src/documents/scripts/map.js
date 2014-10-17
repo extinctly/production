@@ -1150,7 +1150,7 @@ L.geoJson(mapData, {
             var marker = L.marker(latlng, {icon: mapicon_CS});
         }
         else if(feature.properties.type === "extinction_sites"){
-            var marker = L.marker(latlng, {icon: mapicon_CS});
+            var marker = L.marker(latlng, {icon: mapicon_ES});
         }
         else {
             var marker = L.marker(latlng, {icon: mapicon_CS})
