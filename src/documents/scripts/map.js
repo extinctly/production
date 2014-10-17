@@ -191,7 +191,7 @@ var map = L.mapbox.map('map', 'extinctly.f3ad5588', {
 }).setView([30,-25], 3);
 
 
-var layer = L.mapbox.tileLayer('extinctly.81df0075')
+/*var layer = L.mapbox.tileLayer('extinctly.81df0075')
     // since layers load asynchronously through AJAX, use the
     // `.on` function to listen for them to be loaded before
     // calling `getTileJSON()`
@@ -199,7 +199,7 @@ var layer = L.mapbox.tileLayer('extinctly.81df0075')
         // get TileJSON data from the loaded layer
         var TileJSON = layer.getTileJSON();
     });
-layer.addTo(map);
+layer.addTo(map);*/
 map.scrollWheelZoom.disable();
 
 
@@ -208,12 +208,12 @@ var datasets = {"population": "Population", "resource_minerals": "Resource Miner
 var types = {"artist":"0", "project":"1", "case_study":"2","extinction_site":"3"};
 var mapLayerGroups = [];
 
-/* Create box to change overlays */
+/* Create box to change overlays
 dataset_layers = L.control.layers(null, null, {
     collapsed: false
 }).addTo(map);
 
-dataset_layers.addOverlay(layer, 'TEST DATA');
+dataset_layers.addOverlay(layer, 'TEST DATA');*/
 
 
 var mapicon_VS = L.icon({

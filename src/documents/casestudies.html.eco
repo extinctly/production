@@ -30,7 +30,9 @@ navTitle: Case Studies
 					<div class="projects">
 						<!-- Create isotope items -->
 						<% for document in @getCollection('case_studies').toJSON(): %>
-							<div class="item <%= document.category %>">
+							<div class="col-md-4 item text-center">
+								<a href="#<%= document.url %>" data-toggle="modal"><img alt="<%= document.name %>" src="">
+								</a>
 								<div class="info-overlay feature">
 									<a href="#<%= document.url %>" data-toggle="modal"><%= document.name %></a>
 								</div>
