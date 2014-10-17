@@ -105,6 +105,12 @@ docpadConfig = {
 		participants: ->
             @getCollection("html").findAllLive({isParticipant:true})
 
+		hasVideo: ->
+            @getCollection("html").findAllLive({isVideo:true})
+
+		hasSubdomain: ->
+            @getCollection("html").findAllLive({isSubdomain:true})
+
 		extinction_sites: ->
             @getCollection("html").findAllLive({isExtinctionSite:true})
 

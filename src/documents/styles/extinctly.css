@@ -281,6 +281,9 @@ footer .row {
 .item {
   margin: 20px 8px;
 }
+.item img {
+  min-height: 150px;
+}
 .info-overlay h3 {
   margin-bottom: 0;
 }
@@ -293,6 +296,7 @@ footer .row {
   font-family: 'marathonbold';
   font-size: 12px;
   text-align: center;
+  opacity: 9;
 }
 /* CUSTOM
 ------------------------- */
@@ -586,33 +590,32 @@ footer .row {
 /* MODAL MODS
 -------------------------------------------------- */
 .modal-open .modal {
+  background: #020202;
   width: 100%;
-  height: 100%;
-  border: 1px solid #f1f2d9;
+  margin: 0;
 }
 .modal-dialog {
+  background: #020202;
   width: 100%;
-  height: 100%;
-  text-align: center;
-  margin: 0;
+  margin: 0 0 200px 0;
+  border: none;
 }
 .modal-content {
   background: #020202;
-  height: 100%;
-  width: 100%;
   text-align: center;
   border: none;
+  box-shadow: none;
 }
 .modal-header {
   background: #020202;
   opacity: .9;
+  border-bottom: 8px solid #f1f2d9;
 }
 .modal-body {
   background: #020202;
-  margin-bottom: 90px;
   border: none;
-  height: 100%;
   width: 100%;
+  padding: 30px;
 }
 .modal-footer {
   background: #020202;
@@ -631,18 +634,20 @@ footer .row {
 .modal-body .lead {
   text-align: center;
 }
-/*.video-modal .modal-body p {
-  padding: 0 20%;
-}*/
 .modal-body-container {
+  background: #020202;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
-  height: 100%;
+  width: 80%;
 }
 .modal-body-container img {
-  width: 100%;
+}
+
+.kev {
+  background: #FFF !important;
+  color: #000;
+  border: none !important;
 }
 
 /* new MODS
@@ -668,6 +673,14 @@ footer .row {
   max-height: 125px;
   padding: 0 0 40px 0;
 }
+
+.modal-body p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+}
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
