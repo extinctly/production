@@ -29,6 +29,12 @@
 		<script async src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 
+	<!-- Styles -->
+	<%- @getBlock('styles').add(@site.styles).toHTML() %>
+
+	<!-- Scripts -->
+	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
+
 	<link href="<%- @site.url %>/styles/bootstrap-custom.css" rel="stylesheet">
 	<link href="<%- @site.url %>/styles/extinctly.css" rel="stylesheet">
 
