@@ -103,7 +103,7 @@ navTitle: World Map
 		</div>
 	</div>
 	<div class="modal-footer">
-		<h2 class="modal-title"><a href="<%= document.link1_url %>" target="_blank">Femke Herregraven</a></p></h2>
+		<h2 class="modal-title">Femke Herregraven</p></h2>
 	</div>
 </div>
 
@@ -123,7 +123,7 @@ navTitle: World Map
 		</div>
 	</div>
 	<div class="modal-footer">
-		<h2 class="modal-title"><a href="<%= document.link1_url %>" target="_blank">Femke Herregraven</a></p></h2>
+		<h2 class="modal-title">Femke Herregraven</p></h2>
 	</div>
 </div>
 
@@ -143,6 +143,6 @@ navTitle: World Map
 		</div>
 	</div>
 	<div class="modal-footer">
-		<h2 class="modal-title"><a href="<%= document.link1_url %>" target="_blank">Femke Herregraven</a></p></h2>
+		<h2 class="modal-title">Femke Herregraven</p></h2>
 	</div>
 </div>
