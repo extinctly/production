@@ -1,7 +1,7 @@
 var mapData = [ { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [37.7608337, 140.4747282]
+                "coordinates" : [140.4747282, 37.7608337]
         },
         "properties" : {
             "name" : "Fukushima",
@@ -24,7 +24,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [21.322137, -89.4284093]
+                "coordinates" : [-89.4284093, 21.322137]
         },
         "properties" : {
             "name" : "Chicxulub crater",
@@ -47,7 +47,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [23.6943117, 90.344352]
+                "coordinates" : [90.344352, 23.6943117]
         },
         "properties" : {
             "name" : "Smallpox ",
@@ -70,7 +70,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [1.295461, 103.789784]
+                "coordinates" : [103.789784, 1.295461]
         },
         "properties" : {
             "name" : "Equinix Singapore Data Centers SG1, SG2, SG3",
@@ -93,7 +93,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [66.0653057, 76.9345194]
+                "coordinates" : [76.9345194, 66.0653057]
         },
         "properties" : {
             "name" : "Yamal Peninsula",
@@ -116,7 +116,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [59.9342802, 30.3350986]
+                "coordinates" : [30.3350986, 59.9342802]
         },
         "properties" : {
             "name" : "Pavlovsk Experimental Station",
@@ -139,7 +139,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [41.8925672, 106.0656366]
+                "coordinates" : [106.0656366, 41.8925672]
         },
         "properties" : {
             "name" : "Como Bluff",
@@ -162,7 +162,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [52.0727004, 20.5203522]
+                "coordinates" : [20.5203522, 52.0727004]
         },
         "properties" : {
             "name" : "Jaktorw",
@@ -185,14 +185,14 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [42.4318, -83.1181463]
+                "coordinates" : [-83.1181463, 42.4318]
         },
         "properties" : {
             "name" : "Detroit Water Brigade",
             "type" : "case_studies",
             "location" : "Detroit",
             "description_short" : "Detroit Water Brigade is a volunteer-led alliance of compassionate citizens of Detroit and their international allies working to bring emergency relief to families facing water shut offs.",
-            "description_long" : "Detroit Water Brigade is a volunteer-led alliance of compassionate citizens of Detroit and their international allies working to bring emergency relief to families facing water shut offs while advocating for an income-based Water Affordability Plan in Detroit. The Detroit Water and Sewage Department is conducting mass water shut offs in Detroit Michigan which will affect over 120,000 account holders over a 3 month period at a rate of 3,000 per week. This accounts for over 40% of customers who are using the Detroit Water system and has been dubbed a violation of Human Rights by various organizations. 70,000 of those accounts are residential accounts which could amount to anywhere from 200,000-300,000 people directly affected. Without water, the threat to the health and safety of Detroit residents becomes immediate, the resulting negative effects of mass water shut offs begin just 2 days after shut off and can become endemic in just 60 days time. When taking the scope into account (120,000 water accounts or 300,000+ people ) the implications become clear; this is a disaster zone ??? and immediate relief and preparation is needed.The eight ways in which DWB is making an impact are through: drinkable water provisions; rainwater collection; cold weather gear; publishing and writing helpful information packs; advocacy and awareness; network distribution hubs; resource delivery; online DWB network.",
+            "description_long" : "Detroit Water Brigade is a volunteer-led alliance of compassionate citizens of Detroit and their international allies working to bring emergency relief to families facing water shut offs while advocating for an income-based Water Affordability Plan in Detroit. The Detroit Water and Sewage Department is conducting mass water shut offs in Detroit Michigan which will affect over 120,000 account holders over a 3 month period at a rate of 3,000 per week. This accounts for over 40% of customers who are using the Detroit Water system and has been dubbed a violation of Human Rights by various organizations. 70,000 of those accounts are residential accounts which could amount to anywhere from 200,000-300,000 people directly affected. Without water, the threat to the health and safety of Detroit residents becomes immediate, the resulting negative effects of mass water shut offs begin just 2 days after shut off and can become endemic in just 60 days time.  When taking the scope into account (120,000 water accounts or 300,000+ people ) the implications become clear; this is a disaster zone ??? and immediate relief and preparation is needed.The eight ways in which DWB is making an impact are through: drinkable water provisions; rainwater collection; cold weather gear; publishing and writing helpful information packs; advocacy and awareness; network distribution hubs; resource delivery; online DWB network.",
             "thumbnail" : "42_Detroitwaterbrigade_42.gif",
             "video" : "<iframe width='560' height='315' src='//www.youtube.com/embed/2vzwk2K7mCI' frameborder='0' allowfullscreen></iframe>",
             "date_established" : "2014",
@@ -208,14 +208,14 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [51.5013, -0.020588]
+                "coordinates" : [-0.020588, 51.5013]
         },
         "properties" : {
             "name" : "Ethereum",
             "type" : "case_studies",
             "location" : "",
             "description_short" : "Ethereum is a platform and a programming language that makes it possible for any developer to build and publish next-generation distributed applications. ",
-            "description_long" : "Ethereum is a platform and a programming language that makes it possible for any developer to build and publish next-generation distributed applications. Ether, Ethereum's cryptofuel, powers the applications on a decentralized network. Ethereum can be used to codify, decentralize, secure and trade just about anything, from intellectual property to smart property. Ethereum makes use of one of the lesser known innovations by Satashi Nakamoto, the pseudonymous person or group of people who designed and created the original Bitcoin software. When Nakamoto set the Bitcoin blockchain into motion in 2009, two radical and untested concepts were introduced. Bitcoin as a currency unit has taken up the bulk of public attention. However, there is also another, equally important, part to Satoshi???s grand experiment: the concept of a proof of work-based blockchain to allow for public agreement on the order of transactions. Attention is starting to shift toward this second part of Bitcoin???s technology, and how the blockchain concept can be used for more than just money. What Ethereum intends to provide is a blockchain with a built-in fully fledged Turing-complete programming language that can be used to create ???contracts??? for encoding arbitrary state transition functions. Simply by writing up the logic in a few lines of code, users will be allowed to create systems such as domain names, decentralized exchange, financial derivatives and on-blockchain identity and reputation systems. Another important area of inquiry is ???smart contracts??? - systems which automatically move digital assets according to pre-specified rules. The logical extension of this is decentralized autonomous organizations (DAOs) - long-term smart contracts that contain the assets and the bylaws of an entire organization.",
+            "description_long" : "Ethereum is a platform and a programming language that makes it possible for any developer to build and publish next-generation distributed applications. Ether, Ethereum's cryptofuel, powers the applications on a decentralized network. Ethereum can be used to codify, decentralize, secure and trade just about anything, from intellectual property to smart property.  Ethereum makes use of one of the lesser known innovations by Satashi Nakamoto, the pseudonymous person or group of people who designed and created the original Bitcoin software. When Nakamoto set the Bitcoin blockchain into motion in 2009, two radical and untested concepts were introduced. Bitcoin as a currency unit has taken up the bulk of public attention. However, there is also another, equally important, part to Satoshi???s grand experiment: the concept of a proof of work-based blockchain to allow for public agreement on the order of transactions. Attention is starting to shift toward this second part of Bitcoin???s technology, and how the blockchain concept can be used for more than just money.  What Ethereum intends to provide is a blockchain with a built-in fully fledged Turing-complete programming language that can be used to create ???contracts??? for encoding arbitrary state transition functions. Simply by writing up the logic in a few lines of code, users will be allowed to create systems such as domain names, decentralized exchange, financial derivatives and on-blockchain identity and reputation systems. Another important area of inquiry is ???smart contracts??? - systems which automatically move digital assets according to pre-specified rules. The logical extension of this is decentralized autonomous organizations (DAOs) - long-term smart contracts that contain the assets and the bylaws of an entire organization.",
             "thumbnail" : "11_Ethereum_11.gif",
             "video" : "<iframe width='560' height='315' src='//www.youtube.com/embed/Clw-qf1sUZg' frameborder='0' allowfullscreen></iframe>",
             "date_established" : "2014",
@@ -231,7 +231,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [64.2008, -149.4936733]
+                "coordinates" : [-149.4936733, 64.2008]
         },
         "properties" : {
             "name" : "AMEG",
@@ -254,7 +254,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [40.8772, -124.079163]
+                "coordinates" : [-124.079163, 40.8772]
         },
         "properties" : {
             "name" : "Appropedia ",
@@ -277,7 +277,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [-51.925, -14.235004]
+                "coordinates" : [-14.235004, -51.925]
         },
         "properties" : {
             "name" : "Bitnation",
@@ -300,7 +300,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [0, 0]
+                "coordinates" : [0,0]
         },
         "properties" : {
             "name" : "Extinction Symbol",
@@ -323,7 +323,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [51.5059, -0.1324844]
+                "coordinates" : [-0.1324844, 51.5059]
         },
         "properties" : {
             "name" : "Global distribution and drivers of language extinction risk",
@@ -346,7 +346,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [48.8256, 2.36654]
+                "coordinates" : [2.36654, 48.8256]
         },
         "properties" : {
             "name" : "GWOB",
@@ -369,7 +369,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [51.5133, -0.093243]
+                "coordinates" : [-0.093243, 51.5133]
         },
         "properties" : {
             "name" : "hack4good",
@@ -392,7 +392,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [52.513, 13.420202]
+                "coordinates" : [13.420202, 52.513]
         },
         "properties" : {
             "name" : "Hacker Global Space Program",
@@ -415,7 +415,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [51.5073509, -0.1277583]
+                "coordinates" : [-0.1277583, 51.5073509]
         },
         "properties" : {
             "name" : "Hexayurt Project",
@@ -438,7 +438,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [52.5511, -1.8178384]
+                "coordinates" : [-1.8178384, 52.5511]
         },
         "properties" : {
             "name" : "Humanitarian OSM Team",
@@ -461,14 +461,14 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [51.5194, -0.1085508]
+                "coordinates" : [-0.1085508, 51.5194]
         },
         "properties" : {
             "name" : "Open Droplet",
             "type" : "case_studies",
             "location" : "London",
             "description_short" : "Open Droplet is an open source, open hardware water measurement sensor that is networked and easy to use.",
-            "description_long" : "Open Droplet is an open source, open hardware water measurement sensor that is networked and easy to use. Water is one of the world???s most stressed resources. Usage has shot up by more than double the rate of population increase, meaning we are guzzling more water per head than ever before. Off the back of some of our preliminary research, one key component of what we are planning to do with Open Droplet is to provide context to the data collected by individual sensors. This will involve a two-way flow of data between individuals, and utilities and public bodies who are responsible for the water infrastructure. This turns Open Droplet into more than just a water sensor - it's a means of understanding how individual water flows fit within the overall water infrastructure.",
+            "description_long" : "Open Droplet is an open source, open hardware water measurement sensor that is networked and easy to use. Water is one of the world???s most stressed resources. Usage has shot up by more than double the rate of population increase, meaning we are guzzling more water per head than ever before.  Off the back of some of our preliminary research, one key component of what we are planning to do with Open Droplet is to provide context to the data collected by individual sensors. This will involve a two-way flow of data between individuals, and utilities and public bodies who are responsible for the water infrastructure. This turns Open Droplet into more than just a water sensor - it's a means of understanding how individual water flows fit within the overall water infrastructure.",
             "thumbnail" : "26_Opendroplet_26.gif",
             "video" : "<iframe width='560' height='315' src='//www.youtube.com/embed/ARWKBdljrIg' frameborder='0' allowfullscreen></iframe>",
             "date_established" : "",
@@ -484,7 +484,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [52.4938, 13.4552919]
+                "coordinates" : [13.4552919, 52.4938]
         },
         "properties" : {
             "name" : "Open Oil Data Framework",
@@ -507,14 +507,14 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [39.7643, -104.8551114]
+                "coordinates" : [-104.8551114, 39.7643]
         },
         "properties" : {
             "name" : "Open Source Bee Hives",
             "type" : "case_studies",
             "location" : "Colorado, U.S.A",
             "description_short" : "The Open Source Beehives project is a network of citizen scientists tracking bee decline.",
-            "description_long" : "The Open Source Beehives project is a network of citizen scientists tracking bee decline. It uses sensor enhanced beehives and data science to study honeybee colonies throughout the world. All of the technology and methods, from the hive and sensor kit designs to the data, are documented and made openly available for anyone to use. The Open Source Beehives project has developed two open source beehive designs; the Colorado Top Bar and the Barcelona Warr??. Either hive can be freely downloaded, installed to a CNC router machine, and cut from a standard 4x8 sheet of material, such as plywood. Both hives have been designed around natural beekeeping methods to lower stress factors on the colony, minimise exposure to artificial materials, and allow the bees more control over their living environment.",
+            "description_long" : "The Open Source Beehives project is a network of citizen scientists tracking bee decline. It uses sensor enhanced beehives and data science to study honeybee colonies throughout the world. All of the technology and methods, from the hive and sensor kit designs to the data, are documented and made openly available for anyone to use. The Open Source Beehives project has developed two open source beehive designs; the Colorado Top Bar and the Barcelona Warr??. Either hive can be freely downloaded, installed to a CNC router machine, and cut from a standard 4x8 sheet of material, such as plywood.  Both hives have been designed around natural beekeeping methods to lower stress factors on the colony, minimise exposure to artificial materials, and allow the bees more control over their living environment.",
             "thumbnail" : "Open-Source-Beehives.gif",
             "video" : "<iframe src='//player.vimeo.com/video/79178831' width='500' height='281' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
             "date_established" : "",
@@ -530,7 +530,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [39.8616, -94.3757042]
+                "coordinates" : [-94.3757042, 39.8616]
         },
         "properties" : {
             "name" : "Open Source Ecology",
@@ -553,7 +553,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [-77.306, 38.8462236]
+                "coordinates" : [38.8462236, -77.306]
         },
         "properties" : {
             "name" : "Openbazarr",
@@ -576,7 +576,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [42.377, -71.11666]
+                "coordinates" : [-71.11666, 42.377]
         },
         "properties" : {
             "name" : "Robot Bees",
@@ -599,7 +599,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [51.5206, -0.1218253]
+                "coordinates" : [-0.1218253, 51.5206]
         },
         "properties" : {
             "name" : "Sea Shepherd",
@@ -622,7 +622,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [38.9673, -77.0044143]
+                "coordinates" : [-77.0044143, 38.9673]
         },
         "properties" : {
             "name" : "Star Tides",
@@ -645,7 +645,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [51.5069, -0.221571]
+                "coordinates" : [-0.221571, 51.5069]
         },
         "properties" : {
             "name" : "Tesla",
@@ -668,7 +668,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [52.516616, 13.394147]
+                "coordinates" : [13.394147, 52.516616]
         },
         "properties" : {
             "name" : "Bebelplatz, Berlin (Nazi book burnings)",
@@ -691,7 +691,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [35.86166, 104.195397]
+                "coordinates" : [104.195397, 35.86166]
         },
         "properties" : {
             "name" : "Black Death",
@@ -714,7 +714,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [-27.1552079, -109.4271188]
+                "coordinates" : [-109.4271188, -27.1552079]
         },
         "properties" : {
             "name" : "Easter Island",
@@ -737,7 +737,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [29.75554, -95.37182]
+                "coordinates" : [-95.37182, 29.75554]
         },
         "properties" : {
             "name" : "Enron",
@@ -760,7 +760,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [29.8635, 107.730895]
+                "coordinates" : [107.730895, 29.8635]
         },
         "properties" : {
             "name" : "Fengdu",
@@ -783,7 +783,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [-20.269237, 30.934385]
+                "coordinates" : [30.934385, -20.269237]
         },
         "properties" : {
             "name" : "Great Zimbabwe",
@@ -806,7 +806,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [34.3852029, 132.4552927]
+                "coordinates" : [132.4552927, 34.3852029]
         },
         "properties" : {
             "name" : "Hiroshima",
@@ -829,7 +829,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [40.2896914, -4.2438362]
+                "coordinates" : [-4.2438362, 40.2896914]
         },
         "properties" : {
             "name" : "Iberian Peninsula (Pyrenean Ibex)",
@@ -852,7 +852,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [-0.023559, 37.906193]
+                "coordinates" : [37.906193, -0.023559]
         },
         "properties" : {
             "name" : "Kenya (Rinderpest)",
@@ -875,7 +875,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [64.0592031, -18.264346]
+                "coordinates" : [-18.264346, 64.0592031]
         },
         "properties" : {
             "name" : "Laki Iceland",
@@ -898,7 +898,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [52.8005556, 173.1316667]
+                "coordinates" : [173.1316667, 52.8005556]
         },
         "properties" : {
             "name" : "Near Islands (Steller's sea cow)",
@@ -921,7 +921,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [40.7461572, 14.4989344]
+                "coordinates" : [14.4989344, 40.7461572]
         },
         "properties" : {
             "name" : "Pompeii",
@@ -944,7 +944,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [10.7650442, 106.6927684]
+                "coordinates" : [106.6927684, 10.7650442]
         },
         "properties" : {
             "name" : "Saigon road",
@@ -967,7 +967,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [5.152149, 46.199616]
+                "coordinates" : [46.199616, 5.152149]
         },
         "properties" : {
             "name" : "Somalia (Smallpox)",
@@ -990,7 +990,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [51.178882, -1.826216]
+                "coordinates" : [-1.826216, 51.178882]
         },
         "properties" : {
             "name" : "Stonehenge",
@@ -1102,12 +1102,15 @@ function onEachFeature(feature, featureLayer) {
     // Add the feature to the layer
     layer_group.addLayer(featureLayer);
 
-    var url = feature.properties.name.replace(/ /g,"-").replace(/[^a-zA-Z0-9 -]/g, '').toLowerCase();
-    featureLayer.bindPopup('<h1>'+ feature.properties.name +'</h1><p>'+ feature.properties.description_short + '</p><a class="lead" href="#'+ url +'" data-toggle="modal" data-target="#'+ url +'">Read more</a>');
     // Creat modals based on content type
     if (feature.properties.type == 'case_studies') {
       createCaseStudy(feature);
-  }
+        var url = feature.properties.name.replace(/ /g,"-").replace(/[^a-zA-Z0-9 -]/g, '').toLowerCase();
+        featureLayer.bindPopup('<h1>'+ feature.properties.name +'</h1><p>'+ feature.properties.description_short + '</p><a class="lead" href="#'+ url +'" data-toggle="modal" data-target="#'+ url +'">Read more</a>');
+    }
+    else {
+        featureLayer.bindPopup('<h1>'+ feature.properties.name +'</h1><p>'+ feature.properties.description_short + '</p>');
+    }
 
 }
 
