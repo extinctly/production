@@ -665,6 +665,11 @@ footer .row {
   border: none !important;
 }
 
+.kev a {
+  color: #000;
+  text-decoration: underline;
+}
+
 /* new MODS
 -------------------------------------------------- */
 

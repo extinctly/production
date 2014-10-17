@@ -12,11 +12,10 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://extinctly.github.io"
+			url: "http://extinct.ly"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
-				'www.extinct.ly',
 			]
 
 			# The default title of our website
@@ -24,12 +23,12 @@ docpadConfig = {
 
 			# The website description (for SEO)
 			description: """
-				When your website appears in search results in say Google, the text here will be shown underneath your website's title.
+				EXTINCT.LY is an ongoing commissioning and research platform developed to support remote participation in the Serpentine Galleries’ 2014 Extinction Marathon: Visions of the Future.
 				"""
 
 			# The website keywords (for SEO) separated by commas
 			keywords: """
-				place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website
+				serpentine galleries, extinction marathon
 				"""
 
 			# The website author's name
