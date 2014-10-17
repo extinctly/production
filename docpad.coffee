@@ -59,7 +59,6 @@ docpadConfig = {
 				"/vendor/js/leaflet.ajax.min.js"
 				"/scripts/map.js"
 				"/scripts/contact.js"
-				"/scripts/isotope.js"
 				"/scripts/dashboard.js"
 			]
 

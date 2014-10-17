@@ -11,10 +11,10 @@ navTitle: Participants
 	<div class="container">
 			<div class="row">	
 				<div class="col-md-12">
-					<div id="isotope-items" class="projects">
+					<div class="projects">
 						<!-- Create isotope items -->
 						<% for document in @getCollection('participants').toJSON(): %>
-							<div class="item">
+							<div class="col-md-4 item text-center">
 								<a href="#<%= document.url %>" data-toggle="modal"><img alt="<%= document.name %>" src="<%- @site.url %>/images/thumbnails/participants/<%= document.thumbnail %>">
 								</a>
 								<div class="info-overlay feature">

@@ -279,9 +279,13 @@ footer .row {
 /* ISOTOPE
 ------------------------- */
 .item {
-  margin: 20px 8px;
+  /* margin: 20px 8px; */
+  margin-bottom: 40px;
 }
 .item img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   min-height: 150px;
 }
 .info-overlay h3 {
@@ -289,14 +293,13 @@ footer .row {
 }
 .info-overlay {
   background: #020202;
-  bottom: 0;
-  padding: 5px;
-  position: absolute;
-  width: 100%;
+  //bottom: 0;
+  padding-top: 5px;
+  // position: absolute;
   font-family: 'marathonbold';
   font-size: 12px;
   text-align: center;
-  opacity: 9;
+  opacity: .9;
 }
 /* CUSTOM
 ------------------------- */
