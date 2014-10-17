@@ -1141,16 +1141,16 @@ var mapicon_ES = L.icon({
 L.geoJson(mapData, {
     pointToLayer: function (feature, latlng) {
         if(feature.properties.type === "volatility_storms") {
-            var marker = L.marker(latlng, {icon: mapicon_VS});
+            var marker = L.marker(latlng, {icon: mapicon_CS});
         }
         else if(feature.properties.type === "extinct_wild"){
-            var marker = L.marker(latlng, {icon: mapicon_EW});
+            var marker = L.marker(latlng, {icon: mapicon_CS});
         }
         else if(feature.properties.type === "case_studies"){
             var marker = L.marker(latlng, {icon: mapicon_CS});
         }
         else if(feature.properties.type === "extinction_sites"){
-            var marker = L.marker(latlng, {icon: mapicon_ES});
+            var marker = L.marker(latlng, {icon: mapicon_CS});
         }
         else {
             var marker = L.marker(latlng, {icon: mapicon_CS})
@@ -1196,7 +1196,7 @@ function createCaseStudy(geojson) {
     var modal_url = geojson.properties.name.replace(/ /g,"-").replace(/[^a-zA-Z0-9 -]/g, '').toLowerCase();
     modal.id = modal_url;
     modal.className = "modal fade";
-    modal.innerHTML = '<div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h2 class="modal-title">'+ geojson.properties.name +'</h2></div><div class="modal-body"><p class="lead">'+ geojson.properties.description_short +'</p>'+ geojson.properties.video +'<p>'+ geojson.properties.description_long+'</p><p><a href="'+ geojson.properties.link1_url +'" target="_blank">'+ geojson.properties.link1_title +'</a></p></div></div></div>';
+    modal.innerHTML = '<div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h2 class="modal-title">'+ geojson.properties.name +'</h2></div><div class="modal-body"><p class="lead">'+ geojson.properties.description_short +'</p><p>'+ geojson.properties.description_long+'</p><p><a href="'+ geojson.properties.link1_url +'" target="_blank">'+ geojson.properties.link1_title +'</a></p></div></div></div>';
     document.body.appendChild(modal);
     var anchor = '#' + modal_url;
     $(anchor).urlModal();

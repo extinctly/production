@@ -13,25 +13,21 @@ navTitle: World Map
 					<a id="filter-participants">Participants</a></li>
 				<li class="col-sm-2 text-center">
 					<a id="filter-volatility">
-						<img src="<%- @site.url %>/images/mapnav_VS.png" alt="">
 						Volatility Storms
 					</a>
 				</li>
 				<li class="col-sm-2 text-center">
 					<a id="filter-extinct-wild">
-						<img src="<%- @site.url %>/images/map_extinctwild.png" alt="">
 						Extinct in the Wild
 					</a>
 				</li>
 				<li class="col-sm-2 text-center">
 					<a id="filter-case-studies">
-						<img src="<%- @site.url %>/images/mapnav_casestudies.png" alt="">
 						Case Studies
 					</a>
 				</li>
 				<li class="col-sm-2 text-center">
 					<a id="filter-extinct-sites">
-						<img src="<%- @site.url %>/images/mapnav_extinctionsites.png" alt="">
 						Extinction Sites
 					</a>
 				</li>
