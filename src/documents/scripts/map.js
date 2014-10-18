@@ -1063,15 +1063,16 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [-12.579738,-41.7007272]
+                "coordinates" : [-41.7007272,-12.579738]
         },
         "properties" : {
             "name" : "Cyanopsitta spixii",
+            "common": "Spix’s macaw",
             "type" : "extinct_wild",
             "location" : "Bahia State, Brazil",
             "description_short" : "Extirpated by habitat destruction and capture for the illegal pet trade. The only remaining wild bird was last seen near the Rio São Francisco in Bahia state, Brazil, in 2000.  Approximately 80 birds persist in captivity, the majority of which have been acquired by H.E. Sheikh Saud bin Muhammed Al Thani’s Al Wabra Wildlife Preservation in Qatar.",
             "description_long" : "",
-            "thumbnail" : "",
+            "thumbnail" : "Cyanopsitta_spixii.jpg",
             "credit" : "Loro Parque Fundación",
             "date_established" : "2000",
             "category" : "despair",
@@ -1083,15 +1084,16 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [31.94066,-82.3511582]
+                "coordinates" : [-82.3511582, 31.94066]
         },
         "properties" : {
             "name" : "Franklinia alatamaha",
+            "common" : "Franklin tree",
             "type" : "extinct_wild",
             "location" : "Altamaha River, McIntosh County, Georgia, United States",
             "description_short" : "Succumbed to over-collection for the nursery trade and susceptibility to a fungal infection introduced with cotton cultivation. The last recorded sighting in the wild was in McIntosh County, Georgia, in the United States in 1803.  All plants currently in cultivation are descended from seed collected in the late 18th century by the botanist William Bartram.",
             "description_long" : "",
-            "thumbnail" : "",
+            "thumbnail" : "Franklinia_alatamaha.jpg",
             "credit" : "Smithsonian Institution",
             "date_established" : "1803",
             "category" : "despair",
@@ -1103,15 +1105,16 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [-16.8193639,-151.4227703]
+                "coordinates" : [-151.4227703,-16.8193639]
         },
         "properties" : {
             "name" : "Partula hebe",
+            "common" : "Polynesian tree snail",
             "type" : "extinct_wild",
             "location" : "Raiatea, Society Islands",
             "description_short" : "Population depleted by the carnivorous Florida rosy wolfsnail, intentionally introduced in the late 1980s to control the spread of invasive giant African land snails.  Partula hebe was last seen in Raiatea, Society Islands, in 1992. The species, along with ten other Partula species designated extinct in the wild, is maintained in captivity by the International Partula Snail Conservation Programme, coordinated by the Zoological Society of London in collaboration with the French Polynesian Government.",
             "description_long" : "",
-            "thumbnail" : "",
+            "thumbnail" : "Partula_hebe.jpg",
             "credit" : "Oli Scarff, Getty Images",
             "date_established" : "1992",
             "category" : "despair",
@@ -1123,7 +1126,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [24.904651,121.554078]
+                "coordinates" : [121.554078,24.904651]
         },
         "properties" : {
             "name" : "Rhododendron kanehirai",
@@ -1131,7 +1134,7 @@ var mapData = [ { "type" : "Feature",
             "location" : "Feitsui Reservoir, Taiwan",
             "description_short" : "Restricted range was flooded with the construction of the Feitsui Dam.  It was last observed in its natural habitat near Lu-zi Lake, Taiwan, in 1984. The species remains in cultivation as an ornamental plant.",
             "description_long" : "",
-            "thumbnail" : "",
+            "thumbnail" : "Rhododendron_kanehirai.jpg",
             "credit" : "Cheng-Tao Lin",
             "date_established" : "1984",
             "category" : "despair",
@@ -1143,15 +1146,16 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [-1.940278,29.873888]
+                "coordinates" : [29.873888,-1.940278]
         },
         "properties" : {
             "name" : "Nymphaea thermarum",
+            "common" : "Pygmy Rwandan water lily",
             "type" : "extinct_wild",
             "location" : "Mashyuza, Rwanda",
             "description_short" : "Disappeared when the freshwater hot spring that maintained the species’ sole habitat of 25 degree centigrade mud was diverted for agriculture.  It was last seen in 2008 in Mashyuza, Rwanda.  The species—the world’s smallest waterlily—is cultivated at the Royal Botanic Gardens, Kew, in the United Kingdom and in the Bonn Botanic Gardens, Germany.",
             "description_long" : "",
-            "thumbnail" : "",
+            "thumbnail" : "Nymphaea_thermarum.jpg",
             "credit" : "Michael Zacher",
             "date_established" : "2008",
             "category" : "despair",
@@ -1163,27 +1167,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [24.904651,121.554078]
-        },
-        "properties" : {
-            "name" : "Nymphaea thermarum",
-            "type" : "extinct_wild",
-            "location" : "Mashyuza, Rwanda",
-            "description_short" : "Disappeared when the freshwater hot spring that maintained the species’ sole habitat of 25 degree centigrade mud was diverted for agriculture.  It was last seen in 2008 in Mashyuza, Rwanda.  The species—the world’s smallest waterlily—is cultivated at the Royal Botanic Gardens, Kew, in the United Kingdom and in the Bonn Botanic Gardens, Germany.",
-            "description_long" : "",
-            "thumbnail" : "",
-            "credit" : "Michael Zacher",
-            "date_established" : "2008",
-            "category" : "despair",
-            "category_specific" : "",
-            "link1_title" : "",
-            "link2_url" : "",
-            }
-        },
-         { "type" : "Feature",
-    "geometry" : {
-                "type" : "Point",
-                "coordinates" : [10.75,76.5833333]
+                "coordinates" : [76.5833333,10.75]
         },
         "properties" : {
             "name" : "Euphorbia mayurnathanii",
@@ -1191,7 +1175,7 @@ var mapData = [ { "type" : "Feature",
             "location" : "Palakkad Gap, Kerala, India",
             "description_short" : "Known from three individuals identified in the Palghat Gap, India, in 1940.  Searches have failed to locate the species again, but it persists in cultivation.",
             "description_long" : "",
-            "thumbnail" : "",
+            "thumbnail" : "Euphorbia_mayurnathanii.jpg",
             "credit" : "H. Zell",
             "date_established" : "1940",
             "category" : "despair",
@@ -1207,13 +1191,77 @@ var mapData = [ { "type" : "Feature",
         },
         "properties" : {
             "name" : "Zenaida graysoni",
+            "common" : "Socorro dove",
             "type" : "extinct_wild",
             "location" : "Socorro Island, Mexico",
             "description_short" : "Wild population decimated by habitat degradation and the introduction of feral cats in 1970. The species was last sighted in its natural habitat on Socorro Island, Mexico in 1972.  Breeding populations totaling approximately 100 birds are maintained in Europe and the United States.",
             "description_long" : "",
-            "thumbnail" : "",
+            "thumbnail" : "Zenaida_graysoni.jpg",
             "credit" : "The Royal Zoological Society of Scotland",
             "date_established" : "1972",
+            "category" : "despair",
+            "category_specific" : "",
+            "link1_title" : "",
+            "link2_url" : "",
+            }
+        },
+         { "type" : "Feature",
+    "geometry" : {
+                "type" : "Point",
+                "coordinates" : [18.7979756,-110.9754452]
+        },
+        "properties" : {
+            "name" : "Oryx dammah",
+            "common" : "Scimitar oryx",
+            "type" : "extinct_wild",
+            "location" : "Ouadi Rimé-Ouadi Achim Faunal reserve, Chad",
+            "description_short" : "Last verified sightings in the wild in the Ouadi Rimé-Ouadi Achim Faunal Reserve in Chad in 1996.  Several thousand captive animals are kept in private collections in the United Arab Emirates and in commercial game reserves in the United States.",
+            "description_long" : "",
+            "thumbnail" : "Oryx_dammah.jpg",
+            "credit" : "Adam Fagen",
+            "date_established" : "1996",
+            "category" : "despair",
+            "category_specific" : "",
+            "link1_title" : "",
+            "link2_url" : "",
+            }
+        },
+         { "type" : "Feature",
+    "geometry" : {
+                "type" : "Point",
+                "coordinates" : [28.2915637,-16.6291304]
+        },
+        "properties" : {
+            "name" : "Lotus berthelotii",
+            "common" : "Parrot’s beak",
+            "type" : "extinct_wild",
+            "location" : "Tenerife, Canary Islands, Spain",
+            "description_short" : "Last verfied in the wild on Tenerife in the Canary Islands, Spain in 1884.  It remains widely cultivated as an ornamental plant.",
+            "description_long" : "",
+            "thumbnail" : "Lotus_berthelotii.jpg",
+            "credit" : "Jeanne S.E. Dericks-Tan",
+            "date_established" : "1884",
+            "category" : "despair",
+            "category_specific" : "",
+            "link1_title" : "",
+            "link2_url" : "",
+            }
+        },
+         { "type" : "Feature",
+    "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-28.5305539,30.8958242]
+        },
+        "properties" : {
+            "name" : "Encephalartos Woodii",
+            "common" : "Wood’s cycad",
+            "type" : "extinct_wild",
+            "location" : "oNgoye Forest, KwaZulu-Natal, South Africa",
+            "description_short" : "Known from four stems belonging to a single plant first discovered to science in 1895. All remaining stems, as well as the trunk, had been removed from their original location in the Ngoya Forest, South Africa by 1916. Clones of the original specimens are cultivated in botanical collections in South Africa, Europe, and the United States.",
+            "description_long" : "",
+            "thumbnail" : "Encephalartos_Woodii.jpg",
+            "credit" : "Royal Botanic Gardens, Kew",
+            "date_established" : "1916",
             "category" : "despair",
             "category_specific" : "",
             "link1_title" : "",
@@ -1319,6 +1367,10 @@ function onEachFeature(feature, featureLayer) {
         var url = feature.properties.name.replace(/ /g,"-").replace(/[^a-zA-Z0-9 -]/g, '').toLowerCase();
         featureLayer.bindPopup('<h1>'+ feature.properties.name +'</h1><p>'+ feature.properties.description_short + '</p><a class="lead" href="#'+ url +'" data-toggle="modal" data-target="#'+ url +'">Read more</a>');
     }
+    else if (feature.properties.type == 'extinct_wild') {
+        var url = feature.properties.name.replace(/ /g,"-").replace(/[^a-zA-Z0-9 -]/g, '').toLowerCase();
+        featureLayer.bindPopup('<h1>'+ feature.properties.name +' (' + feature.properties.common ')</h1><a class="lead" href="#'+ url +'" data-toggle="modal" data-target="#'+ url +'">Read more</a>');
+    }
     else if (feature.properties.type == 'volatility_storms') {
         var url = feature.properties.name.replace(/ /g,"-").replace(/[^a-zA-Z0-9 -]/g, '').toLowerCase();
         featureLayer.bindPopup('<h1>'+ feature.properties.name +'</h1><p>'+ feature.properties.description_short + '</p><a class="lead" href="#'+ url +'" data-toggle="modal" data-target="#'+ url +'">Read more</a>');
@@ -1351,6 +1403,17 @@ function createExtinctionSite(geojson) {
     $(anchor).urlModal();
 }
 
+
+function createExtinctWild(geojson) {
+    var modal = document.createElement("div");
+    var modal_url = geojson.properties.name.replace(/ /g,"-").replace(/[^a-zA-Z0-9 -]/g, '').toLowerCase();
+    modal.id = modal_url;
+    modal.className = "modal fade";
+    modal.innerHTML = '<div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h2 class="modal-title">'+ geojson.properties.name +' (' + feature.properties.common ')</h2></div><div class="modal-body"><img src="/images/participants/extinct_in_the_wild/'+ geojson.properties.thumbnail +'"><p>'+ geojson.properties.description_short +'</p></div></div></div>';
+    document.body.appendChild(modal);
+    var anchor = '#' + modal_url;
+    $(anchor).urlModal();
+}
 
 document.getElementById('filter-volatility').onclick = function () {
     var layer_group = mapLayerGroups['volatility_storms'];
