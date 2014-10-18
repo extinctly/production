@@ -749,6 +749,10 @@ footer .row {
   color: #020202;
 }
 
+.no-hover a:hover {
+  text-decoration: none;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 @media (min-width: 768px) {

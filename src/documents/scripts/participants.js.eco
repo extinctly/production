@@ -1,4 +1,0 @@
-<% for document in @getCollection('participants').toJSON(): %>
-	    var anchor = '#' + participants.url;
-	    $(anchor).urlModal();
-<% end %>

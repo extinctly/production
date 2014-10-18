@@ -35,18 +35,6 @@
 	<!-- Scripts -->
 	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
 
-	<link href="<%- @site.url %>/styles/bootstrap-custom.css" rel="stylesheet">
-	<link href="<%- @site.url %>/styles/extinctly.css" rel="stylesheet">
-
-	<script src="<%- @site.url %>/scripts/bootstrap-custom.js"></script>
-	<script src="<%- @site.url %>/scripts/script.js"></script>
-	<script src="<%- @site.url %>/vendor/js/isotope.pkgd.min.js"></script>
-	<script src="<%- @site.url %>/vendor/js/leaflet.ajax.min.js"></script>
-	<script src="<%- @site.url %>/scripts/map.js"></script>
-	<script src="<%- @site.url %>/scripts/contact.js"></script>
-	<script src="<%- @site.url %>/scripts/dashboard.js"></script>
-	
-
 </head>
 
 <body>
