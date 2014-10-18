@@ -1213,18 +1213,6 @@ function createExtinctionSite(geojson) {
     $(anchor).urlModal();
 }
 
-document.getElementById('filter-participants').onclick = function () {
-    var layer_group = mapLayerGroups['participants'];
-        for(var key in layer_groups) {
-            var layer_name = key;
-            // **Remove if statement before production, temp fix before all data is loaded
-            if(mapLayerGroups[layer_name] != undefined) {
-                var layer_category = mapLayerGroups[layer_name];
-            map.removeLayer(layer_category);
-            }
-        }
-    map.addLayer(layer_group);   
-} 
 
 var volatility = document.getElementById('filter-volatility');
 

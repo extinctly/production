@@ -35,17 +35,6 @@
 	<!-- Scripts -->
 	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
 
-
-	<link href="<%- @site.url %>/styles/bootstrap-custom.css" rel="stylesheet">
-	<link href="<%- @site.url %>/styles/extinctly.css" rel="stylesheet">
-
-	<script src="<%- @site.url %>/scripts/bootstrap-custom.js"></script>
-	<script src="<%- @site.url %>/scripts/script.js"></script>
-	<script src="<%- @site.url %>/vendor/js/isotope.pkgd.min.js"></script>
-	<script src="<%- @site.url %>/vendor/js/leaflet.ajax.min.js"></script>
-	<script src="<%- @site.url %>/scripts/map.js"></script>
-	<script src="<%- @site.url %>/scripts/contact.js"></script>
-	<script src="<%- @site.url %>/scripts/dashboard.js"></script>
 	
 
 </head>
@@ -71,9 +60,6 @@
 			<div class="navbar-collapse collapse">
 				<ul id="navigation" class="nav navbar-nav">
 					<div class="row">
-						<li class="col-lg-1">
-							&nbsp;
-						</li>
 						<% for document in @getCollection('navbar').toJSON(): %>
 							<li
 								about="<%= document.url %>"
@@ -84,6 +70,13 @@
 								</a>
 							</li>
 						<% end %>
+	                    <li class="col-lg-2 text-center dropdown">
+	                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Live <b class="caret"></b></a>
+	                        <ul class="dropdown-menu">
+	                            <li class="text-center"><a href="http://blog.extinct.ly">Blog</a></li>
+	                            <li class="text-center"><a href="/livestream">Stream</a></li>
+	                        </ul>
+	                    </li>
 					</div>
 				</ul>
 			</div>

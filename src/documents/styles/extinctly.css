@@ -463,11 +463,28 @@ footer .row {
   background: #f1f2d9;
   height: 5px;
 }
-.livestream {
+.livestream iframe {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
+.livestream-text .row {
+  margin-top: 10px;
+}
+
+.livestream-text h2 {
+  margin-top: 20px;
+}
+
+.livestream .col-sm-2 {
+  min-width: 70px;
+}
+
+.livestream .dates {
+  font-size: 14px;
+}
+
 #posts {
   margin-bottom: 50px;
 }
