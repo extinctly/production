@@ -480,13 +480,13 @@ navTitle: Participants
 					<div class="col-md-6">
 						<h3 class="text-center">Ziron, 2014</h3>
 						<img src="<%- @site.url %>/images/thumbnails/participants/ubermorgen_ziron.png">
-						<a href="http://ziron.extinct.ly" target="_blank">ziron.extinct.ly</a>
+						<p class="text-center lead"><a href="http://ziron.extinct.ly" target="_blank">ZIRON.EXTINCT.LY</a></p>
 						<p>This work of net.art is a corporate and institutional cross-projection and a brutal manifestation of Newspeak. The destruction of common meaning in language drives extinction and creates collateral damage when Data Mining industries talk and act on ‘Real-Time Anti-Fraud’ and ‘Counter-Terrorism Financing’. Real meaning disappears behind profit-seeking and every transaction is under suspicion. The never-ending tracking of people’s actions is (mis)labeled as customer service. ziron.extinct.ly</p>
 					</div>
 					<div class="col-md-6">
 						<h3 class="text-center">Deephorizon, 2010-12</h3>
 						<img src="<%- @site.url %>/images/thumbnails/participants/ubermorgen_deepwater.png">
-						<a href="http://www.deeeeeeephorizon.com/" target="_blank">deeeeeeephorizon.com</a>
+						<p class="text-center lead"><a href="http://www.deeeeeeephorizon.com/" target="_blank">DEEEEEEEPHORIZON.COM</a></p>
 						<p>The video shows a tracking shot of aerial images of BP’s ‚Deepwater Horizon’ oil-spill in the Gulf of Mexico, beautifully wrapped around a sphere. The source images are from the massive oil-painting on an 80.000 square-mile canvas with over 800 million liters of oil. This piece cements the position of oil-painting as the supreme discipline of art, but at the same time gives evidence of the delicate and endangered position of painting if the discipline refuses to radically embrace technology.</p>
 					</div>
 				</div>
@@ -495,7 +495,7 @@ navTitle: Participants
 	</div>
 	<div class="modal-footer">
 		<h2 class="modal-title"><a href="http://ziron.extinct.ly" target="_blank">UBERMORGEN</a></h2>
-		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		<span class="close pull-right" data-dismiss="modal" aria-hidden="true">&times;</span>
 	</div>
 </div>
 
