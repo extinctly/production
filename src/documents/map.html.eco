@@ -9,8 +9,11 @@ navTitle: World Map
 <div class="navbar navbar-inverse no-border">
 	<div class="navbar navbar-collapse collapse no-margin no-border">
 			<ul id="filters" class="nav navbar-nav subnav">
-				<li class="col-sm-2 text-center">
-					<a id="filter-participants">Participants</a></li>
+				<li class="col-sm-2 col-sm-offset-1 text-center">
+					<a id="filter-all" class="active">
+						Show All
+					</a>
+				</li>
 				<li class="col-sm-2 text-center">
 					<a id="filter-volatility">
 						Volatility Storms
@@ -29,11 +32,6 @@ navTitle: World Map
 				<li class="col-sm-2 text-center">
 					<a id="filter-extinct-sites">
 						Extinction Sites
-					</a>
-				</li>
-				<li class="col-sm-2 text-center">
-					<a id="filter-all" class="active">
-						Show All
 					</a>
 				</li>
 			</ul>
