@@ -35,6 +35,16 @@
 	<!-- Scripts -->
 	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
 
+	<link href="https://extinctly.github.io/styles/bootstrap-custom.css" rel="stylesheet">
+	<link href="https://extinctly.github.io/styles/extinctly.css" rel="stylesheet">
+
+	<script src="https://extinctly.github.io/scripts/bootstrap-custom.js"></script>
+	<script src="https://extinctly.github.io/scripts/script.js"></script>
+	<script src="https://extinctly.github.io/vendor/js/isotope.pkgd.min.js"></script>
+	<script src="https://extinctly.github.io/vendor/js/leaflet.ajax.min.js"></script>
+	<script src="https://extinctly.github.io/scripts/map.js"></script>
+	<script src="https://extinctly.github.io/scripts/contact.js"></script>
+	<script src="https://extinctly.github.io/scripts/dashboard.js"></script>
 	
 
 </head>
