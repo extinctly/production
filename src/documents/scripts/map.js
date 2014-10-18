@@ -304,29 +304,6 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [0,0]
-        },
-        "properties" : {
-            "name" : "Extinction Symbol",
-            "type" : "case_studies",
-            "location" : "",
-            "description_short" : "The Extinction Symbol asks you to create or replicate the symbol wherever you can.",
-            "description_long" : "The Extinction Symbol asks you to create or replicate the symbol wherever you can. The symbol represents extinction. The circle signifies the planet, while the hourglass inside serves as a warning that time is rapidly running out for many species.<br> The world is currently undergoing a mass extinction event, and the Extinction Symbol is intended to help raise awareness of the urgent need for change in order to address this crisis. extinctionsymbol.info is a website offering the extinction symbol in various dimensions to freely download for non-commercial purposes.",
-            "thumbnail" : "12_Extinctionsymbol_12.gif",
-            "video" : "",
-            "date_established" : "",
-            "people" : "Anonymous",
-            "category" : "Finite",
-            "category_specific" : "",
-            "link1_title" : "Extinction Symbol",
-            "link1_url" : "http://www.extinctionsymbol.info/",
-            "link2_title" : "",
-            "link2_url" : "",
-            }
-        },
-         { "type" : "Feature",
-    "geometry" : {
-                "type" : "Point",
                 "coordinates" : [-0.1324844, 51.5059]
         },
         "properties" : {
@@ -1101,6 +1078,7 @@ var map = L.mapbox.map('map', 'extinctly.f3ad5588', {
         var TileJSON = layer.getTileJSON();
     });
 layer.addTo(map);*/
+
 map.scrollWheelZoom.disable();
 
 
@@ -1177,7 +1155,7 @@ function onEachFeature(feature, featureLayer) {
 
     // Creat modals based on content type
     if (feature.properties.type == 'case_studies')  {
-      createCaseStudy(feature);
+        //createCaseStudy(feature);
         var url = feature.properties.name.replace(/ /g,"-").replace(/[^a-zA-Z0-9 -]/g, '').toLowerCase();
         featureLayer.bindPopup('<h1>'+ feature.properties.name +'</h1><p>'+ feature.properties.description_short + '</p><a class="lead" href="#'+ url +'" data-toggle="modal" data-target="#'+ url +'">Read more</a>');
     }
@@ -1214,10 +1192,7 @@ function createExtinctionSite(geojson) {
 }
 
 
-var volatility = document.getElementById('filter-volatility');
-
-volatility.onclick = function () {
-    volatility.className += "active";
+document.getElementById('filter-volatility').onclick = function () {
     var layer_group = mapLayerGroups['volatility_storms'];
         for(var key in layer_groups) {
             var layer_name = key;
@@ -1280,6 +1255,3 @@ document.getElementById('filter-all').onclick = function () {
             }
         }
 }
-
-
-
