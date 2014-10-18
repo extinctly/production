@@ -469,8 +469,6 @@ footer .row {
   margin-right: auto;
 }
 
-
-
 .livestream-text .row {
   margin-top: 10px;
 }
@@ -480,7 +478,7 @@ footer .row {
 }
 
 .livestream-text .dates {
-  font-size: 55px;
+  font-size: 16px;
 }
 
 .livestream-text img {
