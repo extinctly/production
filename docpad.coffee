@@ -39,9 +39,9 @@ docpadConfig = {
 
 			# Styles
 			styles: [
-				"/styles/bootstrap-custom.css"
 				"//api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.css"
 				"//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+				"/styles/bootstrap-custom.css"
 				"/styles/extinctly.css"
 			]
 
@@ -51,9 +51,8 @@ docpadConfig = {
 				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
 				"//cdn.firebase.com/js/client/1.0.15/firebase.js"
 				"/scripts/bootstrap-custom.js"
-				"//extinctly.github.io/extinct.ly/js/modal.url.js"
+				"/js/modal.url.js"
 				"/scripts/script.js"
-				"/vendor/js/isotope.pkgd.min.js"
 				"//api.tiles.mapbox.com/mapbox.js/v2.0.1/mapbox.js"
 				"/vendor/js/leaflet.ajax.min.js"
 				"/scripts/contact.js"
@@ -123,15 +122,6 @@ docpadConfig = {
 	# Plugins
 
 	plugins:
-		downloader:
-			downloads: [
-				{
-					name: 'Twitter Bootstrap'
-					path: 'src/files/vendor/twitter-bootstrap'
-					url: 'https://codeload.github.com/twbs/bootstrap/tar.gz/master'
-					tarExtractClean: true
-				}
-			]
 		ghpages:
         	deployRemote: 'target'
         	deployBranch: 'master'
