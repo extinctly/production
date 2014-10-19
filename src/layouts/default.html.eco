@@ -22,7 +22,7 @@
 	<meta name="viewport" content="width=device-width" />
 
 	<!-- Icons -->
-	<link rel="shortcut icon" href="<%- @site.url %>/images/favicon.png">
+	<link rel="shortcut icon" href="/images/favicon.png">
 
 	<!-- Shims: IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>
@@ -42,7 +42,7 @@
 	<!-- Logo -->
 	<div class="extinctly-logo text-center img-responsive">
 		<a href="<%- @site.url %>">
-		<img src="<%- @site.url %>/images/logo.png">
+		<img src="/images/logo.png">
 		</a>
 	</div>
 
@@ -91,12 +91,12 @@
 			<div class="row">
 				<div class="col-md-3">
 					<a href="http://www.serpentinegalleries.org/exhibitions-events/extinction-marathon" target="_blank">
-					<img src="<%- @site.url %>/images/serpentine_marathon.png">
+					<img src="/images/serpentine_marathon.png">
 					</a>
 				</div>
 				<div class="col-md-3">
 					<a href="http://www.thespace.org/" target="_blank">
-					<img src="<%- @site.url %>/images/thespace.jpg">
+					<img src="/images/thespace.jpg">
 					</a>
 				</div>
 				<div class="col-md-3">

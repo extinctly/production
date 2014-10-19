@@ -1400,13 +1400,12 @@ function createExtinctionSite(geojson) {
     $(anchor).urlModal();
 }
 
-
 function createExtinctWild(geojson) {
     var modal = document.createElement("div");
     var modal_url = geojson.properties.name.replace(/ /g,"-").replace(/[^a-zA-Z0-9 -]/g, '').toLowerCase();
     modal.id = modal_url;
     modal.className = "modal fade";
-    modal.innerHTML = '<div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h2 class="modal-title">'+ geojson.properties.name +' (' + geojson.properties.common +')</h2></div><div class="modal-body"><img src="/images/participants/extinct_in_the_wild/'+ geojson.properties.thumbnail +'"><p>'+ geojson.properties.description_short +'</p></div></div></div>';
+    modal.innerHTML = '<div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h2 class="modal-title">'+ geojson.properties.name +' (' + geojson.properties.common +')</h2></div><div class="modal-body"><img src="/images/participants/extinct_in_the_wild/'+ geojson.properties.thumbnail +'"><p>'+ geojson.properties.description_short +'</p></div></div><div class="modal-footer"><h2 class="modal-title">Extinct in the Wild</p></h2></div></div>';
     document.body.appendChild(modal);
     var anchor = '#' + modal_url;
     $(anchor).urlModal();

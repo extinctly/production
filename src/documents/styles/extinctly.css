@@ -693,6 +693,7 @@ footer .row {
   background: #FFF !important;
   color: #000;
   border: none !important;
+  text-align: justify;
 }
 
 .kev a {
