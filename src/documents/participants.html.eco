@@ -100,12 +100,11 @@ navTitle: Participants
 		<div class="modal-content kev">
 			<div class="modal-header kev text-center">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h2 class="modal-title kev">Fear No Evil</h2>
+				<h2 class="modal-title kev text-center">Fear No Evil</h2>
 			</div>
 			<div class="modal-body kev">
 				<div class="col-lg-6 col-lg-offset-3">
 					<p class="text-center">Reversing the Flow of Internet Expansion</p>
-					<div style="text-align: justify !important;">
 					<p>
 					Why would you want to contract when you can expand? Internet
 

@@ -693,6 +693,9 @@ footer .row {
   background: #FFF !important;
   color: #000;
   border: none !important;
+}
+
+.kev p {
   text-align: justify;
 }
 

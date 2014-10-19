@@ -1366,7 +1366,12 @@ function onEachFeature(feature, featureLayer) {
     else if (feature.properties.type == 'extinct_wild') {
         createExtinctWild(feature);
         var url = feature.properties.name.replace(/ /g,"-").replace(/[^a-zA-Z0-9 -]/g, '').toLowerCase();
-        featureLayer.bindPopup('<h1>'+ feature.properties.name +' (' + feature.properties.common +')</h1><a class="lead" href="#'+ url +'" data-toggle="modal" data-target="#'+ url +'">Read more</a>');
+        if (feature.properties.common) {    
+            featureLayer.bindPopup('<h1>'+ feature.properties.name +' (' + feature.properties.common +')</h1><a class="lead" href="#'+ url +'" data-toggle="modal" data-target="#'+ url +'">Read more</a>');
+        }
+        else {
+            featureLayer.bindPopup('<h1>'+ feature.properties.name +'</h1><a class="lead" href="#'+ url +'" data-toggle="modal" data-target="#'+ url +'">Read more</a>');
+        }
     }
     else if (feature.properties.type == 'volatility_storms') {
         var url = feature.properties.name.replace(/ /g,"-").replace(/[^a-zA-Z0-9 -]/g, '').toLowerCase();
@@ -1405,7 +1410,12 @@ function createExtinctWild(geojson) {
     var modal_url = geojson.properties.name.replace(/ /g,"-").replace(/[^a-zA-Z0-9 -]/g, '').toLowerCase();
     modal.id = modal_url;
     modal.className = "modal fade";
-    modal.innerHTML = '<div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h2 class="modal-title">'+ geojson.properties.name +' (' + geojson.properties.common +')</h2></div><div class="modal-body"><img src="/images/participants/extinct_in_the_wild/'+ geojson.properties.thumbnail +'"><p>'+ geojson.properties.description_short +'</p></div></div><div class="modal-footer"><h2 class="modal-title">Extinct in the Wild</p></h2></div></div>';
+    if (feature.properties.common) {
+        modal.innerHTML = '<div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h2 class="modal-title">'+ geojson.properties.name +' (' + geojson.properties.common +')</h2></div><div class="modal-body"><img src="/images/participants/extinct_in_the_wild/'+ geojson.properties.thumbnail +'"><p>'+ geojson.properties.description_short +'</p></div></div><div class="modal-footer"><h2 class="modal-title">Extinct in the Wild</p></h2></div></div>';
+    }
+    else {
+        modal.innerHTML = '<div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h2 class="modal-title">'+ geojson.properties.name +'</h2></div><div class="modal-body"><img src="/images/participants/extinct_in_the_wild/'+ geojson.properties.thumbnail +'"><p>'+ geojson.properties.description_short +'</p></div></div><div class="modal-footer"><h2 class="modal-title">Extinct in the Wild</p></h2></div></div>';
+    }   
     document.body.appendChild(modal);
     var anchor = '#' + modal_url;
     $(anchor).urlModal();
