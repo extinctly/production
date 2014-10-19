@@ -64,6 +64,8 @@ navTitle: World Map
 	</div>
 <% end %>
 
+<!-- Create modal content for Extinct in the Wild -->
+
 
 <!-- Create modal content for extinction sites -->
 <% for document in @getCollection('extinction_sites').toJSON(): %>
@@ -95,7 +97,7 @@ navTitle: World Map
 				<h2 class="modal-title">Artic Cables</h2>
 			</div>
 			<div class="modal-body modal-body-container">
-				<img src="<%- @site.url %>/images/participants/Volatility-Storms_1.gif">
+				<img src="/images/participants/Volatility-Storms_1.gif">
 				<p class="lead">Volatility Storms</p><img><p>The future Arctic is described as the discovery of a new continent with untapped resources, exotic ecosystems and new trade lanes. Global warming will literally open up faster routes for trading algorithms in the Arctic. The melting ice will make it possible to lay submarine cables onto the Arctic sea floor. These Arctic submarine cables will be solely constructed for increasing speed. In the near future should shortcut the data connection between the financial markets of London and Tokyo that are now linked via the Middle-East and Pacific. Latency is expected to drop substantially, data traffic is expected to be 30% faster. Less ice means more – and faster – money.</p><p>
 			</div>
 		</div>
@@ -115,7 +117,7 @@ navTitle: World Map
 			</div>
 			<div class="modal-body modal-body-container">
 				<p class="lead">VOLATILITY STORMS</p>
-				<img src="<%- @site.url %>/images/participants/Volatility-Storms_2.gif">
+				<img src="/images/participants/Volatility-Storms_2.gif">
 				<p>“The best investment opportunities in the last 12,000 years”, is how investors are describing the Arctic region. For financial markets the Arctic is the Next Big Thing: a new frontier of imagination and investment opportunities. Melting ice will make massive gas and oil fields in the Arctic sea more accessible, will make the now frozen tundras suitable for agriculture and valuable minerals of which the Arctic is rich – such as sink, iron, gold and nickel – more easy to mine. Investing in the Arctic brings along massive financial and ecological risks, but financial markets thrive on risks. Currently investors are trying to get a foothold by making Arctic land deals and planning new infrastructures. Participating in the Arctic chess game will make a lot of people rich. </p>
 			</div>
 		</div>
@@ -135,7 +137,7 @@ navTitle: World Map
 			</div>
 			<div class="modal-body modal-body-container">
 				<p class="lead">Volatility Storms</p>
-				<img src="<%- @site.url %>/images/participants/Volatility-Storms_3.gif">
+				<img src="/images/participants/Volatility-Storms_3.gif">
 				<p>On October 18th 2014 Hurricane Ana is expected to hit Hawaii. When it does is can create big profits and losses in the financial markets. Catastrophe bonds turn floods, volcanic eruptions, hurricanes, earthquakes, tsunamis into financial products. Financial risks from natural disasters are highly concentrated in a few places. With a rising weather volatility and number of natural disasters, insurers and governments increasingly have problems covering big catastrophic risks. Instead they sell catastrophe bonds to spread the risk. The buyer of this bond invest his money in a catastrophe insurance and loses it all when a specified natural disaster happens within a predetermined number of years. This way the seller ensure himself against extreme losses and pays the buyer a high interest rate. Spreading risks in broader markets via cat-bonds is like distributing an earthquake of the highest level across the planet so no one will feel it. Cat-bonds deal with rare events and there’s a great uncertainty involved, yet when a natural disaster hits it hits hard. These moments of disruption are perfect for investors: taking very high risks can return a lot of profits when the coin fall on the right side.</p><p>
 			</div>
 		</div>
@@ -144,3 +146,5 @@ navTitle: World Map
 		<h2 class="modal-title">Femke Herregraven</p></h2>
 	</div>
 </div>
+
+<script src="/scripts/map.js" type="text/javascript"></script>

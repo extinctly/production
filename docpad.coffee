@@ -56,9 +56,8 @@ docpadConfig = {
 				"/vendor/js/isotope.pkgd.min.js"
 				"//api.tiles.mapbox.com/mapbox.js/v2.0.1/mapbox.js"
 				"/vendor/js/leaflet.ajax.min.js"
-				"/scripts/map.js"
 				"/scripts/contact.js"
-				"/scripts/dashboard.js"
+				"/scripts/map.js"
 			]
 
 

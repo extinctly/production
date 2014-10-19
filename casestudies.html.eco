@@ -32,7 +32,7 @@ navTitle: Case Studies
 						<% for document in @getCollection('case_studies').toJSON(): %>
 							<div class="item <%= document.category %>">
 								<div class="info-overlay feature">
-									<a href="#<%= document.url %>" data-toggle="modal"><%= document.name %></a>
+									<a href="#<%- document.url %>" data-toggle="modal"><%= document.name %></a>
 								</div>
 							</div>
 						<% end %>

@@ -1,7 +1,3 @@
-$('#catastrophe-bonds').urlModal();
-$('#arctic-cables').urlModal();
-$('#arctic-land').urlModal();
-
 var mapData = [ { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
@@ -1105,7 +1101,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [-151.4227703,-16.8193639]
+                "coordinates" : [-16.8193639,-151.4227703]
         },
         "properties" : {
             "name" : "Partula hebe",
@@ -1250,7 +1246,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [-28.5305539,30.8958242]
+                "coordinates" : [30.8958242, -28.5305539]
         },
         "properties" : {
             "name" : "Encephalartos Woodii",
@@ -1368,8 +1364,9 @@ function onEachFeature(feature, featureLayer) {
         featureLayer.bindPopup('<h1>'+ feature.properties.name +'</h1><p>'+ feature.properties.description_short + '</p><a class="lead" href="#'+ url +'" data-toggle="modal" data-target="#'+ url +'">Read more</a>');
     }
     else if (feature.properties.type == 'extinct_wild') {
+        createExtinctWild(feature);
         var url = feature.properties.name.replace(/ /g,"-").replace(/[^a-zA-Z0-9 -]/g, '').toLowerCase();
-        featureLayer.bindPopup('<h1>'+ feature.properties.name +' (' + feature.properties.common ')</h1><a class="lead" href="#'+ url +'" data-toggle="modal" data-target="#'+ url +'">Read more</a>');
+        featureLayer.bindPopup('<h1>'+ feature.properties.name +' (' + feature.properties.common +')</h1><a class="lead" href="#'+ url +'" data-toggle="modal" data-target="#'+ url +'">Read more</a>');
     }
     else if (feature.properties.type == 'volatility_storms') {
         var url = feature.properties.name.replace(/ /g,"-").replace(/[^a-zA-Z0-9 -]/g, '').toLowerCase();
@@ -1409,7 +1406,7 @@ function createExtinctWild(geojson) {
     var modal_url = geojson.properties.name.replace(/ /g,"-").replace(/[^a-zA-Z0-9 -]/g, '').toLowerCase();
     modal.id = modal_url;
     modal.className = "modal fade";
-    modal.innerHTML = '<div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h2 class="modal-title">'+ geojson.properties.name +' (' + feature.properties.common ')</h2></div><div class="modal-body"><img src="/images/participants/extinct_in_the_wild/'+ geojson.properties.thumbnail +'"><p>'+ geojson.properties.description_short +'</p></div></div></div>';
+    modal.innerHTML = '<div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h2 class="modal-title">'+ geojson.properties.name +' (' + geojson.properties.common +')</h2></div><div class="modal-body"><img src="/images/participants/extinct_in_the_wild/'+ geojson.properties.thumbnail +'"><p>'+ geojson.properties.description_short +'</p></div></div></div>';
     document.body.appendChild(modal);
     var anchor = '#' + modal_url;
     $(anchor).urlModal();

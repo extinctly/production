@@ -18,5 +18,5 @@ function onSubmit() {
 
 
 $(function(){
-  $('#anna-zett').urlModal();
+  $('#anna-zett, #julian-oliver').urlModal();
 });

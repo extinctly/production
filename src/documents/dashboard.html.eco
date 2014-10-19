@@ -9,7 +9,7 @@ navTitle: Dashboard
 
 		<div class="col-lg-12">
 			<h2 class="text-center page-title">The Ongoing Collapse</h2>
-			<img src="<%- @site.url %>/images/ongoingcollapse.png" class="ongoing-collapse-icon">
+			<img src="/images/ongoingcollapse.png" class="ongoing-collapse-icon">
 		</div>
 		<div class="row">
 			<div class="col-md-10 col-md-offset-1 column-padded">
@@ -40,3 +40,4 @@ navTitle: Dashboard
 	<!-- /.container -->
 
 
+<script src="/scripts/dashboard.js" type="text/javascript"></script>
