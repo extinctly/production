@@ -918,12 +918,12 @@ var mapData = [ { "type" : "Feature",
             "link2_url" : "",
             }
         },
-         { "type" : "Feature",
+         /*{ "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
                 "coordinates" : [106.6927684, 10.7650442]
         },
-        /*"properties" : {
+        "properties" : {
             "name" : "Saigon road",
             "type" : "extinction_sites",
             "location" : "Saigon, Vietnam",
@@ -1101,7 +1101,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [-16.8193639,-151.4227703]
+                "coordinates" : [-151.4227703,-16.8193639]
         },
         "properties" : {
             "name" : "Partula hebe",
@@ -1183,7 +1183,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [18.7979756,-110.9754452]
+                "coordinates" : [-76.8713378,34.8813505]
         },
         "properties" : {
             "name" : "Zenaida graysoni",
@@ -1204,7 +1204,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [18.7979756,-110.9754452]
+                "coordinates" : [15.446105,18.7350005]
         },
         "properties" : {
             "name" : "Oryx dammah",
@@ -1225,7 +1225,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [28.2915637,-16.6291304]
+                "coordinates" : [-16.6291304,28.2915637]
         },
         "properties" : {
             "name" : "Lotus berthelotii",
@@ -1270,7 +1270,7 @@ var mapData = [ { "type" : "Feature",
                 "coordinates" : [-87.3542114,30.0991503]
         },
         "properties" : {
-            "name" : "Deephorizon, 2010-12, UBERMORGEN",
+            "name" : "Deephorizon, UBERMORGEN",
             "type" : "case_studies",
             "location" : "",
             "description_short" : "The video shows a tracking shot of aerial images of BP’s Deepwater Horizon oil-spill in the Gulf of Mexico, beautifully wrapped around a sphere.",

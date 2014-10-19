@@ -146,3 +146,26 @@ navTitle: World Map
 		<h2 class="modal-title">Femke Herregraven</p></h2>
 	</div>
 </div>
+
+
+<!-- Deep Horizon -->
+	<div id="deephorizon-ubermorgen" class="modal fade">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h2 class="modal-title">Deephorizon, 2010-2012</h2>
+				</div>
+				<div class="modal-body modal-body-container">
+					<p class="lead">
+            			The video shows a tracking shot of aerial images of BP’s Deepwater Horizon oil-spill in the Gulf of Mexico, beautifully wrapped around a sphere.
+					</p>
+					<iframe src='//player.vimeo.com/video/12264646' width='500' height='281' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					<p>The video shows a tracking shot of aerial images of BP’s Deepwater Horizon oil-spill in the Gulf of Mexico, beautifully wrapped around a sphere. The source images are from the massive oil-painting on an 80.000 square-mile canvas with over 800 million liters of oil. This piece cements the position of oil-painting as the supreme discipline of art, but at the same time gives evidence of the delicate and endangered position of painting if the discipline refuses to radically embrace technology.</p>
+				</div>
+			</div>
+		</div>
+		<div class="modal-footer">
+			<h2 class="modal-title"><a href="http://www.deeeeeeephorizon.com/" target="_blank">deeeeeeephorizon.com</a></h2>
+		</div>
+	</div>
