@@ -165,7 +165,7 @@ var mapData = [ { "type" : "Feature",
                 "coordinates" : [20.5203522, 52.0727004]
         },
         "properties" : {
-            "name" : "Jaktorw",
+            "name" : "Jakt&#211;rw",
             "type" : "extinction_sites",
             "location" : "Poland",
             "description_short" : "Site of the first recorded extinction in the wild. At a time when the aurochs, the ancestor of wild cattle, had all but disappeared from its former range in Europe, Asia, and North Africa, a small herd persisted under royal protection in the Jaktorw Forest in Mazovia in the Kingdom of Poland.",
@@ -1300,22 +1300,22 @@ dataset_layers.addOverlay(layer, 'TEST DATA');*/
 
 
 var mapicon_VS = L.icon({
-    iconUrl: 'http://extinctly.github.io/images/map_VS.png',
+    iconUrl: '/images/map_VS.png',
     iconAnchor:   [12, 5],
 });
 
 var mapicon_EW = L.icon({
-    iconUrl: 'http://extinctly.github.io/images/map_extinctwild.png',
+    iconUrl: '/images/map_extinctwild.png',
     iconAnchor:   [12, 5],
 });
 
 var mapicon_CS = L.icon({
-    iconUrl: 'http://extinctly.github.io/images/map_casestudies.png',
+    iconUrl: '/images/map_casestudies.png',
     iconAnchor:   [12, 5],
 });
 
 var mapicon_ES = L.icon({
-    iconUrl: 'http://extinctly.github.io/images/map_extinction.png',
+    iconUrl: '/images/map_extinction.png',
     iconAnchor:   [12, 5],
 });
 
@@ -1323,7 +1323,7 @@ var mapicon_ES = L.icon({
 L.geoJson(mapData, {
     pointToLayer: function (feature, latlng) {
         if(feature.properties.type === "volatility_storms") {
-            var marker = L.marker(latlng, {icon: mapicon_CS});
+            var marker = L.marker(latlng, {icon: mapicon_VS});
         }
         else if(feature.properties.type === "extinct_wild"){
             var marker = L.marker(latlng, {icon: mapicon_EW});
