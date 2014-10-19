@@ -689,6 +689,7 @@ footer .row {
 }
 .modal-body-container img {
 }
+
 .kev {
   background: #FFF !important;
   color: #000;
@@ -696,7 +697,7 @@ footer .row {
 }
 
 .kev p {
-  text-align: justify;
+  text-align: justify !important;
 }
 
 .kev a {

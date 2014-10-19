@@ -23,7 +23,7 @@ navTitle: Case Studies
 	<h2 class="text-center page-title">CASE STUDIES INDEX</h2>
 	<hr id="live">
 	<div class="container">
-		<p class="text-center">The Case Studies Index charts the efforts of organisations and networks to respond to ongoing and emergent crises. Expanding over time, the index is intended as a way of sharing our research, and of helping others visiting EXTINCT.LY to discover new initiatives. We hope to further our research into the topic of extinction by offering a resource that can bring disparate groups together, and begin to bridge communication between artists, thinkers and engineers.</p>
+		<p class="text-center">The Case Studies Index charts the efforts of organisations and networks responding to ongoing and emergent crises. Expanding over time, the index is intended as a way of sharing our research, and of helping others visiting EXTINCT.LY to discover new initiatives. We hope to further our research into the topic of extinction by offering a resource that can bring disparate groups together, and begin to bridge communication between artists, thinkers and engineers.</p>
 		<div class="case-studies">
 			<div class="row">	
 				<div class="col-md-12">
@@ -54,7 +54,7 @@ navTitle: Case Studies
 					<h2 class="modal-title"><%= document.name %></h2>
 				</div>
 				<div class="modal-body modal-body-container">
-					<p class="lead"><%= document.description_short %></p><%- document.video %><p> <%- document.description_long %></p><p>
+					<p class="lead"><%- document.description_short %></p><%- document.video %><p> <%- document.description_long %></p><p>
 				</div>
 			</div>
 		</div>

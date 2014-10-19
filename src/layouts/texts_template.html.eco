@@ -29,17 +29,6 @@
 		<script async src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 
-	<link href="<%- @site.url %>/styles/bootstrap-custom.css" rel="stylesheet">
-	<link href="<%- @site.url %>/styles/extinctly.css" rel="stylesheet">
-
-	<script src="<%- @site.url %>/scripts/bootstrap-custom.js"></script>
-	<script src="<%- @site.url %>/scripts/script.js"></script>
-	<script src="<%- @site.url %>/vendor/js/isotope.pkgd.min.js"></script>
-	<script src="<%- @site.url %>/vendor/js/leaflet.ajax.min.js"></script>
-	<script src="<%- @site.url %>/scripts/map.js"></script>
-	<script src="<%- @site.url %>/scripts/contact.js"></script>
-	<script src="<%- @site.url %>/scripts/isotope.js"></script>
-
 	<!-- Styles -->
 	<%- @getBlock('styles').add(@site.styles).toHTML() %>
 
@@ -97,12 +86,12 @@
 			<div class="row">
 				<div class="col-md-3">
 					<a href="http://www.serpentinegalleries.org/exhibitions-events/extinction-marathon" target="_blank">
-					<img src="<%- @site.url %>/images/serpentine_marathon.png">
+					<img src="/images/serpentine_marathon.png">
 					</a>
 				</div>
 				<div class="col-md-3">
 					<a href="http://www.thespace.org/" target="_blank">
-					<img src="<%- @site.url %>/images/thespace.jpg">
+					<img src="/images/thespace.jpg">
 					</a>
 				</div>
 				<div class="col-md-3">

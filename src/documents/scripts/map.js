@@ -30,7 +30,7 @@ var mapData = [ { "type" : "Feature",
             "name" : "Chicxulub crater",
             "type" : "extinction_sites",
             "location" : "Mexico",
-            "description_short" : "Chicxulub crater, Yucat Peninsula in Mexico, the residue of the largest confirmed impact on earth- the asteroid that caused it is calculated to have been at least 6 miles in diameter, causing a crater 12 miles deep. The date of the impact coincides with the transition between the Cretaceous and Paleogene periods in Earth's history, and so is believed to have caused the mass extinction of the dinosaurs. A future Asteroid impact is seen as the most likely event to cause the extinction of Homo Sapiens.",
+            "description_short" : "Yucatán Peninsula, Mexico, the residue of the largest confirmed impact on earth. The asteroid that caused it is calculated to have been at least 6 miles in diameter, causing a crater 12 miles deep. The date of the impact coincides with the transition between the Cretaceous and Paleogene periods in Earth's history, and is believed to have caused the mass extinction of the dinosaurs. A future Asteroid impact is seen as the most likely event to cause the extinction of Homo Sapiens.",
             "description_long" : "",
             "thumbnail" : "",
             "video" : "",
@@ -556,7 +556,7 @@ var mapData = [ { "type" : "Feature",
                 "coordinates" : [-71.11666, 42.377]
         },
         "properties" : {
-            "name" : "Robot Bees",
+            "name" : "RoboBees",
             "type" : "case_studies",
             "location" : "Boston, U.S.A",
             "description_short" : "The RoboBee is a tiny robot capable of tethered flight, developed by a research robotics team at Harvard University.",
@@ -567,7 +567,7 @@ var mapData = [ { "type" : "Feature",
             "people" : "Robert Wood, Gu-Yeon Wei, Radhika Nagpal, Greg Morrisett, Joseph Ayers, David Brooks, Stacey Combes, L. Mahadevan, Shiram Ramanathan, Todd Zickler",
             "category" : "Despair",
             "category_specific" : "",
-            "link1_title" : "Robot Bees",
+            "link1_title" : "RoboBees",
             "link1_url" : "http://robobees.seas.harvard.edu/",
             "link2_title" : "",
             "link2_url" : "",
@@ -923,7 +923,7 @@ var mapData = [ { "type" : "Feature",
                 "type" : "Point",
                 "coordinates" : [106.6927684, 10.7650442]
         },
-        "properties" : {
+        /*"properties" : {
             "name" : "Saigon road",
             "type" : "extinction_sites",
             "location" : "Saigon, Vietnam",
@@ -940,7 +940,7 @@ var mapData = [ { "type" : "Feature",
             "link2_title" : "",
             "link2_url" : "",
             }
-        },
+        },*/
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
@@ -1264,6 +1264,25 @@ var mapData = [ { "type" : "Feature",
             "link2_url" : "",
             }
         },
+         { "type" : "Feature",
+    "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-87.3542114,30.0991503]
+        },
+        "properties" : {
+            "name" : "Deephorizon, 2010-12, UBERMORGEN",
+            "type" : "case_studies",
+            "location" : "",
+            "description_short" : "The video shows a tracking shot of aerial images of BP’s Deepwater Horizon oil-spill in the Gulf of Mexico, beautifully wrapped around a sphere.",
+            "description_long" : "The video shows a tracking shot of aerial images of BP’s Deepwater Horizon oil-spill in the Gulf of Mexico, beautifully wrapped around a sphere. The source images are from the massive oil-painting on an 80.000 square-mile canvas with over 800 million liters of oil. This piece cements the position of oil-painting as the supreme discipline of art, but at the same time gives evidence of the delicate and endangered position of painting if the discipline refuses to radically embrace technology.",
+            "video" : "<iframe src='//player.vimeo.com/video/12264646' width='500' height='281' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+            "date_established" : "2010",
+            "category" : "finite",
+            "category_specific" : "",
+            "link1_title" : "deeeeeeephorizon.com",
+            "link2_url" : "http://www.deeeeeeephorizon.com/",
+            }
+        },
 ];
 
 
@@ -1410,7 +1429,7 @@ function createExtinctWild(geojson) {
     var modal_url = geojson.properties.name.replace(/ /g,"-").replace(/[^a-zA-Z0-9 -]/g, '').toLowerCase();
     modal.id = modal_url;
     modal.className = "modal fade";
-    if (feature.properties.common) {
+    if (geojson.properties.common) {
         modal.innerHTML = '<div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h2 class="modal-title">'+ geojson.properties.name +' (' + geojson.properties.common +')</h2></div><div class="modal-body"><img src="/images/participants/extinct_in_the_wild/'+ geojson.properties.thumbnail +'"><p>'+ geojson.properties.description_short +'</p></div></div><div class="modal-footer"><h2 class="modal-title">Extinct in the Wild</p></h2></div></div>';
     }
     else {
