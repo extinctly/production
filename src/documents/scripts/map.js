@@ -1183,7 +1183,7 @@ var mapData = [ { "type" : "Feature",
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
-                "coordinates" : [-76.8713378,34.8813505]
+                "coordinates" : [34.8813505,-76.8713378]
         },
         "properties" : {
             "name" : "Zenaida graysoni",
