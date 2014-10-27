@@ -16,7 +16,7 @@ function onSubmit() {
     base.push({contact_email: contact_email, link1_url: link1_url, description_long: description_long, category: category, location: location, name: name});
   };
 
-
 $(function(){
   $('#anna-zett, #julian-oliver, #alex-mackin-dolan, #david-blandy, #emily-jones, #femke-herregraven, #folder, #kari-altmann, #lisa-ma, #kev-bewersdorf, #michael-wang, #tobias-revell, #ubermorgen').urlModal();
 });
+

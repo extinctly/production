@@ -55,6 +55,7 @@ docpadConfig = {
 				"/scripts/script.js"
 				"//api.tiles.mapbox.com/mapbox.js/v2.0.1/mapbox.js"
 				"/vendor/js/leaflet.ajax.min.js"
+				"/vendor/js/jquery.lazyload.min.js"
 				"/scripts/contact.js"
 				"/scripts/map.js"
 				"/scripts/dashboard.js"
