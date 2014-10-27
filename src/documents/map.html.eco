@@ -11,6 +11,7 @@ navTitle: World Map
 			<ul id="filters" class="nav navbar-nav subnav">
 				<li class="col-sm-2 col-sm-offset-1 text-center">
 					<a id="filter-volatility">
+						<img src="/images/Volatility_Sites.png">
 						Volatility Storms
 					</a>
 				</li>

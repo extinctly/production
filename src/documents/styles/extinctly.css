@@ -397,13 +397,9 @@ footer .row {
   margin-left: auto;
   margin-right: auto;
 }
-#filters img {
-  
-}
 #filters .active {
   font-weight: 700;
 }
-
 #filters .col-sm-2 {
   padding-left: 0;
   padding-right: 0;
@@ -413,7 +409,7 @@ footer .row {
   padding-right: 0;
 }
 #filters img {
-  max-height: 15px;
+  max-height: 20px;
   padding-right: 5px;
 }
 .column-title {
