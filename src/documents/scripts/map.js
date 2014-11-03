@@ -42,6 +42,7 @@ var mapData = [ { "type" : "Feature",
             "link1_url" : "http://en.wikipedia.org/wiki/Chicxulub_crater",
             "link2_title" : "",
             "link2_url" : "",
+            "attribution" : "David Blandy",
             }
         },
          { "type" : "Feature",
@@ -65,6 +66,7 @@ var mapData = [ { "type" : "Feature",
             "link1_url" : "http://en.wikipedia.org/wiki/Smallpox",
             "link2_title" : "",
             "link2_url" : "",
+            "attribution" : "UBERMORGEN",
             }
         },
          { "type" : "Feature",
@@ -88,6 +90,7 @@ var mapData = [ { "type" : "Feature",
             "link1_url" : "http://www.equinix.com/locations/singapore-colocation/singapore-data-center",
             "link2_title" : "",
             "link2_url" : "",
+            "attribution" : "UBERMORGEN",
             }
         },
          { "type" : "Feature",
@@ -111,6 +114,7 @@ var mapData = [ { "type" : "Feature",
             "link1_url" : "http://en.wikipedia.org/wiki/Yamal_Peninsula",
             "link2_title" : "",
             "link2_url" : "",
+            "attribution" : "Tobias Revell",
             }
         },
          { "type" : "Feature",
@@ -134,6 +138,7 @@ var mapData = [ { "type" : "Feature",
             "link1_url" : "http://en.wikipedia.org/wiki/Pavlovsk_Experimental_Station",
             "link2_title" : "",
             "link2_url" : "",
+            "attribution": "Benjamin Bratton",
             }
         },
          { "type" : "Feature",
@@ -157,6 +162,7 @@ var mapData = [ { "type" : "Feature",
             "link1_url" : "http://en.wikipedia.org/wiki/Como_Bluff",
             "link2_title" : "",
             "link2_url" : "",
+            "attribution" : "Anna Zett",
             }
         },
          { "type" : "Feature",
@@ -180,6 +186,7 @@ var mapData = [ { "type" : "Feature",
             "link1_url" : "http://en.wikipedia.org/wiki/Jaktor%C3%B3w",
             "link2_title" : "",
             "link2_url" : "",
+            "attribution" : "Michael Wang",
             }
         },
          { "type" : "Feature",
@@ -1380,13 +1387,13 @@ function onEachFeature(feature, featureLayer) {
     if (feature.properties.type == 'case_studies')  {
         //createCaseStudy(feature);
         var url = feature.properties.name.replace(/ /g,"-").replace(/[^a-zA-Z0-9 -]/g, '').toLowerCase();
-        featureLayer.bindPopup('<h1>'+ feature.properties.name +'</h1><p>'+ feature.properties.description_short + '</p><a class="lead" href="#'+ url +'" data-toggle="modal" data-target="#'+ url +'">Read more</a>');
+        featureLayer.bindPopup('<h1>'+ feature.properties.name +'</h1><p>'+ feature.properties.description_short + '</p><a class="lead text-center" href="#'+ url +'" data-toggle="modal" data-target="#'+ url +'">Read more</a>');
     }
     else if (feature.properties.type == 'extinct_wild') {
         createExtinctWild(feature);
         var url = feature.properties.name.replace(/ /g,"-").replace(/[^a-zA-Z0-9 -]/g, '').toLowerCase();
         if (feature.properties.common) {    
-            featureLayer.bindPopup('<h1>'+ feature.properties.name +' (' + feature.properties.common +')</h1><a class="lead" href="#'+ url +'" data-toggle="modal" data-target="#'+ url +'">Read more</a>');
+            featureLayer.bindPopup('<h1>'+ feature.properties.name +' (' + feature.properties.common +')</h1><a class="lead text-center" href="#'+ url +'" data-toggle="modal" data-target="#'+ url +'">Read more</a>');
         }
         else {
             featureLayer.bindPopup('<h1>'+ feature.properties.name +'</h1><a class="lead" href="#'+ url +'" data-toggle="modal" data-target="#'+ url +'">Read more</a>');
@@ -1394,12 +1401,20 @@ function onEachFeature(feature, featureLayer) {
     }
     else if (feature.properties.type == 'volatility_storms') {
         var url = feature.properties.name.replace(/ /g,"-").replace(/[^a-zA-Z0-9 -]/g, '').toLowerCase();
-        featureLayer.bindPopup('<h1>'+ feature.properties.name +'</h1><p>'+ feature.properties.description_short + '</p><a class="lead" href="#'+ url +'" data-toggle="modal" data-target="#'+ url +'">Read more</a>');
+        featureLayer.bindPopup('<h1>'+ feature.properties.name +'</h1><p>'+ feature.properties.description_short + '</p><a class="lead text-center" href="#'+ url +'" data-toggle="modal" data-target="#'+ url +'">Read more</a>');
+    }
+    else if (feature.properties.attribution) {
+        if (feature.properties.attribution == 'Benjamin Bratton') {
+            featureLayer.bindPopup('<h1>'+ feature.properties.name +'</h1><p>'+ feature.properties.description_short + '</p><a class="lead text-center" href="http://extinct.ly/texts#bratton" target="_blank">'+ feature.properties.attribution +'</a>');
+        }
+        else {
+            var url = feature.properties.attribution.replace(/ /g,"-").replace(/[^a-zA-Z0-9 -]/g, '').toLowerCase();
+            featureLayer.bindPopup('<h1>'+ feature.properties.name +'</h1><p>'+ feature.properties.description_short + '</p><a class="lead text-center" href="http://extinct.ly/participants/#'+ url +'" target="_blank">'+ feature.properties.attribution +'</a>');
+        }
     }
     else {
-        featureLayer.bindPopup('<h1>'+ feature.properties.name +'</h1><p>'+ feature.properties.description_short + '</p>');
+        featureLayer.bindPopup('<h1>'+ feature.properties.name +'</h1><p>'+ feature.properties.description_short + '</p>');        
     }
-
 }
 
 function createCaseStudy(geojson) {
