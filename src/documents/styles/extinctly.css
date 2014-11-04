@@ -590,6 +590,10 @@ footer .row {
   border-top-color: #020202;
 }
 
+.custom-popup .leaflet-popup-content-wrapper .lead {
+  font-size: 10px !important;
+}
+
 /* PARTICIPANTS
 -------------------- */
 #overlay {

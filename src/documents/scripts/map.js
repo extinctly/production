@@ -1405,11 +1405,11 @@ function onEachFeature(feature, featureLayer) {
     }
     else if (feature.properties.attribution) {
         if (feature.properties.attribution == 'Benjamin Bratton') {
-            featureLayer.bindPopup('<h1>'+ feature.properties.name +'</h1><p>'+ feature.properties.description_short + '</p><a class="lead text-center" href="http://extinct.ly/texts#bratton" target="_blank">'+ feature.properties.attribution +'</a>');
+            featureLayer.bindPopup('<h1>'+ feature.properties.name +'</h1><p>'+ feature.properties.description_short + '</p><p class="lead">SUBMITTED BY: <a href="http://extinct.ly/texts#bratton" target="_blank">'+ feature.properties.attribution +'</a></p>');
         }
         else {
             var url = feature.properties.attribution.replace(/ /g,"-").replace(/[^a-zA-Z0-9 -]/g, '').toLowerCase();
-            featureLayer.bindPopup('<h1>'+ feature.properties.name +'</h1><p>'+ feature.properties.description_short + '</p><a class="lead text-center" href="http://extinct.ly/participants/#'+ url +'" target="_blank">'+ feature.properties.attribution +'</a>');
+            featureLayer.bindPopup('<h1>'+ feature.properties.name +'</h1><p>'+ feature.properties.description_short + '</p><p class="lead">SUBMITTED BY: <a href="http://extinct.ly/participants/#'+ url +'" target="_blank">'+ feature.properties.attribution +'</a></p>');
         }
     }
     else {
