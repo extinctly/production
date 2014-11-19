@@ -30,7 +30,7 @@ var mapData = [ { "type" : "Feature",
             "name" : "Chicxulub crater",
             "type" : "extinction_sites",
             "location" : "Mexico",
-            "description_short" : "Yucatán Peninsula, Mexico, the residue of the largest confirmed impact on earth. The asteroid that caused it is calculated to have been at least 6 miles in diameter, causing a crater 12 miles deep. The date of the impact coincides with the transition between the Cretaceous and Paleogene periods in Earth's history, and is believed to have caused the mass extinction of the dinosaurs. A future Asteroid impact is seen as the most likely event to cause the extinction of Homo Sapiens.",
+            "description_short" : "Yucatán Peninsula, Mexico, the residue of the largest confirmed impact on Earth. The asteroid that caused it is calculated to have been at least 6 miles in diameter, causing a crater 12 miles deep. The date of the impact coincides with the transition between the Cretaceous and Paleogene periods in Earth's history, and is believed to have caused the mass extinction of the dinosaurs. A future Asteroid impact is seen as the most likely event to cause the extinction of Homo sapiens.",
             "description_long" : "",
             "thumbnail" : "",
             "video" : "",
@@ -54,7 +54,7 @@ var mapData = [ { "type" : "Feature",
             "name" : "Smallpox ",
             "type" : "extinction_sites",
             "location" : "Bangladesh",
-            "description_short" : "two-year old Rahima Banu was the last person infected with naturally occurring Variola major, in 1975",
+            "description_short" : "Two-year old Rahima Banu was the last person infected with naturally occurring Variola major, in 1975",
             "description_long" : "",
             "thumbnail" : "",
             "video" : "",
@@ -102,7 +102,7 @@ var mapData = [ { "type" : "Feature",
             "name" : "Yamal Peninsula",
             "type" : "extinction_sites",
             "location" : "Russia",
-            "description_short" : "The site of one of the first methane sinnkhole explosions in the Russian tundra, these massive holes were sinks for methane deposits and provide a vast, physical indicator of the threat to the climate contained in the methane deposits of the warming tundra.",
+            "description_short" : "The site of one of the first methane sinkhole explosions in the Russian tundra, these massive holes were sinks for methane deposits and provide a vast, physical indicator of the threat to the climate contained in the methane deposits of the warming tundra.",
             "description_long" : "",
             "thumbnail" : "",
             "video" : "",
@@ -126,7 +126,7 @@ var mapData = [ { "type" : "Feature",
             "name" : "Pavlovsk Experimental Station",
             "type" : "extinction_sites",
             "location" : "St. Petersburg, Russia",
-            "description_short" : "It was started in 1926 by agricultural scientist Nikolai Vavilov and contains an extensive collection of more than 5,000 varieties of fruits and berries. The Pavlovsk station's collection contains more than 100 varieties each of gooseberries, raspberries, and cherries. It also contains more than 1,000 varieties of strawberries. More than 90% of the collection is found in no other research collection or genebank",
+            "description_short" : "Established in 1926 by agricultural scientist Nikolai Vavilov, Pavlovsk Experimental Station contains an extensive collection of more than 5,000 varieties of fruits and berries, including more than 100 varieties each of gooseberries, raspberries and cherries, and more than 1,000 varieties of strawberry. More than 90% of the collection is found in no other research collection or gene bank.",
             "description_long" : "",
             "thumbnail" : "",
             "video" : "",
@@ -174,7 +174,7 @@ var mapData = [ { "type" : "Feature",
             "name" : "Jaktor&#211;w",
             "type" : "extinction_sites",
             "location" : "Poland",
-            "description_short" : "Site of the first recorded extinction in the wild. At a time when the aurochs, the ancestor of wild cattle, had all but disappeared from its former range in Europe, Asia, and North Africa, a small herd persisted under royal protection in the Jaktor&#244;w Forest in Mazovia in the Kingdom of Poland.",
+            "description_short" : "Site of the first recorded extinction in the wild. At a time when the aurochs, the ancestor of wild cattle, had all but disappeared from its former range in Europe, Asia, and North Africa, a small herd persisted under royal protection in the Jaktor&#211;w Forest in Mazovia in the Kingdom of Poland.",
             "description_long" : "Inspection reports document the number of animals beginning in 1564, when 38 were recorded. By 1602 only four remained, their numbers reduced by habitat degradation (in particular illegal logging and wood collection), competition from domestic cattle and pigs, disease, and cold winters. The last bull died in 1620. A single horn from this animal was set in gold and presented to King Zygmunt III. It is now in the collection of the Royal Armoury in Stockholm, Sweden. According to the Inspection Report of 1630, the very last aurochs, a cow, died in 1627, at the estimated age of 26 years. While the aurochs is now extinct in the wild, domestic breeds of cattle have become the most prevalent large mammal on earth.",
             "thumbnail" : "",
             "video" : "",
@@ -681,7 +681,7 @@ var mapData = [ { "type" : "Feature",
             "name" : "Black Death",
             "type" : "extinction_sites",
             "location" : "China",
-            "description_short" : "It is believed by many that the disease started in China, whose merchant ships brought it west, to Sicily. Near Italy. It was carried by fleas that were living on rats. Once in Italy, it soon spread throughout the rest of Europe.",
+            "description_short" : "It is believed by many that the disease started in China, and that merchant ships transported it west, to Sicily. It was carried by fleas that were living on rats. Once in Italy, it soon spread throughout the rest of Europe.",
             "description_long" : "",
             "thumbnail" : "",
             "video" : "",
@@ -750,7 +750,7 @@ var mapData = [ { "type" : "Feature",
             "name" : "Fengdu",
             "type" : "extinction_sites",
             "location" : "China",
-            "description_short" : "In China, Fengdu has a long history in the Taoist tradition of being a portal to hell. The Fengdu Ghost City is a tourist attraction modelled after Diyu, the concept of hell in Chinese mythology and Buddhism. It was built over 1,800 years ago. ",
+            "description_short" : "In Taoist tradition, Fengdu has long been considered a portal to hell. The Fengdu Ghost City is a tourist attraction modelled after Diyu, the concept of hell elaborated in Chinese mythology and Buddhism. It was built over 1,800 years ago. ",
             "description_long" : "",
             "thumbnail" : "",
             "video" : "",
@@ -796,7 +796,7 @@ var mapData = [ { "type" : "Feature",
             "name" : "Hiroshima",
             "type" : "extinction_sites",
             "location" : "Japan",
-            "description_short" : "Hiroshima is the capital of Hiroshima Prefecture, Japan.The nuclear bomb 'Little Boy' was dropped on Hiroshima by an American bomber in 1945, directly killing an estimated 80,000 people.",
+            "description_short" : "Hiroshima is the capital of Hiroshima Prefecture, Japan. The nuclear bomb 'Little Boy' was dropped on Hiroshima by an American bomber in 1945, directly killing an estimated 80,000 people.",
             "description_long" : "",
             "thumbnail" : "",
             "video" : "",
@@ -842,7 +842,7 @@ var mapData = [ { "type" : "Feature",
             "name" : "Kenya (Rinderpest)",
             "type" : "extinction_sites",
             "location" : "Kenya",
-            "description_short" : "Rinderpest was an infectious viral disease of cattle. After a global eradication campaign the United Nations Food and Agriculture Organization announced in in June 2011 of the global eradication of rinderpest. The last confirmed case of rinderpest was reported in Kenya in 2001",
+            "description_short" : "Rinderpest was an infectious viral disease of cattle. In June 2011, following a global eradication campaign, the United Nations Food and Agriculture Organization announced the global eradication of rinderpest. The last confirmed case of rinderpest was reported in Kenya in 2001",
             "description_long" : "",
             "thumbnail" : "",
             "video" : "",
@@ -865,7 +865,7 @@ var mapData = [ { "type" : "Feature",
             "name" : "Laki Iceland",
             "type" : "extinction_sites",
             "location" : "Iceland",
-            "description_short" : "The system erupted over an eight-month period between 1783 and 1784 that killed over 50% of Iceland's livestock population, leading to a famine that killed approximately 25% of the island's human population. The eruption caused a drop in global temperatures. The eruption has been estimated to have killed over six million people globally",
+            "description_short" : "This volcanic system erupted over an eight-month period between 1783 and 1784. More than 50% of Iceland's livestock population was destroyed, leading to a famine killing approximately 25% of the island's human population. The eruption caused a drop in global temperatures and has been estimated to have killed over six million people globally.",
             "description_long" : "",
             "thumbnail" : "",
             "video" : "",
@@ -911,7 +911,7 @@ var mapData = [ { "type" : "Feature",
             "name" : "Pompeii",
             "type" : "extinction_sites",
             "location" : "Pompeii, Italy",
-            "description_short" : "The city of Pompeii was an ancient Roman town-city near modern Naplesin the Italian region of Campania. It was mostly destroyed and buried under 4 to 6 m of ash andpumice in the eruption of Mount Vesuvius in 79 AD.",
+            "description_short" : "The city of Pompeii was an ancient Roman town-city near modern Naples, in the Italian region of Campania. It was mostly destroyed and buried under 4-6 metres of ash and pumice in the eruption of Mount Vesuvius in 79 AD.",
             "description_long" : "",
             "thumbnail" : "",
             "video" : "",
@@ -934,7 +934,7 @@ var mapData = [ { "type" : "Feature",
             "name" : "Saigon road",
             "type" : "extinction_sites",
             "location" : "Saigon, Vietnam",
-            "description_short" : "Th??ch Qu???ng ?????c, was a Vietnamese Mahayana Buddhist monk who burned himself to death at a busy Saigon road intersection on 11 June 1963. he was protesting the persecution of Buddhists by the South Vietnamese government",
+            "description_short" : "Th??ch Qu???ng ?????c, was a Vietnamese Mahayana Buddhist monk who burned himself to death at a busy Saigon road intersection on 11 June 1963. He was protesting the persecution of Buddhists by the South Vietnamese government",
             "description_long" : "",
             "thumbnail" : "",
             "video" : "",
@@ -1290,14 +1290,312 @@ var mapData = [ { "type" : "Feature",
             "link2_url" : "http://www.deeeeeeephorizon.com/",
             }
         },
+         { "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [44.957101,-93.232671]
+    },
+    "properties": {
+        "name": "Minnesota Anechoic Chamber",
+        "description_short": "An anechoic chamber is a room designed to completely absorb reflections of either sound or electromagnetic waves. It is so quiet that the longest anybody has been able to bear it is 45 minutes",
+        "type": "extinction_sites",
+    }
+},
+     { "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [52.8005556,173.1316667]
+    },
+    "properties": {
+        "name": "Near Islands (Steller's sea cow)",
+        "description_short": "The Steller's sea cow was a large, herbivorous marine mammal. The species was quickly wiped out by the sailors, seal hunters, and fur traders",
+        "type": "extinction_sites",
+    }
+},
+     { "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [12.1766,-68.9856]
+    },
+    "properties": {
+        "name": "Netherlands Antilles",
+        "description_short": "The Netherlands Antilles, an autonomous Caribbean country within theKingdom of the Netherlands, was dissolved on 10 October 2010.",
+        "type": "extinction_sites",
+    }
+},
+     { "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [29.9510658,-90.0715323]
+    },
+    "properties": {
+        "name": "New Orleans (Hurricane Katrina)",
+        "description_short": "Hurricane Katrina was the deadliest and most destructive Atlantic tropical cyclone of the 2005 Atlantic hurricane season. It is the costliestnatural disaster, as well as one of the five deadliest hurricanes, in the history of the United States.",
+        "type": "extinction_sites",
+    }
+},
+     { "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [,]
+    },
+    "properties": {
+        "name": "North Atlantic Ocean (Titanic)",
+        "description_short": "MS Titanic was a British passenger liner that sank in the North Atlantic Ocean in the early morning of 15 April 1912 after colliding with an iceberg during her maiden voyage",
+        "type": "extinction_sites",
+    }
+},
+     { "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [52.238884,5.168885]
+    },
+    "properties": {
+        "name": "NPO netherlands",
+        "description_short": "Neatherlands were the first country to complete the digital switchover from Analog to Digital TV in 2006. Making Analog TV redundant.",
+        "type": "extinction_sites",
+    }
+},
+     { "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [34.3113285,132.9921762]
+    },
+    "properties": {
+        "name": "&#332;kunoshima",
+        "description_short": "Rabbits used in testing were supposedly euthanized when the factory shut down after the war. The hundreds of rabbits found on the island today are thought to be descendants of eight rabbits released by schoolchildren in 1971.",
+        "type": "extinction_sites",
+    }
+},
+     { "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [19.201983,50.027411]
+    },
+    "properties": {
+        "name": "O&#347;wi&#281;cim Auschwitz",
+        "description_short": "Auschwitz concentration camp was a network of German Nazi concentration camps and extermination camps built and operated by the Third Reich in Polish areas annexed by Nazi Germany during World War II.",
+        "type": "extinction_sites",
+    }
+},
+     { "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [30.325173,35.442581]
+    },
+    "properties": {
+        "name": "Petra",
+        "description_short": "Petra is a historical and archaeological city in the southern Jordanian governorate of Ma'an that is famous for its rock-cut architecture and water conduit system.",
+        "type": "extinction_sites",
+    }
+},
+     { "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [34.90999,-109.806792]
+    },
+    "properties": {
+        "name": "Petrified Forest National Park",
+        "description_short": "Petrified Forest National Park is a United States national park in Arizona. Petrified wood (from the Greek root petro meaning "rock" or "stone"; literally "wood turned into stone") is the name given to a special type of fossilized remains of terrestrial vegetation. It is the result of a tree or tree-like plants having completely transitioned to stone by the process of permineralization.",
+        "type": "extinction_sites",
+    }
+},
+     { "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [41.4551278,-73.9890837]
+    },
+    "properties": {
+        "name": "Pollepel Island",
+        "description_short": "Pollepel Island is an island in the Hudson River. The principal feature on the island is Bannermans' Castle, an abandoned military surplus warehouse",
+        "type": "extinction_sites",
+    }
+},
+     { "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [40.7461572,14.4989344]
+    },
+    "properties": {
+        "name": "Pompeii",
+        "description_short": "The city of Pompeii was an ancient Roman town-city near modern Naplesin the Italian region of Campania. It was mostly destroyed and buried under 4 to 6 m of ash andpumice in the eruption of Mount Vesuvius in 79 AD.",
+        "type": "extinction_sites",
+    }
+},
+     { "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [22.258652,71.1923805]
+    },
+    "properties": {
+        "name": "Prahlad Jani",
+        "description_short": "Prahlad Jani, also known as "Mataji", is an Indian sadhu. He claims to have lived without food and water since 1940,",
+        "type": "extinction_sites",
+    }
+},
+     { "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [38.912011,-77.075846]
+    },
+    "properties": {
+        "name": "Roland Doe",
+        "description_short": "In the late 1940s, priests of the Catholic Church performed a series of exorcisms on an anonymous boy, documented under the pseudonym "Roland Doe" or "Robbie Mannheim". The boy, born circa 1936, was the supposed victim of demonic possession.",
+        "type": "extinction_sites",
+    }
+},
+     { "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [10.7650442,106.6927684]
+    },
+    "properties": {
+        "name": "Saigon road (Th&#237;ch Qu&aring;ng &Eth;&#x1EE9;c)",
+        "description_short": "Th&#237;ch Qu&aring;ng &Eth;&#x1EE9;c, was a Vietnamese Mahayana Buddhist monk who burned himself to death at a busy Saigon road intersection on 11 June 1963. he was protesting the persecution of Buddhists by the South Vietnamese government",
+        "type": "extinction_sites",
+    }
+},
+     { "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [52.4774376,-1.8636315]
+    },
+    "properties": {
+        "name": "Sir Francis Galton (Presbycusis)",
+        "description_short": "Presbycusis or age-related hearing loss, is the cumulative effect of aging on hearing. It is a progressive bilateral symmetrical age-related sensorineural hearing loss. The hearing loss is most marked at higher frequencies.",
+        "type": "extinction_sites",
+    }
+},
+     { "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [37.381096,-77.334506]
+    },
+    "properties": {
+        "name": "Smoking",
+        "description_short": "Listed as the second-greatest cause of death worldwide, smoking results in 10 percent of deaths around the globe, according to the World Health Organization. This adds up to roughly 5 million people annually.",
+        "type": "extinction_sites",
+    }
+},
+     { "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [5.152149,46.199616]
+    },
+    "properties": {
+        "name": "Somalia (Smallpox)",
+        "description_short": "After vaccination campaigns throughout the 19th and 20th centuries, the WHO certified the eradication of smallpox in 1979. The last known natural case was in Somalia in 1977.",
+        "type": "extinction_sites",
+    }
+},
+     { "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [51.178882,-1.826216]
+    },
+    "properties": {
+        "name": "Stonehenge",
+        "description_short": "Stonehenge is a prehistoric monument located in Wiltshire, England, about 2 miles west of Amesbury and 8 miles north of Salisbury.",
+        "type": "extinction_sites",
+    }
+},
+     { "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [53.4051532,-2.9835711]
+    },
+    "properties": {
+        "name": "The F. W. Woolworth Company",
+        "description_short": "The F. W. Woolworth Company was a retail company that was one of the original pioneers, and arguably the most successful American and international five-and-dime stores, setting trends and creating the modern retail model which stores follow worldwide today.",
+        "type": "extinction_sites",
+    }
+},
+     { "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [48.848271,2.337293]
+    },
+    "properties": {
+        "name": "Third Law of thermodynamics",
+        "description_short": "The Third Law of thermodynamics states that absolute zero cannot be attained by any procedure in a finite number of steps. Absolute zero can be approached arbitrarily closely, but it can never be reached.",
+        "type": "extinction_sites",
+    }
+},
+     { "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-21.178986,-175.198242]
+    },
+    "properties": {
+        "name": "Tonga (Tongan religion)",
+        "description_short": "Though it is no longer practiced today, Tonga's ancient religion was practiced for over 2000 years. Missionaries arrived and persuaded King George Tupou I to convert to Christianity.",
+        "type": "extinction_sites",
+    }
+},
+     { "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [36.1349928,-111.2398625]
+    },
+    "properties": {
+        "name": "Tuba City (Dino Tracks)",
+        "description_short": "Tuba City is noted for dinosaur tracks, found about 5 miles (8 km) west.",
+        "type": "extinction_sites",
+    }
+},
+     { "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [20.3599062,-89.7683833]
+    },
+    "properties": {
+        "name": "Uxmal",
+        "description_short": "Uxmal is an ancient Maya city of the classical period in present-day Mexico. It is considered one of the most important archaeological sites of Maya culture",
+        "type": "extinction_sites",
+    }
+},
+     { "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [25.740164,32.601411]
+    },
+    "properties": {
+        "name": "Valley of the kings",
+        "description_short": "The Valley of the Kings, is a valley in Egypt where, for a period of nearly 500 years from the 16th to 11th century BC, tombs were constructed for the Pharaohs and powerful nobles of the New Kingdom",
+        "type": "extinction_sites",
+    }
+},
+     { "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-37.1333313,-62.7999992]
+    },
+    "properties": {
+        "name": "Villa Epecu&#233;n",
+        "description_short": "Villa Epecu&#233;n was a tourist village that was located in the Buenos Aires Province, Argentina. Now abandoned, its ruins are found on the eastern shore of the Laguna Epecu&#233;n. On 6 November 1985, a seiche caused by a rare weather pattern broke a nearby dam first, then the dike protecting the town. ",
+        "type": "extinction_sites",
+    }
+},
+     { "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [51.405077,-0.282991]
+    },
+    "properties": {
+        "name": "Wimbledon F.C.",
+        "description_short": "Wimbledon Football Club was an English professional association football club from Wimbledon, south-west London founded in 1889. Wimbledon dissolved in June 2004",
+        "type": "extinction_sites",
+    }
+}
 ];
+
+
 
 
 L.mapbox.accessToken = 'pk.eyJ1IjoiZ2FtZXJhIiwiYSI6IjNlclVnZDAifQ.a8PjkEfE5i2aOShPawCy1A';
 var map = L.mapbox.map('map', 'extinctly.f3ad5588', {
     zoomControl: true,
 }).setView([30,-25], 3);
-
 
 /*var layer = L.mapbox.tileLayer('extinctly.81df0075')
     // since layers load asynchronously through AJAX, use the
