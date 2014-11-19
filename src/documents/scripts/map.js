@@ -1396,7 +1396,7 @@ var mapData = [ { "type" : "Feature",
     },
     "properties": {
         "name": "Petrified Forest National Park",
-        "description_short": "Petrified Forest National Park is a United States national park in Arizona. Petrified wood (from the Greek root petro meaning "rock" or "stone"; literally "wood turned into stone") is the name given to a special type of fossilized remains of terrestrial vegetation. It is the result of a tree or tree-like plants having completely transitioned to stone by the process of permineralization.",
+        "description_short": "Petrified Forest National Park is a United States national park in Arizona. Petrified wood (from the Greek root petro meaning rock' or 'stone'; literally 'wood turned into stone') is the name given to a special type of fossilized remains of terrestrial vegetation. It is the result of a tree or tree-like plants having completely transitioned to stone by the process of permineralization.",
         "type": "extinction_sites",
     }
 },
@@ -1429,7 +1429,7 @@ var mapData = [ { "type" : "Feature",
     },
     "properties": {
         "name": "Prahlad Jani",
-        "description_short": "Prahlad Jani, also known as "Mataji", is an Indian sadhu. He claims to have lived without food and water since 1940,",
+        "description_short": "Prahlad Jani, also known as 'Mataji', is an Indian sadhu. He claims to have lived without food and water since 1940,",
         "type": "extinction_sites",
     }
 },
@@ -1440,7 +1440,7 @@ var mapData = [ { "type" : "Feature",
     },
     "properties": {
         "name": "Roland Doe",
-        "description_short": "In the late 1940s, priests of the Catholic Church performed a series of exorcisms on an anonymous boy, documented under the pseudonym "Roland Doe" or "Robbie Mannheim". The boy, born circa 1936, was the supposed victim of demonic possession.",
+        "description_short": "In the late 1940s, priests of the Catholic Church performed a series of exorcisms on an anonymous boy, documented under the pseudonym 'Roland Doe' or 'Robbie Mannheim'. The boy, born circa 1936, was the supposed victim of demonic possession.",
         "type": "extinction_sites",
     }
 },
