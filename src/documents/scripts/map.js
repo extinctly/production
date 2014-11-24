@@ -78,7 +78,7 @@ var mapData = [ { "type" : "Feature",
             "name" : "Equinix Singapore Data Centers SG1, SG2, SG3",
             "type" : "extinction_sites",
             "location" : "Singapore",
-            "description_short" : "in the near future around 2027, a malicious virus will destroy the global email-system and render SMTP useless.",
+            "description_short" : "In the near future around 2027, a malicious virus will destroy the global email-system and render SMTP useless.",
             "description_long" : "",
             "thumbnail" : "",
             "video" : "",
@@ -925,29 +925,6 @@ var mapData = [ { "type" : "Feature",
             "link2_url" : "",
             }
         },
-         /*{ "type" : "Feature",
-    "geometry" : {
-                "type" : "Point",
-                "coordinates" : [106.6927684, 10.7650442]
-        },
-        "properties" : {
-            "name" : "Saigon road",
-            "type" : "extinction_sites",
-            "location" : "Saigon, Vietnam",
-            "description_short" : "Th??ch Qu???ng ?????c, was a Vietnamese Mahayana Buddhist monk who burned himself to death at a busy Saigon road intersection on 11 June 1963. He was protesting the persecution of Buddhists by the South Vietnamese government",
-            "description_long" : "",
-            "thumbnail" : "",
-            "video" : "",
-            "date_established" : "",
-            "people" : "",
-            "category" : "",
-            "category_specific" : "Individual",
-            "link1_title" : "",
-            "link1_url" : "http://en.wikipedia.org/wiki/Th%C3%ADch_Qu%E1%BA%A3ng_%C4%90%E1%BB%A9c",
-            "link2_title" : "",
-            "link2_url" : "",
-            }
-        },*/
          { "type" : "Feature",
     "geometry" : {
                 "type" : "Point",
@@ -1291,303 +1268,294 @@ var mapData = [ { "type" : "Feature",
             }
         },
          { "type": "Feature",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [44.957101,-93.232671]
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-93.232671,44.957101]
+        },
+        "properties": {
+            "name": "Minnesota Anechoic Chamber",
+            "description_short": "An anechoic chamber is a room designed to completely absorb reflections of either sound or electromagnetic waves. It is so quiet that the longest anybody has been able to bear it is 45 minutes",
+            "type": "extinction_sites",
+        }
     },
-    "properties": {
-        "name": "Minnesota Anechoic Chamber",
-        "description_short": "An anechoic chamber is a room designed to completely absorb reflections of either sound or electromagnetic waves. It is so quiet that the longest anybody has been able to bear it is 45 minutes",
-        "type": "extinction_sites",
-    }
-},
-     { "type": "Feature",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [52.8005556,173.1316667]
+         { "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [173.1316667,52.8005556]
+        },
+        "properties": {
+            "name": "Near Islands (Steller's sea cow)",
+            "description_short": "The Steller's sea cow was a large, herbivorous marine mammal. The species was quickly wiped out by the sailors, seal hunters, and fur traders",
+            "type": "extinction_sites",
+        }
     },
-    "properties": {
-        "name": "Near Islands (Steller's sea cow)",
-        "description_short": "The Steller's sea cow was a large, herbivorous marine mammal. The species was quickly wiped out by the sailors, seal hunters, and fur traders",
-        "type": "extinction_sites",
-    }
-},
-     { "type": "Feature",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [12.1766,-68.9856]
+         { "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-68.9856,12.1766]
+        },
+        "properties": {
+            "name": "Netherlands Antilles",
+            "description_short": "The Netherlands Antilles, an autonomous Caribbean country within the Kingdom of the Netherlands, was dissolved on 10 October 2010.",
+            "type": "extinction_sites",
+        }
     },
-    "properties": {
-        "name": "Netherlands Antilles",
-        "description_short": "The Netherlands Antilles, an autonomous Caribbean country within theKingdom of the Netherlands, was dissolved on 10 October 2010.",
-        "type": "extinction_sites",
-    }
-},
-     { "type": "Feature",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [29.9510658,-90.0715323]
+         { "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-90.0715323,29.9510658]
+        },
+        "properties": {
+            "name": "New Orleans (Hurricane Katrina)",
+            "description_short": "Hurricane Katrina was the deadliest and most destructive Atlantic tropical cyclone of the 2005 Atlantic hurricane season. It is the costliest natural disaster, as well as one of the five deadliest hurricanes, in the history of the United States.",
+            "type": "extinction_sites",
+        }
     },
-    "properties": {
-        "name": "New Orleans (Hurricane Katrina)",
-        "description_short": "Hurricane Katrina was the deadliest and most destructive Atlantic tropical cyclone of the 2005 Atlantic hurricane season. It is the costliestnatural disaster, as well as one of the five deadliest hurricanes, in the history of the United States.",
-        "type": "extinction_sites",
-    }
-},
-     { "type": "Feature",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [,]
+         { "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [5.168885, 52.238884]
+        },
+        "properties": {
+            "name": "NPO netherlands",
+            "description_short": "Neatherlands were the first country to complete the digital switchover from Analog to Digital TV in 2006. Making Analog TV redundant.",
+            "type": "extinction_sites",
+        }
     },
-    "properties": {
-        "name": "North Atlantic Ocean (Titanic)",
-        "description_short": "MS Titanic was a British passenger liner that sank in the North Atlantic Ocean in the early morning of 15 April 1912 after colliding with an iceberg during her maiden voyage",
-        "type": "extinction_sites",
-    }
-},
-     { "type": "Feature",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [52.238884,5.168885]
+         { "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [132.9921762,34.3113285]
+        },
+        "properties": {
+            "name": "&#332;kunoshima",
+            "description_short": "Rabbits used in testing were supposedly euthanized when the factory shut down after the war. The hundreds of rabbits found on the island today are thought to be descendants of eight rabbits released by schoolchildren in 1971.",
+            "type": "extinction_sites",
+        }
     },
-    "properties": {
-        "name": "NPO netherlands",
-        "description_short": "Neatherlands were the first country to complete the digital switchover from Analog to Digital TV in 2006. Making Analog TV redundant.",
-        "type": "extinction_sites",
-    }
-},
-     { "type": "Feature",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [34.3113285,132.9921762]
+         { "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [50.027411,19.201983]
+        },
+        "properties": {
+            "name": "O&#347;wi&#281;cim Auschwitz",
+            "description_short": "Auschwitz concentration camp was a network of German Nazi concentration camps and extermination camps built and operated by the Third Reich in Polish areas annexed by Nazi Germany during World War II.",
+            "type": "extinction_sites",
+        }
     },
-    "properties": {
-        "name": "&#332;kunoshima",
-        "description_short": "Rabbits used in testing were supposedly euthanized when the factory shut down after the war. The hundreds of rabbits found on the island today are thought to be descendants of eight rabbits released by schoolchildren in 1971.",
-        "type": "extinction_sites",
-    }
-},
-     { "type": "Feature",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [19.201983,50.027411]
+         { "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [35.442581,30.325173]
+        },
+        "properties": {
+            "name": "Petra",
+            "description_short": "Petra is a historical and archaeological city in the southern Jordanian governorate of Ma'an that is famous for its rock-cut architecture and water conduit system.",
+            "type": "extinction_sites",
+        }
     },
-    "properties": {
-        "name": "O&#347;wi&#281;cim Auschwitz",
-        "description_short": "Auschwitz concentration camp was a network of German Nazi concentration camps and extermination camps built and operated by the Third Reich in Polish areas annexed by Nazi Germany during World War II.",
-        "type": "extinction_sites",
-    }
-},
-     { "type": "Feature",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [30.325173,35.442581]
+         { "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-109.806792,34.90999]
+        },
+        "properties": {
+            "name": "Petrified Forest National Park",
+            "description_short": "Petrified Forest National Park is a United States national park in Arizona. Petrified wood (from the Greek root petro meaning rock' or 'stone'; literally 'wood turned into stone') is the name given to a special type of fossilized remains of terrestrial vegetation. It is the result of a tree or tree-like plants having completely transitioned to stone by the process of permineralization.",
+            "type": "extinction_sites",
+        }
     },
-    "properties": {
-        "name": "Petra",
-        "description_short": "Petra is a historical and archaeological city in the southern Jordanian governorate of Ma'an that is famous for its rock-cut architecture and water conduit system.",
-        "type": "extinction_sites",
-    }
-},
-     { "type": "Feature",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [34.90999,-109.806792]
+         { "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-73.9890837,41.4551278]
+        },
+        "properties": {
+            "name": "Pollepel Island",
+            "description_short": "Pollepel Island is an island in the Hudson River. The principal feature on the island is Bannermans' Castle, an abandoned military surplus warehouse",
+            "type": "extinction_sites",
+        }
     },
-    "properties": {
-        "name": "Petrified Forest National Park",
-        "description_short": "Petrified Forest National Park is a United States national park in Arizona. Petrified wood (from the Greek root petro meaning rock' or 'stone'; literally 'wood turned into stone') is the name given to a special type of fossilized remains of terrestrial vegetation. It is the result of a tree or tree-like plants having completely transitioned to stone by the process of permineralization.",
-        "type": "extinction_sites",
-    }
-},
-     { "type": "Feature",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [41.4551278,-73.9890837]
+         { "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.4989344,40.7461572]
+        },
+        "properties": {
+            "name": "Pompeii",
+            "description_short": "The city of Pompeii was an ancient Roman town-city near modern Naplesin the Italian region of Campania. It was mostly destroyed and buried under 4 to 6 m of ash andpumice in the eruption of Mount Vesuvius in 79 AD.",
+            "type": "extinction_sites",
+        }
     },
-    "properties": {
-        "name": "Pollepel Island",
-        "description_short": "Pollepel Island is an island in the Hudson River. The principal feature on the island is Bannermans' Castle, an abandoned military surplus warehouse",
-        "type": "extinction_sites",
-    }
-},
-     { "type": "Feature",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [40.7461572,14.4989344]
+         { "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [71.1923805,22.258652]
+        },
+        "properties": {
+            "name": "Prahlad Jani",
+            "description_short": "Prahlad Jani, also known as 'Mataji', is an Indian sadhu. He claims to have lived without food and water since 1940,",
+            "type": "extinction_sites",
+        }
     },
-    "properties": {
-        "name": "Pompeii",
-        "description_short": "The city of Pompeii was an ancient Roman town-city near modern Naplesin the Italian region of Campania. It was mostly destroyed and buried under 4 to 6 m of ash andpumice in the eruption of Mount Vesuvius in 79 AD.",
-        "type": "extinction_sites",
-    }
-},
-     { "type": "Feature",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [22.258652,71.1923805]
+         { "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-77.075846,38.912011]
+        },
+        "properties": {
+            "name": "Roland Doe",
+            "description_short": "In the late 1940s, priests of the Catholic Church performed a series of exorcisms on an anonymous boy, documented under the pseudonym 'Roland Doe' or 'Robbie Mannheim'. The boy, born circa 1936, was the supposed victim of demonic possession.",
+            "type": "extinction_sites",
+        }
     },
-    "properties": {
-        "name": "Prahlad Jani",
-        "description_short": "Prahlad Jani, also known as 'Mataji', is an Indian sadhu. He claims to have lived without food and water since 1940,",
-        "type": "extinction_sites",
-    }
-},
-     { "type": "Feature",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [38.912011,-77.075846]
+         { "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [106.6927684, 10.7650442]
+        },
+        "properties": {
+            "name": "Saigon road (Th&#237;ch Qu&aring;ng &#x110;&#x1EE9;c)",
+            "description_short": "Th&#237;ch Qu&aring;ng &#x110;&#x1EE9;c, was a Vietnamese Mahayana Buddhist monk who burned himself to death at a busy Saigon road intersection on 11 June 1963. He was protesting the persecution of Buddhists by the South Vietnamese government",
+            "type": "extinction_sites",
+        }
     },
-    "properties": {
-        "name": "Roland Doe",
-        "description_short": "In the late 1940s, priests of the Catholic Church performed a series of exorcisms on an anonymous boy, documented under the pseudonym 'Roland Doe' or 'Robbie Mannheim'. The boy, born circa 1936, was the supposed victim of demonic possession.",
-        "type": "extinction_sites",
-    }
-},
-     { "type": "Feature",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [10.7650442,106.6927684]
+         { "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-1.8636315,52.4774376]
+        },
+        "properties": {
+            "name": "Sir Francis Galton (Presbycusis)",
+            "description_short": "Presbycusis or age-related hearing loss, is the cumulative effect of aging on hearing. It is a progressive bilateral symmetrical age-related sensorineural hearing loss. The hearing loss is most marked at higher frequencies.",
+            "type": "extinction_sites",
+        }
     },
-    "properties": {
-        "name": "Saigon road (Th&#237;ch Qu&aring;ng &Eth;&#x1EE9;c)",
-        "description_short": "Th&#237;ch Qu&aring;ng &Eth;&#x1EE9;c, was a Vietnamese Mahayana Buddhist monk who burned himself to death at a busy Saigon road intersection on 11 June 1963. he was protesting the persecution of Buddhists by the South Vietnamese government",
-        "type": "extinction_sites",
-    }
-},
-     { "type": "Feature",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [52.4774376,-1.8636315]
+         { "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-77.334506,37.381096]
+        },
+        "properties": {
+            "name": "Smoking",
+            "description_short": "Listed as the second-greatest cause of death worldwide, smoking results in 10 percent of deaths around the globe, according to the World Health Organization. This adds up to roughly 5 million people annually.",
+            "type": "extinction_sites",
+        }
     },
-    "properties": {
-        "name": "Sir Francis Galton (Presbycusis)",
-        "description_short": "Presbycusis or age-related hearing loss, is the cumulative effect of aging on hearing. It is a progressive bilateral symmetrical age-related sensorineural hearing loss. The hearing loss is most marked at higher frequencies.",
-        "type": "extinction_sites",
-    }
-},
-     { "type": "Feature",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [37.381096,-77.334506]
+         { "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [46.199616,5.152149]
+        },
+        "properties": {
+            "name": "Somalia (Smallpox)",
+            "description_short": "After vaccination campaigns throughout the 19th and 20th centuries, the WHO certified the eradication of smallpox in 1979. The last known natural case was in Somalia in 1977.",
+            "type": "extinction_sites",
+        }
     },
-    "properties": {
-        "name": "Smoking",
-        "description_short": "Listed as the second-greatest cause of death worldwide, smoking results in 10 percent of deaths around the globe, according to the World Health Organization. This adds up to roughly 5 million people annually.",
-        "type": "extinction_sites",
-    }
-},
-     { "type": "Feature",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [5.152149,46.199616]
+         { "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-1.826216,51.178882]
+        },
+        "properties": {
+            "name": "Stonehenge",
+            "description_short": "Stonehenge is a prehistoric monument located in Wiltshire, England, about 2 miles west of Amesbury and 8 miles north of Salisbury.",
+            "type": "extinction_sites",
+        }
     },
-    "properties": {
-        "name": "Somalia (Smallpox)",
-        "description_short": "After vaccination campaigns throughout the 19th and 20th centuries, the WHO certified the eradication of smallpox in 1979. The last known natural case was in Somalia in 1977.",
-        "type": "extinction_sites",
-    }
-},
-     { "type": "Feature",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [51.178882,-1.826216]
+         { "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-2.9835711,53.4051532]
+        },
+        "properties": {
+            "name": "The F. W. Woolworth Company",
+            "description_short": "The F. W. Woolworth Company was a retail company that was one of the original pioneers, and arguably the most successful American and international five-and-dime stores, setting trends and creating the modern retail model which stores follow worldwide today.",
+            "type": "extinction_sites",
+        }
     },
-    "properties": {
-        "name": "Stonehenge",
-        "description_short": "Stonehenge is a prehistoric monument located in Wiltshire, England, about 2 miles west of Amesbury and 8 miles north of Salisbury.",
-        "type": "extinction_sites",
-    }
-},
-     { "type": "Feature",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [53.4051532,-2.9835711]
+         { "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.337293,48.848271]
+        },
+        "properties": {
+            "name": "Third Law of thermodynamics",
+            "description_short": "The Third Law of thermodynamics states that absolute zero cannot be attained by any procedure in a finite number of steps. Absolute zero can be approached arbitrarily closely, but it can never be reached.",
+            "type": "extinction_sites",
+        }
     },
-    "properties": {
-        "name": "The F. W. Woolworth Company",
-        "description_short": "The F. W. Woolworth Company was a retail company that was one of the original pioneers, and arguably the most successful American and international five-and-dime stores, setting trends and creating the modern retail model which stores follow worldwide today.",
-        "type": "extinction_sites",
-    }
-},
-     { "type": "Feature",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [48.848271,2.337293]
+         { "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-175.198242,-21.178986]
+        },
+        "properties": {
+            "name": "Tonga (Tongan religion)",
+            "description_short": "Though it is no longer practiced today, Tonga's ancient religion was practiced for over 2000 years. Missionaries arrived and persuaded King George Tupou I to convert to Christianity.",
+            "type": "extinction_sites",
+        }
     },
-    "properties": {
-        "name": "Third Law of thermodynamics",
-        "description_short": "The Third Law of thermodynamics states that absolute zero cannot be attained by any procedure in a finite number of steps. Absolute zero can be approached arbitrarily closely, but it can never be reached.",
-        "type": "extinction_sites",
-    }
-},
-     { "type": "Feature",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [-21.178986,-175.198242]
+         { "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-111.2398625,36.1349928]
+        },
+        "properties": {
+            "name": "Tuba City (Dino Tracks)",
+            "description_short": "Tuba City is noted for dinosaur tracks, found about 5 miles (8 km) west.",
+            "type": "extinction_sites",
+        }
     },
-    "properties": {
-        "name": "Tonga (Tongan religion)",
-        "description_short": "Though it is no longer practiced today, Tonga's ancient religion was practiced for over 2000 years. Missionaries arrived and persuaded King George Tupou I to convert to Christianity.",
-        "type": "extinction_sites",
-    }
-},
-     { "type": "Feature",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [36.1349928,-111.2398625]
+         { "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-89.7683833,20.3599062]
+        },
+        "properties": {
+            "name": "Uxmal",
+            "description_short": "Uxmal is an ancient Maya city of the classical period in present-day Mexico. It is considered one of the most important archaeological sites of Maya culture",
+            "type": "extinction_sites",
+        }
     },
-    "properties": {
-        "name": "Tuba City (Dino Tracks)",
-        "description_short": "Tuba City is noted for dinosaur tracks, found about 5 miles (8 km) west.",
-        "type": "extinction_sites",
-    }
-},
-     { "type": "Feature",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [20.3599062,-89.7683833]
+         { "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [32.601411, 25.740164]
+        },
+        "properties": {
+            "name": "Valley of the kings",
+            "description_short": "The Valley of the Kings, is a valley in Egypt where, for a period of nearly 500 years from the 16th to 11th century BC, tombs were constructed for the Pharaohs and powerful nobles of the New Kingdom",
+            "type": "extinction_sites",
+        }
     },
-    "properties": {
-        "name": "Uxmal",
-        "description_short": "Uxmal is an ancient Maya city of the classical period in present-day Mexico. It is considered one of the most important archaeological sites of Maya culture",
-        "type": "extinction_sites",
-    }
-},
-     { "type": "Feature",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [25.740164,32.601411]
+         { "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-62.7999992,-37.1333313]
+        },
+        "properties": {
+            "name": "Villa Epecu&#233;n",
+            "description_short": "Villa Epecu&#233;n was a tourist village that was located in the Buenos Aires Province, Argentina. Now abandoned, its ruins are found on the eastern shore of the Laguna Epecu&#233;n. On 6 November 1985, a seiche caused by a rare weather pattern broke a nearby dam first, then the dike protecting the town.",
+            "type": "extinction_sites",
+        }
     },
-    "properties": {
-        "name": "Valley of the kings",
-        "description_short": "The Valley of the Kings, is a valley in Egypt where, for a period of nearly 500 years from the 16th to 11th century BC, tombs were constructed for the Pharaohs and powerful nobles of the New Kingdom",
-        "type": "extinction_sites",
+         { "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-0.282991,51.405077]
+        },
+        "properties": {
+            "name": "Wimbledon F.C.",
+            "description_short": "Wimbledon Football Club was an English professional association football club from Wimbledon, south-west London founded in 1889. Wimbledon dissolved in June 2004",
+            "type": "extinction_sites",
+        }
     }
-},
-     { "type": "Feature",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [-37.1333313,-62.7999992]
-    },
-    "properties": {
-        "name": "Villa Epecu&#233;n",
-        "description_short": "Villa Epecu&#233;n was a tourist village that was located in the Buenos Aires Province, Argentina. Now abandoned, its ruins are found on the eastern shore of the Laguna Epecu&#233;n. On 6 November 1985, a seiche caused by a rare weather pattern broke a nearby dam first, then the dike protecting the town. ",
-        "type": "extinction_sites",
-    }
-},
-     { "type": "Feature",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [51.405077,-0.282991]
-    },
-    "properties": {
-        "name": "Wimbledon F.C.",
-        "description_short": "Wimbledon Football Club was an English professional association football club from Wimbledon, south-west London founded in 1889. Wimbledon dissolved in June 2004",
-        "type": "extinction_sites",
-    }
-}
+
 ];
+
 
 
 
@@ -1595,72 +1563,67 @@ var mapData = [ { "type" : "Feature",
 L.mapbox.accessToken = 'pk.eyJ1IjoiZ2FtZXJhIiwiYSI6IjNlclVnZDAifQ.a8PjkEfE5i2aOShPawCy1A';
 var map = L.mapbox.map('map', 'extinctly.f3ad5588', {
     zoomControl: true,
-}).setView([30,-25], 3);
-
-/*var layer = L.mapbox.tileLayer('extinctly.81df0075')
-    // since layers load asynchronously through AJAX, use the
-    // `.on` function to listen for them to be loaded before
-    // calling `getTileJSON()`
-    .on('ready', function() {
-        // get TileJSON data from the loaded layer
-        var TileJSON = layer.getTileJSON();
-    });
-layer.addTo(map);*/
-
+}).setView([30, -25], 3);
 map.scrollWheelZoom.disable();
-
-
-var layer_groups = {'participants': 'Participants', 'volatility_storms': 'Volatility Storms', 'extinct_wild': 'Extinction in the Wild', 'case_studies': 'Case Studies', 'extinction_sites': 'Extinction Sites' } //'finite': 'Finite', 'civilisation': 'Civilisation', 'ecology':'Ecology','humanitarian_aid':'Humanitarian Aid','infrastructure':'Infrastructure','despair':'Despair','finance':'Finance','conflict_resolution':'Conflict Resolution'};
-var datasets = {"population": "Population", "resource_minerals": "Resource Minerals", "oil_natural_gas":"Oil and Natural Gas", "co2_levels":"CO2 Levels"};
-var types = {"artist":"0", "project":"1", "case_study":"2","extinction_site":"3"};
+var layer_groups = {
+    'participants': 'Participants',
+    'volatility_storms': 'Volatility Storms',
+    'extinct_wild': 'Extinction in the Wild',
+    'case_studies': 'Case Studies',
+    'extinction_sites': 'Extinction Sites'
+}
+var datasets = {
+    "population": "Population",
+    "resource_minerals": "Resource Minerals",
+    "oil_natural_gas": "Oil and Natural Gas",
+    "co2_levels": "CO2 Levels"
+};
+var types = {
+    "artist": "0",
+    "project": "1",
+    "case_study": "2",
+    "extinction_site": "3"
+};
 var mapLayerGroups = [];
-
-/* Create box to change overlays
-dataset_layers = L.control.layers(null, null, {
-    collapsed: false
-}).addTo(map);
-
-dataset_layers.addOverlay(layer, 'TEST DATA');*/
-
-
 var mapicon_VS = L.icon({
     iconUrl: '/images/map_VS.png',
-    iconAnchor:   [12, 5],
+    iconAnchor: [12, 5],
 });
-
 var mapicon_EW = L.icon({
     iconUrl: '/images/map_extinctwild.png',
-    iconAnchor:   [12, 5],
+    iconAnchor: [12, 5],
 });
-
 var mapicon_CS = L.icon({
     iconUrl: '/images/map_casestudies.png',
-    iconAnchor:   [12, 5],
+    iconAnchor: [12, 5],
 });
-
 var mapicon_ES = L.icon({
     iconUrl: '/images/map_extinction.png',
-    iconAnchor:   [12, 5],
+    iconAnchor: [12, 5],
 });
-
-
 L.geoJson(mapData, {
-    pointToLayer: function (feature, latlng) {
-        if(feature.properties.type === "volatility_storms") {
-            var marker = L.marker(latlng, {icon: mapicon_VS});
-        }
-        else if(feature.properties.type === "extinct_wild"){
-            var marker = L.marker(latlng, {icon: mapicon_EW});
-        }
-        else if(feature.properties.type === "case_studies"){
-            var marker = L.marker(latlng, {icon: mapicon_CS});
-        }
-        else if(feature.properties.type === "extinction_sites"){
-            var marker = L.marker(latlng, {icon: mapicon_ES});
-        }
-        else {
-            var marker = L.marker(latlng, {icon: mapicon_CS})
-             };
+    pointToLayer: function(feature, latlng) {
+        if (feature.properties.type === "volatility_storms") {
+            var marker = L.marker(latlng, {
+                icon: mapicon_VS
+            });
+        } else if (feature.properties.type === "extinct_wild") {
+            var marker = L.marker(latlng, {
+                icon: mapicon_EW
+            });
+        } else if (feature.properties.type === "case_studies") {
+            var marker = L.marker(latlng, {
+                icon: mapicon_CS
+            });
+        } else if (feature.properties.type === "extinction_sites") {
+            var marker = L.marker(latlng, {
+                icon: mapicon_ES
+            });
+        } else {
+            var marker = L.marker(latlng, {
+                icon: mapicon_CS
+            })
+        };
         return marker;
     },
     onEachFeature: onEachFeature
@@ -1669,58 +1632,45 @@ L.geoJson(mapData, {
 });
 
 function onEachFeature(feature, featureLayer) {
-    // Does layerGroup already exist? If not create it and add to map
     var layer_group = mapLayerGroups[feature.properties.type];
     if (layer_group === undefined) {
         layer_group = new L.layerGroup();
-        // Add the layer to the map
         layer_group.addTo(map);
-        // Store layer
         mapLayerGroups[feature.properties.type] = layer_group;
     }
-    // Add the feature to the layer
     layer_group.addLayer(featureLayer);
-
-    // Creat modals based on content type
-    if (feature.properties.type == 'case_studies')  {
-        //createCaseStudy(feature);
-        var url = feature.properties.name.replace(/ /g,"-").replace(/[^a-zA-Z0-9 -]/g, '').toLowerCase();
-        featureLayer.bindPopup('<h1>'+ feature.properties.name +'</h1><p>'+ feature.properties.description_short + '</p><a class="lead text-center" href="#'+ url +'" data-toggle="modal" data-target="#'+ url +'">Read more</a>');
-    }
-    else if (feature.properties.type == 'extinct_wild') {
+    if (feature.properties.type == 'case_studies') {
+        var url = feature.properties.name.replace(/ /g, "-").replace(/[^a-zA-Z0-9 -]/g, '').toLowerCase();
+        featureLayer.bindPopup('<h1>' + feature.properties.name + '</h1><p>' + feature.properties.description_short + '</p><a class="lead text-center" href="#' + url + '" data-toggle="modal" data-target="#' + url + '">Read more</a>');
+    } else if (feature.properties.type == 'extinct_wild') {
         createExtinctWild(feature);
-        var url = feature.properties.name.replace(/ /g,"-").replace(/[^a-zA-Z0-9 -]/g, '').toLowerCase();
-        if (feature.properties.common) {    
-            featureLayer.bindPopup('<h1>'+ feature.properties.name +' (' + feature.properties.common +')</h1><a class="lead text-center" href="#'+ url +'" data-toggle="modal" data-target="#'+ url +'">Read more</a>');
+        var url = feature.properties.name.replace(/ /g, "-").replace(/[^a-zA-Z0-9 -]/g, '').toLowerCase();
+        if (feature.properties.common) {
+            featureLayer.bindPopup('<h1>' + feature.properties.name + ' (' + feature.properties.common + ')</h1><a class="lead text-center" href="#' + url + '" data-toggle="modal" data-target="#' + url + '">Read more</a>');
+        } else {
+            featureLayer.bindPopup('<h1>' + feature.properties.name + '</h1><a class="lead" href="#' + url + '" data-toggle="modal" data-target="#' + url + '">Read more</a>');
         }
-        else {
-            featureLayer.bindPopup('<h1>'+ feature.properties.name +'</h1><a class="lead" href="#'+ url +'" data-toggle="modal" data-target="#'+ url +'">Read more</a>');
-        }
-    }
-    else if (feature.properties.type == 'volatility_storms') {
-        var url = feature.properties.name.replace(/ /g,"-").replace(/[^a-zA-Z0-9 -]/g, '').toLowerCase();
-        featureLayer.bindPopup('<h1>'+ feature.properties.name +'</h1><p>'+ feature.properties.description_short + '</p><a class="lead text-center" href="#'+ url +'" data-toggle="modal" data-target="#'+ url +'">Read more</a>');
-    }
-    else if (feature.properties.attribution) {
+    } else if (feature.properties.type == 'volatility_storms') {
+        var url = feature.properties.name.replace(/ /g, "-").replace(/[^a-zA-Z0-9 -]/g, '').toLowerCase();
+        featureLayer.bindPopup('<h1>' + feature.properties.name + '</h1><p>' + feature.properties.description_short + '</p><a class="lead text-center" href="#' + url + '" data-toggle="modal" data-target="#' + url + '">Read more</a>');
+    } else if (feature.properties.attribution) {
         if (feature.properties.attribution == 'Benjamin Bratton') {
-            featureLayer.bindPopup('<h1>'+ feature.properties.name +'</h1><p>'+ feature.properties.description_short + '</p><p class="lead">SUBMITTED BY: <a href="http://extinct.ly/texts#bratton" target="_blank">'+ feature.properties.attribution +'</a></p>');
+            featureLayer.bindPopup('<h1>' + feature.properties.name + '</h1><p>' + feature.properties.description_short + '</p><p class="lead">SUBMITTED BY: <a href="http://extinct.ly/texts#bratton" target="_blank">' + feature.properties.attribution + '</a></p>');
+        } else {
+            var url = feature.properties.attribution.replace(/ /g, "-").replace(/[^a-zA-Z0-9 -]/g, '').toLowerCase();
+            featureLayer.bindPopup('<h1>' + feature.properties.name + '</h1><p>' + feature.properties.description_short + '</p><p class="lead">SUBMITTED BY: <a href="http://extinct.ly/participants/#' + url + '" target="_blank">' + feature.properties.attribution + '</a></p>');
         }
-        else {
-            var url = feature.properties.attribution.replace(/ /g,"-").replace(/[^a-zA-Z0-9 -]/g, '').toLowerCase();
-            featureLayer.bindPopup('<h1>'+ feature.properties.name +'</h1><p>'+ feature.properties.description_short + '</p><p class="lead">SUBMITTED BY: <a href="http://extinct.ly/participants/#'+ url +'" target="_blank">'+ feature.properties.attribution +'</a></p>');
-        }
-    }
-    else {
-        featureLayer.bindPopup('<h1>'+ feature.properties.name +'</h1><p>'+ feature.properties.description_short + '</p>');        
+    } else {
+        featureLayer.bindPopup('<h1>' + feature.properties.name + '</h1><p>' + feature.properties.description_short + '</p>');
     }
 }
 
 function createCaseStudy(geojson) {
     var modal = document.createElement("div");
-    var modal_url = geojson.properties.name.replace(/ /g,"-").replace(/[^a-zA-Z0-9 -]/g, '').toLowerCase();
+    var modal_url = geojson.properties.name.replace(/ /g, "-").replace(/[^a-zA-Z0-9 -]/g, '').toLowerCase();
     modal.id = modal_url;
     modal.className = "modal fade";
-    modal.innerHTML = '<div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h2 class="modal-title">'+ geojson.properties.name +'</h2></div><div class="modal-body"><p class="lead">'+ geojson.properties.description_short +'</p><p>'+ geojson.properties.description_long+'</p><p><a href="'+ geojson.properties.link1_url +'" target="_blank">'+ geojson.properties.link1_title +'</a></p></div></div></div>';
+    modal.innerHTML = '<div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h2 class="modal-title">' + geojson.properties.name + '</h2></div><div class="modal-body"><p class="lead">' + geojson.properties.description_short + '</p><p>' + geojson.properties.description_long + '</p><p><a href="' + geojson.properties.link1_url + '" target="_blank">' + geojson.properties.link1_title + '</a></p></div></div></div>';
     document.body.appendChild(modal);
     var anchor = '#' + modal_url;
     $(anchor).urlModal();
@@ -1728,10 +1678,10 @@ function createCaseStudy(geojson) {
 
 function createExtinctionSite(geojson) {
     var modal = document.createElement("div");
-    var modal_url = geojson.properties.name.replace(/ /g,"-").replace(/[^a-zA-Z0-9 -]/g, '').toLowerCase();
+    var modal_url = geojson.properties.name.replace(/ /g, "-").replace(/[^a-zA-Z0-9 -]/g, '').toLowerCase();
     modal.id = modal_url;
     modal.className = "modal fade";
-    modal.innerHTML = '<div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h2 class="modal-title">'+ geojson.properties.name +'</h2></div><div class="modal-body"><p class="lead">'+ geojson.properties.description_short +'</p><p><a href="'+ geojson.properties.link1_url+'" target="_blank">'+ geojson.properties.link1_title +'</a></p></div></div></div>';
+    modal.innerHTML = '<div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h2 class="modal-title">' + geojson.properties.name + '</h2></div><div class="modal-body"><p class="lead">' + geojson.properties.description_short + '</p><p><a href="' + geojson.properties.link1_url + '" target="_blank">' + geojson.properties.link1_title + '</a></p></div></div></div>';
     document.body.appendChild(modal);
     var anchor = '#' + modal_url;
     $(anchor).urlModal();
@@ -1739,80 +1689,68 @@ function createExtinctionSite(geojson) {
 
 function createExtinctWild(geojson) {
     var modal = document.createElement("div");
-    var modal_url = geojson.properties.name.replace(/ /g,"-").replace(/[^a-zA-Z0-9 -]/g, '').toLowerCase();
+    var modal_url = geojson.properties.name.replace(/ /g, "-").replace(/[^a-zA-Z0-9 -]/g, '').toLowerCase();
     modal.id = modal_url;
     modal.className = "modal fade";
     if (geojson.properties.common) {
-        modal.innerHTML = '<div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h2 class="modal-title">'+ geojson.properties.name +' (' + geojson.properties.common +')</h2></div><div class="modal-body"><img src="/images/participants/extinct_in_the_wild/'+ geojson.properties.thumbnail +'"><p>'+ geojson.properties.description_short +'</p></div></div><div class="modal-footer"><h2 class="modal-title">Extinct in the Wild</p></h2></div></div>';
+        modal.innerHTML = '<div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h2 class="modal-title">' + geojson.properties.name + ' (' + geojson.properties.common + ')</h2></div><div class="modal-body"><img src="/images/participants/extinct_in_the_wild/' + geojson.properties.thumbnail + '"><p>' + geojson.properties.description_short + '</p></div></div><div class="modal-footer"><h2 class="modal-title">Extinct in the Wild</p></h2></div></div>';
+    } else {
+        modal.innerHTML = '<div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h2 class="modal-title">' + geojson.properties.name + '</h2></div><div class="modal-body"><img src="/images/participants/extinct_in_the_wild/' + geojson.properties.thumbnail + '"><p>' + geojson.properties.description_short + '</p></div></div><div class="modal-footer"><h2 class="modal-title">Extinct in the Wild</p></h2></div></div>';
     }
-    else {
-        modal.innerHTML = '<div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h2 class="modal-title">'+ geojson.properties.name +'</h2></div><div class="modal-body"><img src="/images/participants/extinct_in_the_wild/'+ geojson.properties.thumbnail +'"><p>'+ geojson.properties.description_short +'</p></div></div><div class="modal-footer"><h2 class="modal-title">Extinct in the Wild</p></h2></div></div>';
-    }   
     document.body.appendChild(modal);
     var anchor = '#' + modal_url;
     $(anchor).urlModal();
 }
-
-document.getElementById('filter-volatility').onclick = function () {
+document.getElementById('filter-volatility').onclick = function() {
     var layer_group = mapLayerGroups['volatility_storms'];
-        for(var key in layer_groups) {
-            var layer_name = key;
-            // **Remove if statement before production, temp fix before all data is loaded
-            if(mapLayerGroups[layer_name] != undefined) {
-                var layer_category = mapLayerGroups[layer_name];
+    for (var key in layer_groups) {
+        var layer_name = key;
+        if (mapLayerGroups[layer_name] != undefined) {
+            var layer_category = mapLayerGroups[layer_name];
             map.removeLayer(layer_category);
-            }
         }
-    map.addLayer(layer_group);   
+    }
+    map.addLayer(layer_group);
 }
-
-document.getElementById('filter-extinct-wild').onclick = function () {
+document.getElementById('filter-extinct-wild').onclick = function() {
     var layer_group = mapLayerGroups['extinct_wild'];
-        for(var key in layer_groups) {
-            var layer_name = key;
-            // **Remove if statement before production, temp fix before all data is loaded
-            if(mapLayerGroups[layer_name] != undefined) {
-                var layer_category = mapLayerGroups[layer_name];
+    for (var key in layer_groups) {
+        var layer_name = key;
+        if (mapLayerGroups[layer_name] != undefined) {
+            var layer_category = mapLayerGroups[layer_name];
             map.removeLayer(layer_category);
-            }
         }
-    map.addLayer(layer_group);   
+    }
+    map.addLayer(layer_group);
 }
-
-
-document.getElementById('filter-case-studies').onclick = function () {
+document.getElementById('filter-case-studies').onclick = function() {
     var layer_group = mapLayerGroups['case_studies'];
-        for(var key in layer_groups) {
-            var layer_name = key;
-            // **Remove if statement before production, temp fix before all data is loaded
-            if(mapLayerGroups[layer_name] != undefined) {
-                var layer_category = mapLayerGroups[layer_name];
+    for (var key in layer_groups) {
+        var layer_name = key;
+        if (mapLayerGroups[layer_name] != undefined) {
+            var layer_category = mapLayerGroups[layer_name];
             map.removeLayer(layer_category);
-            }
         }
-    map.addLayer(layer_group);   
+    }
+    map.addLayer(layer_group);
 }
-
-document.getElementById('filter-extinct-sites').onclick = function () {
+document.getElementById('filter-extinct-sites').onclick = function() {
     var layer_group = mapLayerGroups['extinction_sites'];
-        for(var key in layer_groups) {
-            var layer_name = key;
-            // **Remove if statement before production, temp fix before all data is loaded
-            if(mapLayerGroups[layer_name] != undefined) {
-                var layer_category = mapLayerGroups[layer_name];
+    for (var key in layer_groups) {
+        var layer_name = key;
+        if (mapLayerGroups[layer_name] != undefined) {
+            var layer_category = mapLayerGroups[layer_name];
             map.removeLayer(layer_category);
-            }
         }
-    map.addLayer(layer_group);   
+    }
+    map.addLayer(layer_group);
 }
-
-document.getElementById('filter-all').onclick = function () {
-        for(var key in layer_groups) {
-            var layer_name = key;
-            // **Remove if statement before production, temp fix before all data is loaded
-            if(mapLayerGroups[layer_name] != undefined) {
-                var layer_category = mapLayerGroups[layer_name];
+document.getElementById('filter-all').onclick = function() {
+    for (var key in layer_groups) {
+        var layer_name = key;
+        if (mapLayerGroups[layer_name] != undefined) {
+            var layer_category = mapLayerGroups[layer_name];
             map.addLayer(layer_category);
-            }
         }
+    }
 }

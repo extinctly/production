@@ -51,7 +51,10 @@ docpadConfig = {
 				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
 				"//cdn.firebase.com/js/client/1.0.15/firebase.js"
 				"/scripts/bootstrap-custom.js"
+				"//api.tiles.mapbox.com/mapbox.js/v2.0.1/mapbox.js"
+				"/vendor/js/leaflet.ajax.min.js"
 				"/scripts/modal.js"
+				"/scripts/map.js"
 				"/scripts/script.js"
 				"/scripts/contact.js"
 			]

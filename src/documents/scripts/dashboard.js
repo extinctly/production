@@ -20,7 +20,7 @@
 	document.getElementById('dashboard').style.visibility = "visible";
   }
   $.ajax({
-    "url":"https://www.kimonolabs.com/api/6bsavl58?apikey=mYKI4BfL6lB0ICNIMEJJmmPPgpPa4wq4&callback=kimonoCallback",
+    "url":"//kimonolabs.com/api/6bsavl58?apikey=mYKI4BfL6lB0ICNIMEJJmmPPgpPa4wq4&callback=kimonoCallback",
     "crossDomain":true,
     "dataType":"jsonp"
 });
