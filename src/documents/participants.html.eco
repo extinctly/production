@@ -78,7 +78,7 @@ navTitle: Participants
 						<a href="<%- document.link1_url %>" target="_blank">
 						<img src="/images/participants/<%- document.image %>" alt="<%= document.title %>">
 						</a>
-							<%- document.description %>
+						<%- document.description %>
 					</div>
 					<div class="col-lg-3 bio">
 						<p>

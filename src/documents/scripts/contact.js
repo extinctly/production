@@ -17,6 +17,6 @@ function onSubmit() {
   };
 
 $(function(){
-  $('#anna-zett, #julian-oliver, #alex-mackin-dolan, #david-blandy, #emily-jones, #femke-herregraven, #folder, #kari-altmann, #lisa-ma, #kev-bewersdorf, #michael-wang, #tobias-revell, #ubermorgen').urlModal();
+  $('#anna-zett, #jesse-darling, #julian-oliver, #alex-mackin-dolan, #david-blandy, #emily-jones, #femke-herregraven, #folder, #kari-altmann, #lisa-ma, #kev-bewersdorf, #michael-wang, #tobias-revell, #ubermorgen').urlModal();
 });
 
