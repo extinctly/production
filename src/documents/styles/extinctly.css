@@ -693,6 +693,10 @@ footer .row {
 .modal-body-container img {
 }
 
+.modal-body img {
+  margin-top: 0;
+}
+
 .kev {
   background: #FFF !important;
   color: #000;
@@ -747,6 +751,7 @@ footer .row {
 .subdomain {
   font-size: 22px;
   text-transform: uppercase;
+  margin-bottom: 25px;
 }
 
 .modal-body .kev {
