@@ -1,3 +1,0 @@
-OpenOil believes that oil and gas production can benefit the citizens of producing countries more effectively, and the damage wrought by governments, often as a result of the prize to be obtained by controlling natural resource wealth, can be mitigated and reversed.
-
-OpenOil is developing a network of corporate relations in the oil, gas and mining industries. Together with iilab they are developing a tool that can be used to facilitate investigations into the major corporate players in the extractive industries of certain countries including Nigeria, Tunisia and Mozambique.

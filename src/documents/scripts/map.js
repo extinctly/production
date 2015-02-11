@@ -133,10 +133,6 @@ function createModal(feature, url) {
     modal.className = "modal fade";
 
     switch (feature.properties.type){
-        /*case "case_studies": 
-            modal.innerHTML = '<div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h1>' + feature.properties.name +'</h1></div><div class="modal-body"><div class="row"><div class="col-sm-6 col-sm-offset-3"><iframe width="500" height="auto" frameborder="0"></iframe></div></div></div></div></div></div><div class="modal-footer"><h1><a href="'+ feature.properties.website +'" target="_blank">'+ feature.properties.website_title +'</a></h1></div>';
-        break;*/
-
         case "extinct_wild":
             modal.innerHTML = '<div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h2 class="modal-title">' + feature.properties.name +'</h2></div><div class="modal-body"><div class="row"><div class="col-sm-6 col-sm-offset-3"><img src="/images/participants/extinct_in_the_wild/' + feature.properties.thumbnail +'"><p>' + feature.properties.description_short + '</p></div></div></div></div></div><div class="modal-footer"><h2 class="modal-title"><a href="http://michaelwang.info/Extinct-in-the-Wild-Proposal" target="_blank">Extinct in the Wild</a></h2></div>'
         break;

@@ -44,7 +44,8 @@ navTitle: Case Studies
 		</div>
 	</div> <!-- Container -->
 
-<!-- Create modal content -->
+
+<!-- Create modal content for case studies -->
 <% for document in @getCollection('case_studies').toJSON(): %>
 	<div id="<%- document.url %>" class="modal fade video-modal">
 		<div class="modal-dialog">
@@ -54,7 +55,13 @@ navTitle: Case Studies
 					<h2 class="modal-title"><%= document.name %></h2>
 				</div>
 				<div class="modal-body modal-body-container">
-					<p class="lead"><%- document.description_short %></p><%- document.video %><p> <%- document.description_long %></p><p>
+					<p class="text-center">
+						<%- document.description_short %>
+					</p>
+					<%- document.video %>
+					<p>
+						<%- document.contentRenderedWithoutLayouts %>
+					</p>
 				</div>
 			</div>
 		</div>
@@ -63,4 +70,5 @@ navTitle: Case Studies
 		</div>
 	</div>
 <% end %>
+
 

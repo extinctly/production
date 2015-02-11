@@ -1,5 +1,4 @@
-```
-
+---
 isCaseStudy: true
 
 url: ameg
@@ -11,9 +10,8 @@ location: Arctic
 
 description_short: AMEG is a group of determined scientists, engineers, communicators and others, dedicated firstly to establishing what is really happening to our planet (especially in the Arctic) using the best scientific evidence, and secondly to finding effective and affordable means to deal with the situation, thirdly to communicating these matters.
 
-thumbnail : ameg.jpg
-
-video : <iframe width="560" height="315" src="//www.youtube.com/embed/iSsPHytEnJM" frameborder="0" allowfullscreen></iframe>
+thumbnail: ameg.jpg
+video: <iframe width="560" height="315" src="//www.youtube.com/embed/iSsPHytEnJM" frameborder="0" allowfullscreen></iframe>
 
 date_established: 2010
 
@@ -26,9 +24,8 @@ link1_url: http://www.ameg.me/
 
 link2_title: Blogpost 04/05/2012
 link2_url: http://a-m-e-g.blogspot.co.uk/2012/05/message-from-arctic-methane-emergency.html
+---
 
-```
-
-AMEG is a group of determined scientists, engineers, communicators and others, dedicated firstly to establishing what is really happening to our planet (especially in the Arctic) using the best scientific evidence, and secondly to finding effective and affordable means to deal with the situation, thirdly to communicating these matters. AMEG's declaration states:
+AMEG's declaration states:
 
 "Governments must get a grip on a situation which IPCC, the Intergovernmental Panel on Climate Change, has ignored. A strategy of mitigation and adaptation is doomed to fail. It will be impossible to adapt to the worst consequences of global warming, as IPCC suggests. The Arctic must be cooled, ASAP, to prevent the sea ice disappearing with disastrous global consequences. Rapid warming in the Arctic, as sea ice retreats, has already disrupted the jet stream. The resulting escalation in weather extremes is causing a food crisis which must be addressed before the existing conflicts in Asia and Africa spread more widely. Dangerous global warming and ocean acidification must be prevented by reducing the level of CO2 in the atmosphere, especially by improved agricultural practice, thereby addressing the food crisis at the same time. This is an unprecedented opportunity for international collaboration for common purpose. There is no excuse for procrastination. We must see action now."

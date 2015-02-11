@@ -86,7 +86,7 @@
 			"date_established": "2014",
 			"template": "partials/casestudies/detroit-water-brigade.html",
 			"people": "DeMeeko Williams, Danny McGlashing, Justin Wedes, Makita Taylor, Rodney Deas, Shamayim Harris, Mike Turner, Beulah Walker",
-			"description_short": "Detroit Water Brigade is a volunteer-led alliance of compassionate citizens of Detroit and their international allies working to bring emergency relief to families facing water shut offs.",
+			"description_short": "Detroit Water Brigade is a volunteer-led alliance of compassionate citizens of Detroit and their international allies working to bring emergency relief to families facing water shut offs while advocating for an income-based Water Affordability Plan in Detroit.",
 			"website": "http://detroitwaterbrigade.org/",
 			"website_title": "detroitwaterbrigade.org",
 			"media": {
@@ -153,7 +153,7 @@
 			"date_established": "2010",
 			"template": "partials/casestudies/geeks-without-bounds.html",
 			"people": "Willow Brugh, Lindsay Oliver, Lisha Sterling",
-			"description_short": "Geeks Without Bounds is an accelerator for humanitarian projects.",
+			"description_short": "Geeks Without Bounds is an accelerator for humanitarian projects, mentoring good intentions to a state of deployment.",
 			"website": "http://gwob.org/",
 			"website_title": "gwob.org",
 			"media": {
@@ -338,7 +338,7 @@
 		},
 		"properties": {
 			"name": "Open Oil Data Framework",
-			"link": "open-oil-data-framework",
+			"link": "open-oil",
 			"type": "case_studies",
 			"category": "finite",
 			"location": "Berlin, Germany",

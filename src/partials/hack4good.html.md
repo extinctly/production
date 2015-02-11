@@ -1,5 +1,0 @@
-Geeklist &#35;hack4good unites the world's leading minds to build solutions to humanity's greatest problems. It is built around an international hackathon coordinated by Reuben Katz and Dan Cunningham of Geeklist. Prior to the hackathon, in 33 cities all around the world, ambassadors stood up to organize the hackathon in their respective cities.
-
-&#35;hack4good is an international hackathon, where creatives, designers and developers build solutions for humanity's biggest challenges. In 48 hours, teams brainstorm, design and develop solutions tailored to the needs of knowledge experts (NGOs, governments) who lack technical expertise. These knowledge experts bring in challenges from the field and depend on the theme of the hackathon.
-
-In the previous hackathon the theme was Climate Change and over 1000 participants built over 100 apps to help solve issues related to Climate Change. The theme is different every hackathon and always serves social good.
