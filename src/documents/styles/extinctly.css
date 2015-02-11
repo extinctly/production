@@ -492,7 +492,15 @@ footer .row {
   margin-bottom: 50px;
 }
 #dashboard {
-  visibility: hidden;
+    background-image: url('/images/the-ongoing-collapse-alpha.png'); 
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    text-align: center;
+    margin: 50px 0;
+    .text-center {
+      text-align: center;
+      margin: 50px 0 !important;
+    }
 }
 #participants {
   margin: 50px 0;
@@ -695,6 +703,7 @@ footer .row {
 
 .modal-body img {
   margin-top: 0;
+  max-width: 500px;
 }
 
 .kev {
@@ -749,11 +758,19 @@ footer .row {
 }
 
 .subdomain {
+  margin-bottom: 35px;
+  text-align: center;
+}
+.subdomain a {
+  font-family: 'nebula_iiregular';
+  text-align: center;
+  text-decoration: none;
   font-size: 22px;
   text-transform: uppercase;
-  margin-bottom: 25px;
 }
-
+.subdomain a:hover {
+  text-decoration: underline;
+}
 .modal-body .kev {
   padding-bottom: 30px;
 }

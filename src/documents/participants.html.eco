@@ -15,7 +15,7 @@ navTitle: Participants
 						<!-- Create isotope items -->
 						<% for document in @getCollection('participants').toJSON(): %>
 							<div class="col-md-4 item text-center">
-								<a href="#<%- document.url %>" data-target="#<%- document.url %>" data-toggle="modal"><img alt="<%= document.name %>" src="/images/thumbnails/participants/<%= document.thumbnail %>">
+								<a href="#<%- document.url %>" data-target="#<%- document.url %>" data-toggle="modal"><img alt="<%= document.name %>" src="/images/participants/thumbnails/<%= document.thumbnail %>">
 								</a>
 								<div class="info-overlay feature">
 									<a href="#<%- document.url %>" data-target="#<%- document.url %>" data-toggle="modal"><%= document.name %></a>
@@ -72,9 +72,11 @@ navTitle: Participants
 			<div class="modal-body">
 				<div class="row">
 					<div class="col-lg-6 col-lg-offset-3 text-center">
-						<a class="subdomain" href="<%- document.link1_url %>" target="_blank">
+						<p class="subdomain">
+						<a href="<%- document.link1_url %>" target="_blank">
 							<%= document.link1_title %>
 						</a>
+						</p>
 						<a href="<%- document.link1_url %>" target="_blank">
 						<img src="/images/participants/<%- document.image %>" alt="<%= document.title %>">
 						</a>
