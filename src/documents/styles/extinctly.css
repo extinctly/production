@@ -564,6 +564,7 @@ footer .row {
 }
 .custom-popup .leaflet-popup-content-wrapper a:hover {
   color: #f1f2d9;
+  cursor: pointer;
 }
 .custom-popup .leaflet-popup-tip-container {
   width: 30px;

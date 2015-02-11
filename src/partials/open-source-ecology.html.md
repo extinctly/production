@@ -1,0 +1,5 @@
+Open Source Ecology (OSE) is a network of farmers, engineers, architects and supporters, whose main goal is the eventual manufacturing of the Global Village Construction Set (GVCS).
+
+Focused on developing open source industrial machines that can be made for a fraction of commercial costs, with all designs shared freely online. The goal of Open Source Ecology is to create an open source economy - an efficient economy which increases innovation through open collaboration.
+
+The current practical implementation of the GVCS is a life size LEGO set of powerful, self-replicating production tools for distributed production. The Set includes fabrication and automated machines that make other machines. Through the GVCS, OSE intends to build not individual machines - but machine construction systems, so that new machines can be built from existing machines, the GVCS is intended to be a kernel for building infrastructures of modern civilization.
