@@ -3,7 +3,7 @@ isCaseStudy: true
 
 url: open-source-beehives
 
-name: Open Source Bee Hives
+name: Open Source Beehives
 type: case_studies
 location: Colorado, U.S.A
 

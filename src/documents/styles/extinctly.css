@@ -434,6 +434,17 @@ footer .row {
 .case-studies {
   margin: 75px 0;
 }
+
+.case-studies img {
+  filter: gray; /* IE5+ */
+  -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+  opacity: .7;
+}
+.case-studies img:hover, img:active {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  opacity: 1;
+}
 .blog {
   padding: 0 200px;
 }
@@ -540,6 +551,7 @@ footer .row {
 .leaflet-container h2,
 .leaflet-container h3 {
   font-size: 20px;
+  line-height: 26px;
 }
 .leaflet-container p {
   font-size: 14px;
@@ -685,8 +697,9 @@ footer .row {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  min-width: 500px;
+  //min-width: 500px;
   padding: 20px 0;
+  border: none;
 }
 .modal-body .lead {
   text-align: center;
@@ -698,8 +711,7 @@ footer .row {
   margin-right: auto;
   width: 80%;
   height: 100%;
-}
-.modal-body-container img {
+  padding-bottom: 75px;
 }
 
 .modal-body img {

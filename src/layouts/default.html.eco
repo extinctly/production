@@ -144,9 +144,9 @@
 						<label class="sr-only" for="contact_email">Your contact information</label>
 						<input type="email" class="form-control" id="contact_email" placeholder="Your email address">
 					</div>
-				</div>
 				<div>
 					<button type="submit" data-dismiss="modal" class="btn btn-primary" onclick="onSubmit()">Submit</button>
+				</div>				
 				</div>
 			</div>
 		</div>

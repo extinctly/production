@@ -497,5 +497,54 @@
 				"video": "//www.youtube.com/embed/i7J-tlrkVEE"
 			}
 		}
+	},
+	{
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [-71.09416, 42.360091]
+		},
+		"properties": {
+			"name": "MIT CityFARM",
+			"link": "mit-cityfarm",
+			"type": "case_studies",
+			"category": "infrastructure",
+			"location": "Cambridge, MA, U.S.A.",
+			"date_established": "",
+			"template": "partials/casestudies/mit-cityfarm.html",
+			"people": "",
+			"description_short": "The MIT CityFARM is an anti-disciplinary group of engineers, architects, urban planners, economists and plant scientists exploring and developing high performance urban agricultural systems.",
+			"website": "http://mitcityfarm.media.mit.edu/",
+			"website_title": "mitcityfarm.media.mit.edu",
+			"media": {
+				"thumb": "mit_cityfarm.jpg",
+				"video": "//www.youtube.com/embed/sw9rTfrJ2Rs"
+			}
+		}
+	},
+	{
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [-87.7321555,41.8337329]
+		},
+		"properties": {
+			"name": "Outernet",
+			"link": "outernet",
+			"type": "case_studies",
+			"category": "infrastructure",
+			"location": "Chicago, IL, U.S.A.",
+			"date_established": "",
+			"template": "partials/casestudies/outernet.html",
+			"people": "",
+			"description_short": "Outernet is a project that aims to improve internet connectivity in poorly served areas. In its most recent practical form, it includes an object known as Lantern - an autonomous library able to freely receive (but not transmit) data from any spot on the globe.",
+			"website": "https://www.outernet.is/en/ ",
+			"website_title": "outernet.is",
+			"media": {
+				"thumb": "mit_cityfarm.jpg",
+				"video": "//www.youtube.com/embed/sw9rTfrJ2Rs"
+			}
+		}
 	}
 ]
+

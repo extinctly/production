@@ -5,7 +5,7 @@ order: 6
 navTitle: Case Studies
 ---
 
-	<!-- Sub-navbar start -->
+	<!-- Sub-navbar start
 	<div class="navbar navbar-inverse no-border">
 		<div class="navbar navbar-collapse collapse no-margin no-border">
 			<ul id="filters" class="nav navbar-nav subnav">
@@ -17,13 +17,13 @@ navTitle: Case Studies
 				<li class="col-lg-2"><a data-filter=".finance">Finance</a></li>
 			</ul>
 		</div>
-	</div> <!-- / Subnavbar -->
+	</div> / Subnavbar -->
 
 
 	<h2 class="text-center page-title">CASE STUDIES INDEX</h2>
 	<hr id="live">
 	<div class="container">
-		<p class="text-center">The Case Studies Index charts the efforts of organisations and networks responding to ongoing and emergent crises. Expanding over time, the index is intended as a way of sharing our research, and of helping others visiting EXTINCT.LY to discover new initiatives. We hope to further our research into the topic of extinction by offering a resource that can bring disparate groups together, and begin to bridge communication between artists, thinkers and engineers.</p>
+		<p class="text-center">The Case Studies Index charts the efforts of organisations and networks responding to ongoing and emergent crises. Expanding over time, the index is intended as a way of sharing our research, and of helping others visiting <strong><em>EXTINCT.LY</em></strong> to discover new initiatives. We hope to further our research into the topic of extinction by offering a resource that can bring disparate groups together, and begin to bridge communication between artists, thinkers and engineers.</p>
 		<div class="case-studies">
 			<div class="row">	
 				<div class="col-md-12">

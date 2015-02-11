@@ -6,7 +6,7 @@ url: mit-cityfarm
 name: MIT CityFARM
 type: case_studies
 
-location: 
+location: Cambridge, MA
 
 description_short: The MIT CityFARM is an anti-disciplinary group of engineers, architects, urban planners, economists and plant scientists exploring and developing high performance urban agricultural systems.
 
