@@ -237,8 +237,10 @@ footer {
 /* ISOTOPE
 ------------------------- */
 
-#isotope-items {
+.thumbnails {
 	margin: 50px 0;
+}
+#isotope-items {
 	img {
 		filter: gray; /* IE5+ */
 		-webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
@@ -249,21 +251,18 @@ footer {
 		-webkit-filter: grayscale(0);
 		opacity: 1;
 	}
+	.item {
+		margin: 0 0 40px 0;
+		img {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			min-height: 150px;
+			max-width: 200px;
+		}
+	}
 }
-.item {
-  /* margin: 20px 8px; */
-  margin-bottom: 40px;
-  margin-left: 0;
-  margin-right: 0;
-}
-.item img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  min-height: 150px;
-  max-width: 200px;
-}
-.info-overlay {
+.thumbnail-caption {
   padding-top: 5px;
   font-family: 'marathonbold';
   font-size: 12px;
@@ -277,6 +276,7 @@ footer {
 	font-size: 38px;
 	margin-top: 50px;
 	margin-bottom: 40px;
+	text-align: center;
 }
 /* CUSTOM
 ------------------------- */
@@ -750,7 +750,7 @@ footer {
 			font-size: 26px;
 		}
 	}
-	#isotope-items {
+	.thumbnails {
 		margin-bottom: 15px;
 		.col-md-4 {
 			display: block;

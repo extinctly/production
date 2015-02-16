@@ -6,27 +6,22 @@ navTitle: Participants
 ---
 
 
-	<h2 class="text-center page-title">PARTICIPANTS</h2>
-	<hr id="live">
-	<div class="container">
-			<div class="row">	
-				<div class="col-md-12">
-					<div class="projects">
-						<!-- Create isotope items -->
-						<% for document in @getCollection('participants').toJSON(): %>
-							<div class="col-md-4 item text-center">
-								<a href="#<%- document.url %>" data-target="#<%- document.url %>" data-toggle="modal"><img alt="<%= document.title %>" src="/images/participants/thumbnails/<%= document.thumbnail %>">
-								</a>
-								<div class="info-overlay">
-									<a href="#<%- document.url %>" data-target="#<%- document.url %>" data-toggle="modal"><%= document.name %></a>
-								</div>
-							</div>
-						<% end %>
-					</div>
+<h2 class="page-title">PARTICIPANTS</h2>
+<hr id="live">
+<div class="container">
+	<div class="thumbnails">
+		<!-- Create isotope items -->
+		<% for document in @getCollection('participants').toJSON(): %>
+			<div class="col-md-4 item">
+				<a href="#<%- document.url %>" data-target="#<%- document.url %>" data-toggle="modal"><img alt="<%= document.title %>" src="/images/participants/thumbnails/<%= document.thumbnail %>">
+				</a>
+				<div class="thumbnail-caption">
+					<a href="#<%- document.url %>" data-target="#<%- document.url %>" data-toggle="modal"><%= document.name %></a>
 				</div>
 			</div>
-		</div>
-	</div> <!-- Container -->
+		<% end %>
+	</div>
+</div> <!-- Container -->
 
 <!-- If has video -->
 <% for document in @getCollection('hasVideo').toJSON(): %>
