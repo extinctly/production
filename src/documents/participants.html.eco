@@ -30,14 +30,14 @@ navTitle: Participants
 
 <!-- If has video -->
 <% for document in @getCollection('hasVideo').toJSON(): %>
-	<div id="<%- document.url %>" class="modal fade video-modal">
+	<div id="<%- document.url %>" class="modal fade">
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 				<h2><%= document.title %></h2>
 			</div>
-			<div class="modal-body">
+			<div class="modal-body participants">
 				<div class="row">
 					<div class="col-lg-6 col-lg-offset-3">
 						<%- document.video %>
@@ -62,14 +62,14 @@ navTitle: Participants
 
 <!-- If has video -->
 <% for document in @getCollection('hasSubdomain').toJSON(): %>
-	<div id="<%- document.url %>" class="modal fade video-modal">
+	<div id="<%- document.url %>" class="modal fade">
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 				<h2><%- document.title %></h2>
 			</div>
-			<div class="modal-body">
+			<div class="modal-body participants">
 				<div class="row">
 					<div class="col-lg-6 col-lg-offset-3">
 						<p class="subdomain">
@@ -106,7 +106,7 @@ navTitle: Participants
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 				<h2 class="kev text-center">Fear No Evil</h2>
 			</div>
-			<div class="modal-body kev">
+			<div class="modal-body participants kev">
 				<div class="col-lg-6 col-lg-offset-3">
 					<p class="text-center">Reversing the Flow of Internet Expansion</p>
 					<p>
@@ -446,7 +446,7 @@ navTitle: Participants
 </div>
 
 
-<div id="anna-zett" class="modal fade">
+<div id="anna-zett" class="participants modal fade">
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
@@ -478,7 +478,7 @@ navTitle: Participants
 </div>
 
 <!-- Modal HTML -->
-<div id="ubermorgen" class="modal fade">
+<div id="ubermorgen" class="participants modal fade">
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
@@ -512,16 +512,16 @@ navTitle: Participants
 
 
 <!-- Femke Narrative -->
-<div id="femke-herregraven" class="modal fade">
+<div id="femke-herregraven" class="participants modal fade">
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 				<h2>Volatility Storms</h2>
 			</div>
-			<div class="modal-body">
+			<div class="modal-body participants">
 				<div class="row">
-					<div class="col-lg-6 col-lg-offset-3 text-center">
+					<div class="col-lg-6 col-lg-offset-3">
 						<h2>Volatility Storms</h2>
 						<p class="lead">Investment portfolio</p> 
 						<p>
@@ -553,3 +553,4 @@ navTitle: Participants
 		<h2>Femke Herregraven</h2>
 	</div>
 </div>
+

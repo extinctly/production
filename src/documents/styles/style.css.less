@@ -369,11 +369,14 @@ footer {
 #live {
 	border-top-width: 5px;
 }
-.home .col-sm-5 {
-  padding: 0;
-}
-.home .col-sm-2 {
-  padding: 0;
+
+.home {
+	.col-sm-5 {
+		padding: 0;
+	}
+	.col-sm-2 {
+		padding: 0;
+	}
 }
 .dates {
 	font-family: 'hyperzoaultra';
@@ -387,9 +390,6 @@ footer {
 	top: 0;
 	width: 100%;
 	padding: 10px;
-}
-.blog {
-  padding: 0 200px;
 }
 .texts {
 	width: 100%;
@@ -411,19 +411,9 @@ footer {
 		font-size: 32px;		
 		margin: 15px 0 50px 0;
 	}
-}
-.texts-gradient {
-  height: 30px;
-  width: 100%;
-  background-image: -moz-linear-gradient(top, #000000 100%, #000000 0%);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.24, #000000), color-stop(0.62, #23ab11));
-  background-image: -webkit-linear-gradient(bottom, #000000 24%, #000000 62%);
-  background-image: -ms-linear-gradient(bottom, #000000 24%, #000000 62%);
-  background-image: linear-gradient(bottom, #000000 24%, #000000 62%);
-  background-image: -o-linear-gradient(bottom, #000000 24%, #000000 62%);
-}
-.main-texts {
-  margin-top: 800px;
+	.main {
+		margin-top: 100vh;
+	}
 }
 #dashboard {
     background-image: url('/images/participants/the-ongoing-collapse-alpha.png'); 
@@ -574,7 +564,7 @@ footer {
 				iframe {
 					display: block;
 					margin: 20px auto;
-					max-width: 100%;
+					width: 100%;
 					border: none;
 				}
 				img {
@@ -582,9 +572,12 @@ footer {
 					margin-bottom: 20px;
 					margin-left: auto;
 					margin-right: auto;
-					max-width: 100%;
+					width: 100%;
 					border: none;
 				}
+			}
+			.modal-body .participants {
+				width: 100%;
 			}
 		}
 	}
@@ -612,44 +605,22 @@ footer {
 	text-decoration: underline;  	
   }
 }
-
-
-/* new MODS
--------------------------------------------------- */
-
-.fixed-nav-offset {
-  padding-top: 250px;
-}
-
-.fixed-nav-body {
-  margin-top: 250px;
-}
-
-.essay-text {
-  margin-top: 75px;
-  margin-bottom: 75px;
-}
-
-.ongoing-collapse-icon {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-height: 125px;
-  padding: 0 0 40px 0;
-}
-
-
 .bio {
-  font-size: 14px;
+	p {
+		font-size: 14px;
+	}
 }
 
 .subdomain {
   font-size: 22px;
   text-transform: uppercase;
   margin-bottom: 25px;
+  text-align: center;
   a {
   	font-family: 'nebula_iiregular';
   	text-decoration: none;
+  	font-size: 16px;
+  	text-align: center;
   	&:hover {
   		text-decoration: none;
   	}
@@ -660,37 +631,8 @@ footer {
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 @media screen and (max-device-width: 500px) {
-  .container {
-    padding: 0 25px;
-  }
-  .col-sm-6 {
-    padding: 0;
-  }
-  .column-padded {
-    padding: 0;
-  }
-  footer {
-    padding: 0;
-  }
-  .nav-wrapper {
-    padding: 0 0;
-  }
-  .case-studies {
-    margin: 0;
-  }
-  .blog {
-    margin: 0 15px;
-    padding: 0;
-  }
-  .blog .dates {
-    margin-top: 20px;
-    padding-bottom: 5px;
-  }
   .extinctly-rotate {
     margin-top: 200px;
-  }
-  .main-texts {
-    margin-top: 500px;
   }
 }
 
@@ -707,6 +649,9 @@ footer {
 		.col-sm-2 {
 			width: 100%;
 		}
+	}
+	.modal {
+		max-width: 100%;
 	}
 	.modal .modal-dialog .modal-content .modal-header {
 		h2 {
@@ -726,8 +671,12 @@ footer {
 		width: 90%;
 		padding: 0;
 		iframe {
-			max-width: 90%;
+			max-width: 100%;
 			height: auto;
+		}
+		.col-lg-6 .col-lg-offset-3 {
+			padding: 0;
+			margin: 0;
 		}
 	}
 	.carousel {

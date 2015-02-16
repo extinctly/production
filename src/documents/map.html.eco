@@ -76,13 +76,13 @@ navTitle: World Map
 				<h2>Deephorizon, 2010-2012</h2>
 			</div>
 			<div class="modal-body">
-				<p>
-        			The video shows a tracking shot of aerial images of BP’s Deepwater Horizon oil-spill in the Gulf of Mexico, beautifully wrapped around a sphere.
-				</p>
-				<iframe src='//player.vimeo.com/video/12264646' width='500' height='281' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-				<p>
-					The video shows a tracking shot of aerial images of BP’s Deepwater Horizon oil-spill in the Gulf of Mexico, beautifully wrapped around a sphere. The source images are from the massive oil-painting on an 80.000 square-mile canvas with over 800 million liters of oil. This piece cements the position of oil-painting as the supreme discipline of art, but at the same time gives evidence of the delicate and endangered position of painting if the discipline refuses to radically embrace technology.
-				</p>
+					<p>
+	        			The video shows a tracking shot of aerial images of BP’s Deepwater Horizon oil-spill in the Gulf of Mexico, beautifully wrapped around a sphere.
+					</p>
+					<iframe src='//player.vimeo.com/video/12264646' width='500' height='281' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					<p>
+						The video shows a tracking shot of aerial images of BP’s Deepwater Horizon oil-spill in the Gulf of Mexico, beautifully wrapped around a sphere. The source images are from the massive oil-painting on an 80.000 square-mile canvas with over 800 million liters of oil. This piece cements the position of oil-painting as the supreme discipline of art, but at the same time gives evidence of the delicate and endangered position of painting if the discipline refuses to radically embrace technology.
+					</p>
 			</div>
 		</div>
 	</div>

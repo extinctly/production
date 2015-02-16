@@ -78,13 +78,15 @@ navTitle: Case Studies
 					<h2><%= document.name %></h2>
 				</div>
 				<div class="modal-body">
-					<p>
-						<%- document.description_short %>
-					</p>
-					<%- document.video %>
-					<p>
-						<%- document.contentRenderedWithoutLayouts %>
-					</p>
+					<div class="col-lg-6 col-lg-offset-3">
+						<p>
+							<%- document.description_short %>
+						</p>
+						<%- document.video %>
+						<p>
+							<%- document.contentRenderedWithoutLayouts %>
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
