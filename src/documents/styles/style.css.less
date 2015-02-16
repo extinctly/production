@@ -97,7 +97,10 @@ footer {
   }
 }
 .container {
-  width: 70%;
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
 }
 /* CUSTOMIZE THE BOOTSTRAP NAVBAR
 -------------------------------------------------- */
@@ -233,9 +236,25 @@ footer {
 
 /* ISOTOPE
 ------------------------- */
+
+#isotope-items {
+	margin: 50px 0;
+	img {
+		filter: gray; /* IE5+ */
+		-webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+		opacity: .7;
+	}
+	img:hover, img:active {
+		filter: none;
+		-webkit-filter: grayscale(0);
+		opacity: 1;
+	}
+}
 .item {
   /* margin: 20px 8px; */
   margin-bottom: 40px;
+  margin-left: 0;
+  margin-right: 0;
 }
 .item img {
   display: block;
@@ -254,6 +273,11 @@ footer {
   	text-decoration: none;
   }
 }
+.page-title {
+	font-size: 38px;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
 /* CUSTOM
 ------------------------- */
 .subnav { 
@@ -270,6 +294,7 @@ footer {
 		padding: 0;
 		.row {
 			width: 100%;
+			margin: 0;
 		}
 	}
 	.col-sm-2 {
@@ -295,6 +320,9 @@ footer {
 			color: @brand-color;
 		}
 	}
+}
+.casestudies {
+	margin-bottom: 75px;
 }
 
 /* CUSTOM
@@ -720,6 +748,13 @@ footer {
 		h3 {
 			text-align: center;
 			font-size: 26px;
+		}
+	}
+	#isotope-items {
+		.col-md-4 {
+			display: block;
+			margin: 40px auto;
+			width: 100%;
 		}
 	}
 }

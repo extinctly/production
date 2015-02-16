@@ -9,37 +9,37 @@ navTitle: Case Studies
 
 	<h2 class="text-center page-title">CASE STUDIES INDEX</h2>
 	<hr id="live">
-	<div class="container">
+	<div class="container casestudies">
 		<p class="text-center">The Case Studies Index charts the efforts of organisations and networks responding to ongoing and emergent crises. Expanding over time, the index is intended as a way of sharing our research, and of helping others visiting <strong><em>EXTINCT.LY</em></strong> to discover new initiatives. We hope to further our research into the topic of extinction by offering a resource that can bring disparate groups together, and begin to bridge communication between artists, thinkers and engineers.</p>
 	</div>
 
 	<!-- Sub-navbar start -->
 	<div class="subnav">
 		<div class="container">
-			<div class="row">
-				<div class="col-sm-2 col-sm-offset-1">
-					<a id="filter-volatility">
-						Volatility Storms
+			<div id="filters" class="row">
+				<div class="col-sm-2 col-sm-offset-1" data-filter=".finite">
+					<a>
+						Finite
 					</a>
 				</div>
-				<div class="col-sm-2">
-					<a id="filter-extinct-wild">
-						Extinct in the Wild
+				<div class="col-sm-2" data-filter=".humanitarian">
+					<a>
+						Humanitarian
 					</a>
 				</div>
-				<div class="col-sm-2">
-					<a id="filter-all" class="active">
+				<div class="col-sm-2" data-filter="*">
+					<a>
 						Show All
 					</a>
 				</div>
-				<div class="col-sm-2">
-					<a id="filter-case-studies">
-						Case Studies
+				<div class="col-sm-2"  data-filter=".despair">
+					<a>
+						Despair
 					</a>
 				</div>
-				<div class="col-sm-2">
-					<a id="filter-extinct-sites">
-						Extinction Sites
+				<div class="col-sm-2" data-filter=".infrastructure">
+					<a>
+						Infrastructure
 					</a>
 				</div>
 			</div>
@@ -47,23 +47,18 @@ navTitle: Case Studies
 	</div> <!-- /navbar -->
 
 	<div class="container">
-		<div class="case-studies">
-			<div class="row">	
-				<div class="col-md-12">
-					<div class="projects">
-						<!-- Create isotope items -->
-						<% for document in @getCollection('case_studies').toJSON(): %>
-							<div class="col-md-4 item text-center">
-								<a href="#<%- document.url %>" data-target="#<%- document.url %>" data-toggle="modal"><img alt="<%= document.name %>" src="/images/casestudies/thumbnails/<%= document.thumbnail %>">
-								</a>
-								<div class="info-overlay feature">
-									<a href="#<%- document.url %>" data-target="#<%- document.url %>" data-toggle="modal"><%= document.name %></a>
-								</div>
-							</div>
-						<% end %>
+		<div id="isotope-items">
+			<!-- Create isotope items -->
+			<% for document in @getCollection('case_studies').toJSON(): %>
+				<div class="col-md-4 item <%- document.category %>">
+					<a href="#<%- document.url %>" data-target="#<%- document.url %>" data-toggle="modal">
+						<img alt="<%= document.name %>" src="/images/casestudies/thumbnails/<%= document.thumbnail %>">
+					</a>
+					<div class="info-overlay">
+						<a href="#<%- document.url %>" data-target="#<%- document.url %>" data-toggle="modal"><%= document.name %></a>
 					</div>
 				</div>
-			</div>
+			<% end %>
 		</div>
 	</div> <!-- Container -->
 
@@ -78,7 +73,6 @@ navTitle: Case Studies
 					<h2><%= document.name %></h2>
 				</div>
 				<div class="modal-body">
-					<div class="col-lg-6 col-lg-offset-3">
 						<p>
 							<%- document.description_short %>
 						</p>
@@ -86,7 +80,6 @@ navTitle: Case Studies
 						<p>
 							<%- document.contentRenderedWithoutLayouts %>
 						</p>
-					</div>
 				</div>
 			</div>
 		</div>
@@ -97,3 +90,6 @@ navTitle: Case Studies
 <% end %>
 
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.1.0/isotope.pkgd.min.js"></script>
+<script src="/scripts/isotope.js"></script>
