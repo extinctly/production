@@ -1,4 +1,4 @@
-```
+---
 isParticipant: true
 
 isSubdomain: true
@@ -11,9 +11,6 @@ bio: Tobias Revell is a critical designer, researcher and futurist seeking alter
 
 thumbnail: tobias_revell.jpg
 
-
-description: <p>The Ongoing Collapse is a growing collection of data sources and links positioned as a reflection of the state of the world in the terms that it likes to use. It's a gentle ticking of the crumbling weird at the base of civilisation, quoting e.g. the present value of crude oil, the number of parts per million of carbon in the atmosphere or the number of man-made objects in space. The Ongoing Collapse forms a central platform of The Serpentine's EXTINCT.LY.</p>
-
 image: the-ongoing-collapse.png
 
 category: 
@@ -23,5 +20,6 @@ link1_title: theongoingcollapse.com
 link1_url: http://theongoingcollapse.com
 
 url: tobias-revell
+---
 
-```
+The Ongoing Collapse is a growing collection of data sources and links positioned as a reflection of the state of the world in the terms that it likes to use. It's a gentle ticking of the crumbling weird at the base of civilisation, quoting e.g. the present value of crude oil, the number of parts per million of carbon in the atmosphere or the number of man-made objects in space. The Ongoing Collapse forms a central platform of The Serpentine's ***EXTINCT.LY***.

@@ -1,15 +1,13 @@
-```
+---
 isParticipant: true
 
-isVideo: false
+isVideo: true
 
 name: Anna Zett
 
 title: This Unwieldy Object
 
 bio:
-
-description: Dinosaurs linger behind the horizon of colonial capitalism, waiting to be appropriated for profit or mythology. Against the backdrop of an unresolved disruption called the End of History, the artist as scientist as protagonist performs an inquiry into the contradictions of progress. Dig sites become crime scenes and fossils turn into characters, determined to play a main part in the fantastic history of the US-American West.<br><br><em>This Unwieldy Object</em><br>A Modern Research Drama by Anna Zett<br>Germany/USA 2014
 
 thumbnail: anna_zett.jpg
 
@@ -20,12 +18,10 @@ link1_title: Anna Zett
 link1_url: http://annazett.net/
 
 url: anna-zett
+---
 
-```
-
+<p class="text-center">A Modern Research Drama by Anna Zett<br>
+	Germany/USA 2014
+</p>
 
 Dinosaurs linger behind the horizon of colonial capitalism, waiting to be appropriated for profit or mythology. Against the backdrop of an unresolved disruption called the End of History, the artist as scientist as protagonist performs an inquiry into the contradictions of progress. Dig sites become crime scenes and fossils turn into characters, determined to play a main part in the fantastic history of the US-American West.
-
-*This Unwieldy Object*
-A Modern Research Drama by Anna Zett
-Germany/USA 2014

@@ -7,7 +7,7 @@ title: FEAR NO EVIL
 
 subtitle: Reversing the Flow of Internet Expansion
 
-bio: ritual.technology
+bio: <a href="http://ritual.technology" target="_blank">ritual.technology</a>
 
 thumbnail: kev_bewersdorf.jpg
 

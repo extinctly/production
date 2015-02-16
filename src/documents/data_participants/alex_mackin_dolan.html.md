@@ -13,7 +13,7 @@ thumbnail: alex_mackin_dolan.jpg
 
 image: climate-march.jpg
 
-link1_title: 2014 NYC People's Climate March Photos
+link1_title: climatemarch.extinct.ly
 
 link1_url: http://climatemarch.extinct.ly
 

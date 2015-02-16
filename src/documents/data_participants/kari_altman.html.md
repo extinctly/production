@@ -1,4 +1,4 @@
-```
+---
 isParticipant: true
 
 isSubdomain: true
@@ -22,5 +22,4 @@ link1_title: flexia.extinct.ly
 link1_url: http://flexia.extinct.ly
 
 url: kari-altman
-
-```
+---

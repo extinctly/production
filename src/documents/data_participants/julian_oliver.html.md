@@ -1,4 +1,4 @@
-```
+---
 isParticipant: true
 
 isSubdomain: true
@@ -25,4 +25,4 @@ link1_url: http://lastwords.extinct.ly
 
 url: julian-oliver
 
-```
+---

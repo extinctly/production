@@ -1,4 +1,4 @@
-```
+---
 isParticipant: true
 
 isVideo: true
@@ -18,5 +18,4 @@ link1_title:
 link1_url:
 
 url: david-blandy
-
-```
+---

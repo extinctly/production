@@ -1,4 +1,4 @@
-```
+---
 isParticipant: true
 
 isMap: false
@@ -25,5 +25,4 @@ link1_title: ziron.extinct.ly
 link1_url: http://ziron.extinct.ly
 
 url: ubermorgen
-
-```
+---
