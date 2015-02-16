@@ -15,9 +15,9 @@ navTitle: Participants
 						<!-- Create isotope items -->
 						<% for document in @getCollection('participants').toJSON(): %>
 							<div class="col-md-4 item text-center">
-								<a href="#<%- document.url %>" data-target="#<%- document.url %>" data-toggle="modal"><img alt="<%= document.name %>" src="/images/participants/thumbnails/<%= document.thumbnail %>">
+								<a href="#<%- document.url %>" data-target="#<%- document.url %>" data-toggle="modal"><img alt="<%= document.title %>" src="/images/participants/thumbnails/<%= document.thumbnail %>">
 								</a>
-								<div class="info-overlay feature">
+								<div class="info-overlay">
 									<a href="#<%- document.url %>" data-target="#<%- document.url %>" data-toggle="modal"><%= document.name %></a>
 								</div>
 							</div>
@@ -35,7 +35,7 @@ navTitle: Participants
 		<div class="modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h2 class="modal-title"><%= document.title %></h2>
+				<h2><%= document.title %></h2>
 			</div>
 			<div class="modal-body">
 				<div class="row">
@@ -55,7 +55,7 @@ navTitle: Participants
 		</div>
 	</div>
 	<div class="modal-footer">
-		<h2 class="modal-title"><%= document.name %></h2>
+		<h2><%= document.name %></h2>
 	</div>
 </div>
 
@@ -67,11 +67,11 @@ navTitle: Participants
 		<div class="modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h2 class="modal-title"><%- document.title %></h2>
+				<h2><%- document.title %></h2>
 			</div>
 			<div class="modal-body">
 				<div class="row">
-					<div class="col-lg-6 col-lg-offset-3 text-center">
+					<div class="col-lg-6 col-lg-offset-3">
 						<p class="subdomain">
 						<a href="<%- document.link1_url %>" target="_blank">
 							<%= document.link1_title %>
@@ -94,7 +94,7 @@ navTitle: Participants
 		</div>
 	</div>
 	<div class="modal-footer">
-		<h2 class="modal-title"><%= document.name %></h2>
+		<h2><%= document.name %></h2>
 	</div>
 </div>
 
@@ -104,7 +104,7 @@ navTitle: Participants
 		<div class="modal-content kev">
 			<div class="modal-header kev text-center">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h2 class="modal-title kev text-center">Fear No Evil</h2>
+				<h2 class="kev text-center">Fear No Evil</h2>
 			</div>
 			<div class="modal-body kev">
 				<div class="col-lg-6 col-lg-offset-3">
@@ -446,12 +446,12 @@ navTitle: Participants
 </div>
 
 
-<div id="anna-zett" class="modal fade video-modal">
+<div id="anna-zett" class="modal fade">
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h2 class="modal-title">This Unwieldy Object</h2>
+				<h2>This Unwieldy Object</h2>
 			</div>
 			<div class="modal-body">
 				<div class="row">
@@ -473,7 +473,7 @@ navTitle: Participants
 		</div>
 	</div>
 	<div class="modal-footer">
-		<h2 class="modal-title"><a href="http://annazett.net" target="_blank">Anna Zett</a></h2>
+		<h2><a href="http://annazett.net" target="_blank">Anna Zett</a></h2>
 	</div>
 </div>
 
@@ -483,9 +483,9 @@ navTitle: Participants
 		<div class="modal-content">
 			<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h2 class="modal-title text-center">Ziron, 2014 | Deephorizon, 2010-12</h2>
+					<h2 class="text-center">Ziron, 2014 | Deephorizon, 2010-12</h2>
 			</div>
-			<div class="modal-body modal-body-container">
+			<div class="modal-body">
 				<div class="row">
 					<div class="col-md-6">
 						<img src="/images/thumbnails/participants/ubermorgen_ziron.png">
@@ -506,18 +506,18 @@ navTitle: Participants
 		</div>
 	</div>
 	<div class="modal-footer">
-		<h2 class="modal-title"><a href="http://ziron.extinct.ly" target="_blank">UBERMORGEN</a></h2>
+		<h2><a href="http://ziron.extinct.ly" target="_blank">UBERMORGEN</a></h2>
 	</div>
 </div>
 
 
 <!-- Femke Narrative -->
-<div id="femke-herregraven" class="modal fade video-modal">
+<div id="femke-herregraven" class="modal fade">
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h2 class="modal-title">Volatility Storms</h2>
+				<h2>Volatility Storms</h2>
 			</div>
 			<div class="modal-body">
 				<div class="row">
@@ -550,6 +550,6 @@ navTitle: Participants
 		</div>
 	</div>
 	<div class="modal-footer">
-		<h2 class="modal-title">Femke Herregraven</h2>
+		<h2>Femke Herregraven</h2>
 	</div>
 </div>

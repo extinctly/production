@@ -5,25 +5,48 @@ order: 6
 navTitle: Case Studies
 ---
 
-	<!-- Sub-navbar start
-	<div class="navbar navbar-inverse no-border">
-		<div class="navbar navbar-collapse collapse no-margin no-border">
-			<ul id="filters" class="nav navbar-nav subnav">
-				<li class="col-lg-2"><a data-filter="*">Show All</a></li>
-				<li class="col-lg-2"><a data-filter=".finite">Finite</a></li>
-				<li class="col-lg-2"><a data-filter=".humanitarian">Humanitarian</a></li>
-				<li class="col-lg-2"><a data-filter=".despair">Despair</a></li>
-				<li class="col-lg-2"><a data-filter=".infrastructure">Infrastructure</a></li>	
-				<li class="col-lg-2"><a data-filter=".finance">Finance</a></li>
-			</ul>
-		</div>
-	</div> / Subnavbar -->
 
 
 	<h2 class="text-center page-title">CASE STUDIES INDEX</h2>
 	<hr id="live">
 	<div class="container">
 		<p class="text-center">The Case Studies Index charts the efforts of organisations and networks responding to ongoing and emergent crises. Expanding over time, the index is intended as a way of sharing our research, and of helping others visiting <strong><em>EXTINCT.LY</em></strong> to discover new initiatives. We hope to further our research into the topic of extinction by offering a resource that can bring disparate groups together, and begin to bridge communication between artists, thinkers and engineers.</p>
+	</div>
+
+	<!-- Sub-navbar start -->
+	<div class="subnav">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-2 col-sm-offset-1">
+					<a id="filter-volatility">
+						Volatility Storms
+					</a>
+				</div>
+				<div class="col-sm-2">
+					<a id="filter-extinct-wild">
+						Extinct in the Wild
+					</a>
+				</div>
+				<div class="col-sm-2">
+					<a id="filter-all" class="active">
+						Show All
+					</a>
+				</div>
+				<div class="col-sm-2">
+					<a id="filter-case-studies">
+						Case Studies
+					</a>
+				</div>
+				<div class="col-sm-2">
+					<a id="filter-extinct-sites">
+						Extinction Sites
+					</a>
+				</div>
+			</div>
+		</div>
+	</div> <!-- /navbar -->
+
+	<div class="container">
 		<div class="case-studies">
 			<div class="row">	
 				<div class="col-md-12">
@@ -52,10 +75,10 @@ navTitle: Case Studies
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h2 class="modal-title"><%= document.name %></h2>
+					<h2><%= document.name %></h2>
 				</div>
-				<div class="modal-body modal-body-container">
-					<p class="text-center">
+				<div class="modal-body">
+					<p>
 						<%- document.description_short %>
 					</p>
 					<%- document.video %>
@@ -66,7 +89,7 @@ navTitle: Case Studies
 			</div>
 		</div>
 		<div class="modal-footer">
-			<h2 class="modal-title"><a href="<%= document.link1_url %>" target="_blank"><%= document.link1_title %></a></p></h2>
+			<h2><a href="<%= document.link1_url %>" target="_blank"><%= document.link1_title %></a></p></h2>
 		</div>
 	</div>
 <% end %>

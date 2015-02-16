@@ -134,11 +134,11 @@ function createModal(feature, url) {
 
     switch (feature.properties.type){
         case "extinct_wild":
-            modal.innerHTML = '<div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h2 class="modal-title">' + feature.properties.name +'</h2></div><div class="modal-body"><div class="row"><div class="col-sm-6 col-sm-offset-3"><img src="/images/participants/extinct_in_the_wild/' + feature.properties.thumbnail +'"><p>' + feature.properties.description_short + '</p></div></div></div></div></div><div class="modal-footer"><h2 class="modal-title"><a href="http://michaelwang.info/Extinct-in-the-Wild-Proposal" target="_blank">Extinct in the Wild</a></h2></div>'
+            modal.innerHTML = '<div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h2 class="modal-title">' + feature.properties.name +'</h2></div><div class="modal-body"><img src="/images/participants/extinct_in_the_wild/' + feature.properties.thumbnail +'"><p>' + feature.properties.description_short + '</p></div></div></div><div class="modal-footer"><h2 class="modal-title"><a href="http://michaelwang.info/Extinct-in-the-Wild-Proposal" target="_blank">Extinct in the Wild</a></h2></div>'
         break;
 
         case "volatility_storms":
-            modal.innerHTML = '<div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h2 class="modal-title">' + feature.properties.name +'</h2></div><div class="modal-body"><div class="row"><div class="col-sm-6 col-sm-offset-3"><img src="/images/participants/'+ feature.properties.media.image +'"><p>' + feature.properties.description_long + '</p></div></div></div></div></div><div class="modal-footer"><h2 class="modal-title">Volatility Storms</h2></div>';
+            modal.innerHTML = '<div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h2>' + feature.properties.name +'</h2></div><div class="modal-body"><img src="/images/participants/'+ feature.properties.media.image +'"><p>' + feature.properties.description_long + '</p></div></div></div><div class="modal-footer"><h2>Volatility Storms</h2></div>';
         break;
     }
     document.body.appendChild(modal);
@@ -181,14 +181,12 @@ document.getElementById('filter-all').onclick = function() {
 }
 
 /******************
-SET IFRAME SRC
+SET ACTIVE FILTER
 ******************/
 
-/*$( 'element' ).click(function() {
-    console.log('hello');
-    var linkId = $(this).attr('class');
-    if(document.getElementById('linkId').getElementsByTagName('iframe')) {
-        var video = document.getElementById('linkId').getElementsByTagName('iframe'); elementbytagname singular
-    }
-    video.src = '//player.vimeo.com/video/12264646';
-});*/
+$(window).load(function(){
+    $("#filters div").click(function() {
+        $('div').removeClass('active');
+        $(this).addClass("active");
+    });
+});

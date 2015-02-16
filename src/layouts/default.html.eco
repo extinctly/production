@@ -59,14 +59,14 @@
 						<% for document in @getCollection('navbar').toJSON(): %>
 							<li
 								about="<%= document.url %>"
-								class="col-lg-2 <%= 'active'	if @document.url is document.url %>"
+								class="col-sm-2 <%= 'active'	if @document.url is document.url %>"
 							>
 								<a href="<%= document.url %>" property="dc:title">
 									<%= document.navTitle %>
 								</a>
 							</li>
 						<% end %>
-	                    <li class="col-lg-2 dropdown">
+	                    <li class="col-sm-2 dropdown">
 	                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Live <b class="caret"></b></a>
 	                        <ul class="dropdown-menu">
 	                            <li class="text-center"><a href="http://blog.extinct.ly">Blog</a></li>

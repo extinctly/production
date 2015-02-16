@@ -54,6 +54,7 @@ p {
 	font-family: 'nebula_iiregular';
 	font-size: 14px;
 	font-weight: normal;
+	text-transform: uppercase;
 }
 header {
 	img {
@@ -66,12 +67,14 @@ footer {
   margin: 30px 0 0 0;
   text-align: center;
   h3 {
+  	font-size: 30px;
   	margin: 0;
+  	vertical-align: middle;
   }
   img {
   	max-height: 35px;
-  		display: block;
-  		margin: 0 auto;
+	display: block;
+	margin: 0 auto;
   }
   a {
   	opacity: .7;
@@ -80,6 +83,8 @@ footer {
   	}
   }
   i {
+  	font-size: 35px;
+  	vertical-align: middle;
   	margin: 0 5px;
   }
   .col-md-3 {
@@ -125,6 +130,9 @@ footer {
 			font-size: 12px;
 		}
 	}
+	.col-sm-2 {
+		margin: 10px auto;
+	}
 }
 .nav .open > a,
 .nav .open > a:hover,
@@ -142,7 +150,10 @@ footer {
   	text-align: center;
   }
 }
-
+.navbar-collapse {
+	border: none;
+	box-shadow: none;
+}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 .carousel {
@@ -223,16 +234,15 @@ footer {
   min-height: 150px;
   max-width: 200px;
 }
-.info-overlay h3 {
-  margin-bottom: 0;
-}
 .info-overlay {
-  background: @brand-background;
   padding-top: 5px;
   font-family: 'marathonbold';
   font-size: 12px;
   text-align: center;
   opacity: .9;
+  a:hover {
+  	text-decoration: none;
+  }
 }
 /* CUSTOM
 ------------------------- */
@@ -263,9 +273,16 @@ footer {
 		}
 		&:hover {
 			background: @brand-background;
+			cursor: pointer;
 			a {
 				color: @brand-color;
 			}
+		}
+	}
+	.active {
+		background: @brand-background;
+		a {
+			color: @brand-color;
 		}
 	}
 }
@@ -347,9 +364,7 @@ footer {
 .home .col-sm-2 {
   padding: 0;
 }
-.case-studies {
-  margin: 75px 0;
-}
+
 .blog {
   padding: 0 200px;
 }
@@ -378,37 +393,18 @@ footer {
   font-family: 'nebula_iiregular';
   font-size: 32px;
 }
-#live {
-  background: @brand-color;
-  height: 5px;
-}
-.livestream iframe {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.livestream-text .row {
-  margin-top: 10px;
-}
-
-.livestream-text h2 {
-  margin-top: 20px;
-}
-
-.livestream-text .dates {
-  font-size: 16px;
-}
-
-.livestream-text img {
-  margin-top: 40px;
-}
-
 #posts {
   margin-bottom: 50px;
 }
 #dashboard {
-  visibility: hidden;
+    background-image: url('/images/participants/the-ongoing-collapse-alpha.png'); 
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    text-align: center;
+    p {
+    	margin: 15px 0;
+    }
+    margin: 50px 0;
 }
 #participants {
   margin: 50px 0;
@@ -448,6 +444,7 @@ footer {
 .leaflet-container h2,
 .leaflet-container h3 {
   font-size: 20px;
+  line-height: 24px;
 }
 .leaflet-container p {
   font-size: 14px;
@@ -469,9 +466,12 @@ footer {
   font-size: 11px;
   text-transform: uppercase;
   color: @brand-color;
+  cursor: pointer;
 }
 .custom-popup .leaflet-popup-content-wrapper a:hover {
   color: @brand-color;
+  text-decoration: none;
+  cursor: pointer;
 }
 .custom-popup .leaflet-popup-tip-container {
   width: 30px;
@@ -505,7 +505,6 @@ footer {
   color: @brand-background;
   border-top-color: @brand-background;
 }
-
 .custom-popup .leaflet-popup-content-wrapper .lead {
   font-size: 11px !important;
   margin-bottom: 0;
@@ -524,29 +523,10 @@ footer {
   height: 500px;
   z-index: 5000;
 }
-#participants {
-  margin: 50px 0;
-}
-#participants ul {
-  padding-left: 0;
-}
-.participants-filters {
-  color: @brand-color;
-  list-style: none;
-  margin-left: 0;
-}
-.participants-filters li {
-  margin: 0 0 25px 0;
-  font-size: 12px;
-  text-transform: uppercase;
-  width: 100%;
-}
-.participants-filters li:hover {
-  color: @brand-color;
-}
+
 /* MODAL MODS
 -------------------------------------------------- */
-.modal-open .modal {
+.modal {
 	background: @brand-background;
 	width: 100%;
 	margin-bottom: 100px;
@@ -556,9 +536,10 @@ footer {
 		width: 100%;
 		border: none;
 		margin: 0;
+		padding: 0;
+		z-index: 1;
 		.modal-content {
 			background: @brand-background;
-			text-align: center;
 			width: 100%;
 			height: 100%;
 			border: none;
@@ -567,49 +548,59 @@ footer {
 				background: transparent;
 				opacity: .9;
 				border-bottom: 8px solid @brand-color;
+				text-align: center;
+				.close {
+					color: @brand-color;
+					opacity: 1;
+				}
+				h2 {
+					margin: 5px 0;
+					font-size: 38px;
+				}
 			}
 			.modal-body {
 				background: @brand-background;
 				border: none;
-				width: 100%;
+				display: block;
+				margin: 0 auto 100px auto;
+				width: 50%;
 				height: 100%;
 				padding: 30px;
-				margin-bottom: 70px;
 				img {
 					margin-top: 0;
+				}
+				iframe {
+					display: block;
+					margin: 20px auto;
+					max-width: 100%;
+					border: none;
+				}
+				img {
+					display: block;
+					margin-bottom: 20px;
+					margin-left: auto;
+					margin-right: auto;
+					max-width: 100%;
+					border: none;
 				}
 			}
 		}
 	}
 }
-
 .modal-footer {
-  background: @brand-background;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  border-top: 5px solid @brand-color;
-  opacity: .9;
-  z-index: 500;
+	background: @brand-background;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	border-top: 5px solid @brand-color;
+	opacity: .9;
+	z-index: 500;
+	h2 {
+		margin: 5px 0;
+		font-size: 38px;
+	}
 }
-.modal-body iframe {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  min-width: 500px;
-  padding: 20px 0;
-}
-
-.modal-body-container {
-  background: @brand-background;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  height: 100%;
-}
-
 .kev {
   background: #FFF;
   color: #000;
@@ -645,30 +636,15 @@ footer {
   padding: 0 0 40px 0;
 }
 
-.modal-body p {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 500px;
-}
 
 .bio {
   font-size: 14px;
-  max-width: 260px;
 }
 
 .subdomain {
   font-size: 22px;
   text-transform: uppercase;
   margin-bottom: 25px;
-}
-
-.modal-body .kev {
-  padding-bottom: 30px;
-}
-
-.modal-header .kev .close {
-  color: @brand-background;
 }
 
 .no-hover a:hover {
@@ -689,10 +665,6 @@ footer {
   }
   footer {
     padding: 0;
-  }
-  .modal-body iframe,
-  .modal-body img {
-    max-width: 100%;
   }
   .nav-wrapper {
     padding: 0 0;
@@ -723,6 +695,32 @@ footer {
 	.subnav {
 		.container {
 			width: 100%;
+		}
+		margin: 25px auto;
+		.col-sm-2 {
+			width: 100%;
+		}
+	}
+	.modal .modal-dialog .modal-content .modal-header {
+		h2 {
+			font-size: 22px;
+		}
+	}
+	.modal-footer {
+		h2 {
+			font-size: 22px;
+		}
+	}
+	.modal .modal-dialog .modal-content .modal-body {
+		margin-top: 10px;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-bottom: 100px;
+		width: 90%;
+		padding: 0;
+		iframe {
+			max-width: 90%;
+			height: auto;
 		}
 	}
 	.carousel {
