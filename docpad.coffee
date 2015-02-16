@@ -41,8 +41,8 @@ docpadConfig = {
 			styles: [
 				"//api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.css"
 				"//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
-				"/styles/bootstrap-custom.css"
-				"/styles/extinctly.css"
+				"/styles/twitter-bootstrap.css"
+				"/styles/style.css"
 			]
 
 			# Scripts

@@ -6,68 +6,43 @@ navTitle: World Map
 ---
 
 <!-- Sub-navbar start -->
-<div class="navbar navbar-inverse no-border">
-	<div class="navbar navbar-collapse collapse no-margin no-border">
-			<ul id="filters" class="nav navbar-nav subnav">
-				<li class="col-sm-2 col-sm-offset-1 text-center">
-					<a id="filter-volatility">
-						Volatility Storms
-					</a>
-				</li>
-				<li class="col-sm-2 text-center">
-					<a id="filter-extinct-wild">
-						Extinct in the Wild
-					</a>
-				</li>
-				<li class="col-sm-2 text-center">
-					<a id="filter-all" class="active">
-						Show All
-					</a>
-				</li>
-				<li class="col-sm-2 text-center">
-					<a id="filter-case-studies">
-						Case Studies
-					</a>
-				</li>
-				<li class="col-sm-2 text-center">
-					<a id="filter-extinct-sites">
-						Extinction Sites
-					</a>
-				</li>
-			</ul>
+<div class="subnav">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-2 col-sm-offset-1">
+				<a id="filter-volatility">
+					Volatility Storms
+				</a>
+			</div>
+			<div class="col-sm-2">
+				<a id="filter-extinct-wild">
+					Extinct in the Wild
+				</a>
+			</div>
+			<div class="col-sm-2">
+				<a id="filter-all" class="active">
+					Show All
+				</a>
+			</div>
+			<div class="col-sm-2">
+				<a id="filter-case-studies">
+					Case Studies
+				</a>
+			</div>
+			<div class="col-sm-2">
+				<a id="filter-extinct-sites">
+					Extinction Sites
+				</a>
+			</div>
+		</div>
 	</div>
 </div> <!-- /navbar -->
 
 
 
-<div id="map" class="custom-popup"></div>
 
 
 <!-- Create modal content for case studies -->
-<% for document in @getCollection('case_studies').toJSON(): %>
-	<div id="<%- document.url %>" class="modal fade video-modal">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h2 class="modal-title"><%= document.name %></h2>
-				</div>
-				<div class="modal-body modal-body-container">
-					<p class="text-center">
-						<%- document.description_short %>
-					</p>
-					<%- document.video %>
-					<p>
-						<%- document.contentRenderedWithoutLayouts %>
-					</p>
-				</div>
-			</div>
-		</div>
-		<div class="modal-footer">
-			<h2 class="modal-title"><a href="<%= document.link1_url %>" target="_blank"><%= document.link1_title %></a></p></h2>
-		</div>
-	</div>
-<% end %>
 
 
 <!-- Deep Horizon -->
