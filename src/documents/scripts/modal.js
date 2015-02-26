@@ -1,3 +1,13 @@
+var projects = [];
+$.getJSON( "/data/casestudies.json", function( data ) {
+	$.each( data, function(i) {
+		projects[data[i].properties.link] = data[i].properties.media.video;
+	});
+});
+
+var hashString;
+var thisModal;
+
 +function ($) {
   'use strict';
 
@@ -13,11 +23,11 @@
     this.scrollbarWidth = 0
 
     if (this.options.remote) {
-      this.$element
-        .find('.modal-content')
-        .load(this.options.remote, $.proxy(function () {
-          this.$element.trigger('loaded.bs.modal')
-        }, this))
+	 this.$element
+	   .find('.modal-content')
+	   .load(this.options.remote, $.proxy(function () {
+		this.$element.trigger('loaded.bs.modal')
+	   }, this))
     }
   }
 
@@ -55,35 +65,35 @@
     this.$element.on('click.dismiss.bs.modal', '[data-dismiss="modal"]', $.proxy(this.hide, this))
 
     this.backdrop(function () {
-      var transition = $.support.transition && that.$element.hasClass('fade')
+	 var transition = $.support.transition && that.$element.hasClass('fade')
 
-      if (!that.$element.parent().length) {
-        that.$element.appendTo(that.$body) // don't move modals dom position
-      }
+	 if (!that.$element.parent().length) {
+	   that.$element.appendTo(that.$body) // don't move modals dom position
+	 }
 
-      that.$element
-        .show()
-        .scrollTop(0)
+	 that.$element
+	   .show()
+	   .scrollTop(0)
 
-      if (transition) {
-        that.$element[0].offsetWidth // force reflow
-      }
+	 if (transition) {
+	   that.$element[0].offsetWidth // force reflow
+	 }
 
-      that.$element
-        .addClass('in')
-        .attr('aria-hidden', false)
+	 that.$element
+	   .addClass('in')
+	   .attr('aria-hidden', false)
 
-      that.enforceFocus()
+	 that.enforceFocus()
 
-      var e = $.Event('shown.bs.modal', { relatedTarget: _relatedTarget })
+	 var e = $.Event('shown.bs.modal', { relatedTarget: _relatedTarget })
 
-      transition ?
-        that.$element.find('.modal-dialog') // wait for modal to slide in
-          .one('bsTransitionEnd', function () {
-            that.$element.trigger('focus').trigger(e)
-          })
-          .emulateTransitionEnd(Modal.TRANSITION_DURATION) :
-        that.$element.trigger('focus').trigger(e)
+	 transition ?
+	   that.$element.find('.modal-dialog') // wait for modal to slide in
+		.one('bsTransitionEnd', function () {
+		  that.$element.trigger('focus').trigger(e)
+		})
+		.emulateTransitionEnd(Modal.TRANSITION_DURATION) :
+	   that.$element.trigger('focus').trigger(e)
     })
   }
 
@@ -103,36 +113,36 @@
     $(document).off('focusin.bs.modal')
 
     this.$element
-      .removeClass('in')
-      .attr('aria-hidden', true)
-      .off('click.dismiss.bs.modal')
+	 .removeClass('in')
+	 .attr('aria-hidden', true)
+	 .off('click.dismiss.bs.modal')
     
     history.pushState("", document.title, window.location.pathname);
 
     $.support.transition && this.$element.hasClass('fade') ?
-      this.$element
-        .one('bsTransitionEnd', $.proxy(this.hideModal, this))
-        .emulateTransitionEnd(Modal.TRANSITION_DURATION) :
-      this.hideModal()
+	 this.$element
+	   .one('bsTransitionEnd', $.proxy(this.hideModal, this))
+	   .emulateTransitionEnd(Modal.TRANSITION_DURATION) :
+	 this.hideModal()
   }
 
   Modal.prototype.enforceFocus = function () {
     $(document)
-      .off('focusin.bs.modal') // guard against infinite focus loop
-      .on('focusin.bs.modal', $.proxy(function (e) {
-        if (this.$element[0] !== e.target && !this.$element.has(e.target).length) {
-          this.$element.trigger('focus')
-        }
-      }, this))
+	 .off('focusin.bs.modal') // guard against infinite focus loop
+	 .on('focusin.bs.modal', $.proxy(function (e) {
+	   if (this.$element[0] !== e.target && !this.$element.has(e.target).length) {
+		this.$element.trigger('focus')
+	   }
+	 }, this))
   }
 
   Modal.prototype.escape = function () {
     if (this.isShown && this.options.keyboard) {
-      this.$element.on('keydown.dismiss.bs.modal', $.proxy(function (e) {
-        e.which == 27 && this.hide()
-      }, this))
+	 this.$element.on('keydown.dismiss.bs.modal', $.proxy(function (e) {
+	   e.which == 27 && this.hide()
+	 }, this))
     } else if (!this.isShown) {
-      this.$element.off('keydown.dismiss.bs.modal')
+	 this.$element.off('keydown.dismiss.bs.modal')
     }
   }
 
@@ -140,9 +150,9 @@
     var that = this
     this.$element.hide()
     this.backdrop(function () {
-      that.$body.removeClass('modal-open')
-      that.resetScrollbar()
-      that.$element.trigger('hidden.bs.modal')
+	 that.$body.removeClass('modal-open')
+	 that.resetScrollbar()
+	 that.$element.trigger('hidden.bs.modal')
     })
   }
 
@@ -156,45 +166,45 @@
     var animate = this.$element.hasClass('fade') ? 'fade' : ''
 
     if (this.isShown && this.options.backdrop) {
-      var doAnimate = $.support.transition && animate
+	 var doAnimate = $.support.transition && animate
 
-      this.$backdrop = $('<div class="modal-backdrop ' + animate + '" />')
-        .appendTo(this.$body)
+	 this.$backdrop = $('<div class="modal-backdrop ' + animate + '" />')
+	   .appendTo(this.$body)
 
-      this.$element.on('click.dismiss.bs.modal', $.proxy(function (e) {
-        if (e.target !== e.currentTarget) return
-        this.options.backdrop == 'static'
-          ? this.$element[0].focus.call(this.$element[0])
-          : this.hide.call(this)
-      }, this))
+	 this.$element.on('click.dismiss.bs.modal', $.proxy(function (e) {
+	   if (e.target !== e.currentTarget) return
+	   this.options.backdrop == 'static'
+		? this.$element[0].focus.call(this.$element[0])
+		: this.hide.call(this)
+	 }, this))
 
-      if (doAnimate) this.$backdrop[0].offsetWidth // force reflow
+	 if (doAnimate) this.$backdrop[0].offsetWidth // force reflow
 
-      this.$backdrop.addClass('in')
+	 this.$backdrop.addClass('in')
 
-      if (!callback) return
+	 if (!callback) return
 
-      doAnimate ?
-        this.$backdrop
-          .one('bsTransitionEnd', callback)
-          .emulateTransitionEnd(Modal.BACKDROP_TRANSITION_DURATION) :
-        callback()
+	 doAnimate ?
+	   this.$backdrop
+		.one('bsTransitionEnd', callback)
+		.emulateTransitionEnd(Modal.BACKDROP_TRANSITION_DURATION) :
+	   callback()
 
     } else if (!this.isShown && this.$backdrop) {
-      this.$backdrop.removeClass('in')
+	 this.$backdrop.removeClass('in')
 
-      var callbackRemove = function () {
-        that.removeBackdrop()
-        callback && callback()
-      }
-      $.support.transition && this.$element.hasClass('fade') ?
-        this.$backdrop
-          .one('bsTransitionEnd', callbackRemove)
-          .emulateTransitionEnd(Modal.BACKDROP_TRANSITION_DURATION) :
-        callbackRemove()
+	 var callbackRemove = function () {
+	   that.removeBackdrop()
+	   callback && callback()
+	 }
+	 $.support.transition && this.$element.hasClass('fade') ?
+	   this.$backdrop
+		.one('bsTransitionEnd', callbackRemove)
+		.emulateTransitionEnd(Modal.BACKDROP_TRANSITION_DURATION) :
+	   callbackRemove()
 
     } else if (callback) {
-      callback()
+	 callback()
     }
   }
 
@@ -227,13 +237,13 @@
 
   function Plugin(option, _relatedTarget) {
     return this.each(function () {
-      var $this   = $(this)
-      var data    = $this.data('bs.modal')
-      var options = $.extend({}, Modal.DEFAULTS, $this.data(), typeof option == 'object' && option)
+	 var $this   = $(this)
+	 var data    = $this.data('bs.modal')
+	 var options = $.extend({}, Modal.DEFAULTS, $this.data(), typeof option == 'object' && option)
 
-      if (!data) $this.data('bs.modal', (data = new Modal(this, options)))
-      if (typeof option == 'string') data[option](_relatedTarget)
-      else if (options.show) data.show(_relatedTarget)
+	 if (!data) $this.data('bs.modal', (data = new Modal(this, options)))
+	 if (typeof option == 'string') data[option](_relatedTarget)
+	 else if (options.show) data.show(_relatedTarget)
     })
   }
 
@@ -256,22 +266,29 @@
   // ==============
 
   $(document).on('click.bs.modal.data-api', '[data-toggle="modal"]', function (e) {
-    var $this   = $(this)
-    var href    = $this.attr('href')
-    var $target = $($this.attr('data-target') || (href && href.replace(/.*(?=#[^\s]+$)/, ''))) // strip for ie7
-    var option  = $target.data('bs.modal') ? 'toggle' : $.extend({ remote: !/#/.test(href) && href }, $target.data(), $this.data())
+	var $this   = $(this)
+	var href    = $this.attr('href')
+	var $target = $($this.attr('data-target') || (href && href.replace(/.*(?=#[^\s]+$)/, ''))) // strip for ie7
+	var option  = $target.data('bs.modal') ? 'toggle' : $.extend({ remote: !/#/.test(href) && href }, $target.data(), $this.data())
 
-    if ($this.is('a')) e.preventDefault()
+	if ($this.is('a')) e.preventDefault()
 
-    window.location.hash = $this.attr('data-target');
+	window.location.hash = $this.attr('data-target');
+	
+	var hash = window.location.hash;
+	hashString = hash.substr(1).toString();
+	thisModal = hash + '.modal';
+	if (projects[hashString]) {
+		$(thisModal).find( "iframe" ).attr('src', projects[hash.substr(1)]);
+	}
 
-    $target.one('show.bs.modal', function (showEvent) {
-      if (showEvent.isDefaultPrevented()) return // only register focus restorer if modal will actually get shown
-      $target.one('hidden.bs.modal', function () {
-        $this.is(':visible') && $this.trigger('focus')
-      })
-    })
-    Plugin.call($target, option, this)
+	$target.one('show.bs.modal', function (showEvent) {
+	 if (showEvent.isDefaultPrevented()) return // only register focus restorer if modal will actually get shown
+	 $target.one('hidden.bs.modal', function () {
+	   $this.is(':visible') && $this.trigger('focus')
+	 })
+	})
+	Plugin.call($target, option, this)
   })
 
 }(jQuery);
@@ -282,28 +299,28 @@
 
   $.fn.urlModal = function(options) {
 
-        var settings = $.extend({
+	   var settings = $.extend({
 
-            modals     : null
+		  modals     : null
 
-        }, settings);
+	   }, settings);
 
-        var $this = this;
+	   var $this = this;
 
-        if (window.location.hash) {
-        
-            var hash = window.location.hash;
+	   if (window.location.hash) {
+	   
+		  var hash = window.location.hash;
 
-            return $this.each(function() {
-                
-                if( $(this).attr('id') === hash.substr(1) ) {
+		  return $this.each(function() {
+			 
+			 if( $(this).attr('id') === hash.substr(1) ) {
 
-                    $(this).modal('show');
-                }
+				$(this).modal('show');
+			 }
 
-            });
-        
-        }       
+		  });
+	   
+	   }       
 
   };
 

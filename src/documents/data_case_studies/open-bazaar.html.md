@@ -23,4 +23,6 @@ link1_title: Openbazarr.org
 link1_url: https://openbazaar.org/
 ---
 
+<iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+
 It puts the power back in the users -  hands. Instead of buyers and sellers going through a centralized service, OpenBazaar connects them directly. There are no fees, no one can censor transactions, and you only reveal the personal information that you choose.

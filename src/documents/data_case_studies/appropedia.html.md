@@ -23,6 +23,9 @@ link1_title: appropedia.org
 link1_url: http://www.appropedia.org/
 ---
 
+<iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+
+
 Guided by the use of sound principles, appropriate technology and the sharing of wisdom and project information, Appropedia allows anyone to add, remove, or edit content on topics such as construction, energy, food/agriculture, health, medical devices, solar and transport.
 
 Often described as an "appropriate technology wiki," Appropedia is much broader than that - stakeholders can come together to find, create and improve scalable and adaptable solutions. This can include sharing information and collaborating with others on how we can live in harmony with nature and our environment in developed countries, or discuss, e.g., low cost technologies for use in the developing world. In its earliest stages, Appropedia was a collaboration between passionate people from the United States and Australia, before quickly expanding to become a global project. 

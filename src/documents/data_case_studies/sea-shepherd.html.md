@@ -22,4 +22,6 @@ link1_title: seashepherd.org
 link1_url: http://www.seashepherd.org/
 ---
 
+<iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+
 Established in 1977, Sea Shepherd Conservation Society (SSCS) is an international non-profit, marine wildlife conservation organization. The mission is to end the destruction of habitat and slaughter of wildlife in the world's oceans in order to conserve and protect ecosystems and species.

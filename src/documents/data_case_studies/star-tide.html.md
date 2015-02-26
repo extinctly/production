@@ -23,4 +23,6 @@ link1_title: star-tides.net
 link1_url: http://star-tides.net/
 ---
 
+<iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+
 STAR-TIDES is a research effort at National Defense University that promotes sustainable support to stressed populations - post-war, post-disaster, or impoverished - in foreign or domestic contexts, for short-term or long-term (multi-year) operations. The project provides reach-back knowledge on demand to decision-makers and those working in the field. It uses public-private partnerships and whole-of-government approaches to encourage unity of action among diverse organizations.

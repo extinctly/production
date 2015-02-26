@@ -78,7 +78,6 @@ navTitle: Case Studies
 						<p>
 							<%- document.description_short %>
 						</p>
-						<%- document.video %>
 						<p>
 							<%- document.contentRenderedWithoutLayouts %>
 						</p>

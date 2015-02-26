@@ -23,6 +23,8 @@ link1_title: ethereum.org
 link1_url: https://www.ethereum.org/
 ---
 
+<iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+
 Ether, Ethereum's cryptofuel, powers the applications on a decentralized network. Ethereum can be used to codify, decentralize, secure and trade just about anything, from intellectual property to smart property.
 
 Ethereum makes use of one of the lesser known innovations by Satashi Nakamoto, the pseudonymous person or group of people who designed and created the original Bitcoin software. When Nakamoto set the Bitcoin blockchain into motion in 2009, two radical and untested concepts were introduced. Bitcoin as a currency unit has taken up the bulk of public attention. However, there is also another, equally important, part to Satoshi's grand experiment: the concept of a proof of work-based blockchain to allow for public agreement on the order of transactions. Attention is starting to shift toward this second part of Bitcoin's technology, and how the blockchain concept can be used for more than just money.

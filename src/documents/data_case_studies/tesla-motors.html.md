@@ -23,4 +23,6 @@ link1_title: teslamotors.com
 link1_url: http://www.teslamotors.com/
 ---
 
+<iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+
 Tesla CEO Elon Musk announced in a press release and conference call on June 12, 2014, that the company will allow its technology patents be used by anyone in good faith. Future agreements to be made are expected to include provisions whereby the recipients agree not to file patent suits against Tesla, or to copy their designs directly.Reasons expressed for this stance include attracting and motivating talented employees, as well as to accelerate the mass market advancement of electric cars for sustainable transpory.

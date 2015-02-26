@@ -22,4 +22,6 @@ link1_title: GWOB.org
 link1_url: http://gwob.org/
 ---
 
+<iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+
 Composed of an international coalition of technologists, first responders, and policymakers, focused on improving access to communication and technology. They focus on work in communities with limited infrastructure thanks to violence, neglect, or catastrophe. They are known for organizing hackathons for humanitarian technology, and help prototype projects turn into long-term initiatives through their Accelerator for Humanitarian Initiatives.

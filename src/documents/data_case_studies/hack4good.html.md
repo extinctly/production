@@ -23,6 +23,8 @@ link1_title: Hack4Good.io
 link1_url: http://hack4good.io/
 ---
 
+<iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+
 It is built around an international hackathon coordinated by Reuben Katz and Dan Cunningham of Geeklist. Prior to the hackathon, in 33 cities all around the world, ambassadors stood up to organize the hackathon in their respective cities.
 
 &#35;hack4good is an international hackathon, where creatives, designers and developers build solutions for humanity's biggest challenges. In 48 hours, teams brainstorm, design and develop solutions tailored to the needs of knowledge experts (NGOs, governments) who lack technical expertise. These knowledge experts bring in challenges from the field and depend on the theme of the hackathon.
