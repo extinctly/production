@@ -20,3 +20,8 @@ $(function(){
   $('#anna-zett, #jesse-darling, #julian-oliver, #alex-mackin-dolan, #david-blandy, #emily-jones, #femke-herregraven, #folder, #kari-altmann, #lisa-ma, #kev-bewersdorf, #michael-wang, #tobias-revell, #ubermorgen').urlModal();
 });
 
+$(function(){
+  $('#ameg, #appropedia, #bitnation, #detroit-water-brigade, #ethereum, #extinction-symbol, #geeks-without-bounds, #global-distribution, #hack4good, #hacker-global-space-program, #hexayurt, #humanitarian-osm-team, #mit-cityfarm, #open-bazaar, #open-droplet, #open-oil, #open-source-beehives, #open-source-ecology, #outernet, #robobees, #sea-shepherd, #star-tide, #tesla-motors').urlModal();
+});
+
+

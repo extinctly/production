@@ -23,6 +23,6 @@ link1_title: extinctionsymbol.info
 link1_url: http://www.extinctionsymbol.info/
 ---
 
-<img src="/images/logo.png">
+<img src="/images/casestudies/extinction-symbol.jpg">
 
 The world is currently undergoing a mass extinction event, and the Extinction Symbol is intended to help raise awareness of the urgent need for change in order to address this crisis. [extinctionsymbol.info](http://extinctionsymbol.info "Extinction Symbol") is a website offering the extinction symbol in various dimensions to freely download for non-commercial purposes.

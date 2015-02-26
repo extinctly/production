@@ -314,8 +314,12 @@ var thisModal;
 		  return $this.each(function() {
 			 
 			 if( $(this).attr('id') === hash.substr(1) ) {
-
+				thisModal = hash + '.modal';
+				hashString = hash.substr(1).toString();
 				$(this).modal('show');
+				if (projects[hashString]) {
+					$(thisModal).find( "iframe" ).attr('src', projects[hash.substr(1)]);
+				}
 			 }
 
 		  });
