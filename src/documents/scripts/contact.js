@@ -21,7 +21,7 @@ $(function(){
 });
 
 $(function(){
-  $('#ameg, #appropedia, #bitnation, #detroit-water-brigade, #ethereum, #extinction-symbol, #geeks-without-bounds, #global-distribution, #hack4good, #hacker-global-space-program, #hexayurt, #humanitarian-osm-team, #mit-cityfarm, #open-bazaar, #open-droplet, #open-oil, #open-source-beehives, #open-source-ecology, #outernet, #robobees, #sea-shepherd, #star-tide, #tesla-motors').urlModal();
+  $('#ameg, #appropedia, #bitnation, #detroit-water-brigade, #ethereum, #extinction-symbol, #geeks-without-bounds, #global-distribution, #hack4good, #hacker-global-space-program, #hexayurt, #humanitarian-osm-team, #mit-cityfarm, #open-bazaar, #open-droplet, #open-oil, #open-source-beehives, #open-source-ecology, #deephorizon-ubermorgen, #outernet, #robobees, #sea-shepherd, #star-tide, #tesla-motors').urlModal();
 });
 
 

@@ -5,9 +5,6 @@ $.getJSON( "/data/casestudies.json", function( data ) {
 	});
 });
 
-var hashString;
-var thisModal;
-
 +function ($) {
   'use strict';
 
@@ -276,10 +273,10 @@ var thisModal;
 	window.location.hash = $this.attr('data-target');
 	
 	var hash = window.location.hash;
-	hashString = hash.substr(1).toString();
-	thisModal = hash + '.modal';
+	var hashString = hash.substr(1).toString();
+	var thisModal = hash + '.modal';
 	if (projects[hashString]) {
-		$(thisModal).find( "iframe" ).attr('src', projects[hash.substr(1)]);
+		$(thisModal).find( "iframe" ).attr('src', projects[hashString]);
 	}
 
 	$target.one('show.bs.modal', function (showEvent) {
@@ -314,11 +311,10 @@ var thisModal;
 		  return $this.each(function() {
 			 
 			 if( $(this).attr('id') === hash.substr(1) ) {
-				thisModal = hash + '.modal';
-				hashString = hash.substr(1).toString();
+				var hashString = hash.substr(1).toString();
 				$(this).modal('show');
 				if (projects[hashString]) {
-					$(thisModal).find( "iframe" ).attr('src', projects[hash.substr(1)]);
+					$(this).find( "iframe" ).attr('src', projects[hashString]);
 				}
 			 }
 
