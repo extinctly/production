@@ -1,13 +1,13 @@
 ---
-isParticipant: false
+isParticipant: true
 
-isSubdomain: false
+isSubdomain: true
 
 name: Holly White
 
-title: (I want you to stay) &#35;homni 2014
+title: Cooking with water (food blog) 2015
 
-bio: 
+bio: Holly White is an artist currently living and working in London, <a href="http://www.holly-white.com" target="_blank">www.holly-white.com</a>
 
 thumbnail: holly_white.jpg
 
