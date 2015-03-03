@@ -63,10 +63,11 @@
 				<div class="navbar-collapse collapse">
 					<ul id="navigation" class="nav navbar-nav">
 						<div class="row">
-							<li class="col-lg-3"><a href="#bratton">Bratton</a></li>
-							<li class="col-lg-3"><a href="#easterling">Easterling</a></li>
-							<li class="col-lg-3"><a href="#morton">Morton</a></li>
-							<li class="col-lg-3"><a href="#lazzarato">Lazzarato</a></li>
+							<li class="col-lg-2 col-lg-offset-1"><a href="#bratton">Bratton</a></li>
+							<li class="col-lg-2"><a href="#easterling">Easterling</a></li>
+							<li class="col-lg-2"><a href="#morton">Morton</a></li>
+							<li class="col-lg-2"><a href="#lazzarato">Lazzarato</a></li>
+							<li class="col-lg-2"><a href="#saitta">Saitta</a></li>
 						</div>
 					</ul>
 				</div>
@@ -82,7 +83,6 @@
 	<!-- Content -->
 	<%- @content %>
 
-	</div>
 </div>
 
 	<!-- Footer -->
