@@ -1,5 +1,5 @@
-L.mapbox.accessToken = 'pk.eyJ1IjoiZ2FtZXJhIiwiYSI6IjNlclVnZDAifQ.a8PjkEfE5i2aOShPawCy1A';
-var map = L.mapbox.map('map', 'extinctly.f3ad5588', {
+L.mapbox.accessToken = 'pk.eyJ1Ijoia2Vpa3JldXRsZXIiLCJhIjoiMWRKNGkwTSJ9.6fwMqvOqGXqAJeH-yF__DQ'; //pk.eyJ1IjoiZ2FtZXJhIiwiYSI6IjNlclVnZDAifQ.a8PjkEfE5i2aOShPawCy1A';
+var map = L.mapbox.map('map', 'extinctly.f3ad5588', { // 'keikreutler.jj521j2a', { // 
     zoomControl: true,
     minZoom: 2
 }).setView([30, -25], 3);
